@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title id="title">texture synthesys</title>
+<script type="text/javascript">
+var canvas = document.createElement("canvas");
+var canvas2 = document.createElement("canvas");
+var canvas3 = document.createElement("canvas");
+var canvas4 = document.createElement("canvas");
+var context = canvas.getContext("2d");
+var context2 = canvas2.getContext("2d");
+var context3 = canvas3.getContext("2d");
+var context4 = canvas4.getContext("2d");
+
+var texture_num = 4;
+var overlap = 4;
+var subtexture = 4; //もとのtextureを4つに分けた大きさでサンプル
+var maxerr = 10000; //errorをどの程度まで許容するか
+var maxitr = 12000; //iteration回数の上限
+
+
+function synthesize(width, height, original, synthesized) {
+    //まず、randomに選び、textureを作成する
+    for (var i = 0; i < texture_num * subtexture; i++){
+      for (var j = 0; j < texture_num * subtexture; j++){
+        //座標(start_x,start_y)を始めとした16*16がこのiterationでは代入される
+        var start_x = i * (width / subtexture);
+        var start_y = j * (height / subtexture);
+        var idx0 = (start_x + start_y * width * texture_num);
+
+        // randomにcopyもとの座標を選ぶ
+        // 0 - 47の範囲で発生させる
+        var rx = Math.floor(Math.random() * (width - (width/subtexture)) );
+        var ry = Math.floor(Math.random() * (height - (height/subtexture)) );
+        var idr0 = rx + ry * width;
+
+        for (var k = 0; k < (height/subtexture); k++){
+          for (var l = 0; l < (width/subtexture); l++){
+            var idx = idx0 + (l + k * width * texture_num);
+            var idr = idr0 + (l + k * width);
+            synthesized[4 * idx    ] = original[4 * idr    ];
+            synthesized[4 * idx + 1] = original[4 * idr + 1];
+            synthesized[4 * idx + 2] = original[4 * idr + 2];
+            synthesized[4 * idx + 3] = 255;
+          }
+        }
+
+      }
+    }
+};
+
+function synthesize2(width, height, original, synthesized) {
+    for (var i = 0; i < texture_num * subtexture; i++){
+      for (var j = 0; j < texture_num * subtexture; j++){
+        //座標(start_x,start_y)を始めとした16*16がこのiterationでは代入される
+        var start_x = i * (width / subtexture);
+        var start_y = j * (height / subtexture);
+        var idx0 = (start_x + start_y * width * texture_num);
+
+        // randomにcopyもとの座標を選ぶ
+        // 5 - 47の範囲で発生させる
+        var flag;
+        var count = 0; // 妥協回数
+        do{
+            count++;
+            flag = true;
+            //乱数チェックと
+            var rx = Math.floor(Math.random() * (width - (width/subtexture) - overlap) + overlap);
+            var ry = Math.floor(Math.random() * (height - (height/subtexture) - overlap) + overlap);
+            var idr0 = rx + ry * width;
+
+            //横方向のチェック
+            if(i != 0){
+                var tempsum = 0;
+                var idx00 = (start_x - overlap) + start_y * width * texture_num;
+                var idr00 = (rx - overlap) + ry * width;
+
+                for (var k = 0; k < overlap; k++){
+                    for (var l = 0; l < (width/subtexture); l++){
+                        //neighbor判定を行う
+                        var idx = idx00 + (l + k * width * texture_num);
+                        var idr = idr00 + (l + k * width);
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx    ] - original[4 * idr    ]),2));
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 1] - original[4 * idr + 1]),2));
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 2] - original[4 * idr + 2]),2));
+                    }
+                }
+                if (tempsum > maxerr) flag = false;
+            }
+
+            //上方向のチェック
+            if(j != 0){
+                var tempsum = 0;
+                var idx00 = start_x + (start_y - overlap)* width * texture_num;
+                var idr00 = rx + (ry - overlap) * width;
+
+                for (var k = 0; k < (height/subtexture); k++){
+                    for (var l = 0; l < overlap; l++){
+                        //neighbor判定を行う
+                        var idx = idx00 + (l + k * width * texture_num);
+                        var idr = idr00 + (l + k * width);
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx    ] - original[4 * idr    ]),2));
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 1] - original[4 * idr + 1]),2));
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 2] - original[4 * idr + 2]),2));
+                    }
+                }
+                if (tempsum > maxerr) flag = false;
+
+            }
+            if (count > maxitr) flag = true;
+        }
+        while(!flag);
+
+        for (var k = 0; k < (height/subtexture); k++){
+          for (var l = 0; l < (width/subtexture); l++){
+            var idx = idx0 + (l + k * width * texture_num);
+            var idr = idr0 + (l + k * width);
+            synthesized[4 * idx    ] = original[4 * idr    ];
+            synthesized[4 * idx + 1] = original[4 * idr + 1];
+            synthesized[4 * idx + 2] = original[4 * idr + 2];
+            synthesized[4 * idx + 3] = 255;
+          }
+        }
+
+      }
+    }
+};
+
+
+function synthesize3(width, height, original, synthesized) {
+    for (var i = 0; i < texture_num * subtexture; i++){
+      for (var j = 0; j < texture_num * subtexture; j++){
+        //座標(start_x,start_y)を始めとした16*16がこのiterationでは代入される
+        var start_x = i * (width / subtexture);
+        var start_y = j * (height / subtexture);
+        var idx0 = (start_x + start_y * width * texture_num);
+
+        // randomにcopyもとの座標を選ぶ
+        // 5 - 47の範囲で発生させる
+        var flag;
+        var count = 0; // 妥協回数
+        do{
+            count++;
+            flag = true;
+            //乱数チェックと
+            var rx = Math.floor(Math.random() * (width - (width/subtexture) - overlap) + overlap);
+            var ry = Math.floor(Math.random() * (height - (height/subtexture) - overlap) + overlap);
+            var idr0 = rx + ry * width;
+
+            //横方向のチェック
+            if(i != 0){
+                var tempsum = 0;
+                var idx00 = (start_x - overlap) + start_y * width * texture_num;
+                var idr00 = (rx - overlap) + ry * width;
+
+                for (var k = 0; k < overlap; k++){
+                    for (var l = 0; l < (width/subtexture); l++){
+                        //neighbor判定を行う
+                        var idx = idx00 + (l + k * width * texture_num);
+                        var idr = idr00 + (l + k * width);
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx    ] - original[4 * idr    ]),2));
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 1] - original[4 * idr + 1]),2));
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 2] - original[4 * idr + 2]),2));
+                    }
+                }
+                if (tempsum > maxerr) flag = false;
+            }
+
+            //上方向のチェック
+            if(j != 0){
+                var tempsum = 0;
+                var idx00 = start_x + (start_y - overlap)* width * texture_num;
+                var idr00 = rx + (ry - overlap) * width;
+
+                for (var k = 0; k < (height/subtexture); k++){
+                    for (var l = 0; l < overlap; l++){
+                        //neighbor判定を行う
+                        var idx = idx00 + (l + k * width * texture_num);
+                        var idr = idr00 + (l + k * width);
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx    ] - original[4 * idr    ]),2));
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 1] - original[4 * idr + 1]),2));
+                        tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 2] - original[4 * idr + 2]),2));
+                    }
+                }
+                if (tempsum > maxerr) flag = false;
+
+            }
+            if (count > maxitr) flag = true;
+        }
+        while(!flag);
+
+        // もとのdataに代入するフェーズ
+        for (var k = 0; k < (height/subtexture); k++){
+          for (var l = 0; l < (width/subtexture); l++){
+            var idx = idx0 + (l + k * width * texture_num);
+            var idr = idr0 + (l + k * width);
+            synthesized[4 * idx    ] = original[4 * idr    ];
+            synthesized[4 * idx + 1] = original[4 * idr + 1];
+            synthesized[4 * idx + 2] = original[4 * idr + 2];
+            synthesized[4 * idx + 3] = 255;
+          }
+        }
+
+        // min error boundaryで修正するフェーズ
+        //横方向の修正
+        if(i != 0){
+            var idx00 = (start_x - overlap) + start_y * width * texture_num;
+            var idr00 = (rx - overlap) + ry * width;
+
+            for (var k = 0; k < (width/subtexture); k++){
+                var error = Infinity;
+                var place = 0; //最小となった場所を記録する
+                for (var l = 0; l < overlap; l++) {
+                    //neighbor判定を行う
+                    var idx = idx00 + (l + k * width * texture_num);
+                    var idr = idr00 + (l + k * width);
+                    var tempsum = 0; //tempsumにはerrorが入る
+                    tempsum += Math.sqrt(Math.pow((synthesized[4 * idx    ] - original[4 * idr    ]),2));
+                    tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 1] - original[4 * idr + 1]),2));
+                    tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 2] - original[4 * idr + 2]),2));
+                    if(error > tempsum) {place = l; error = tempsum;}
+                }
+                for(var l = place; l < overlap; l++) {
+                    var idx = idx00 + (l + k * width * texture_num);
+                    var idr = idr00 + (l + k * width);
+                    synthesized[4 * idx    ] = original[4 * idr    ];
+                    synthesized[4 * idx + 1] = original[4 * idr + 1];
+                    synthesized[4 * idx + 2] = original[4 * idr + 2];
+                }
+            }
+        }
+
+        //上方向の修正
+        if(j != 0){
+            var idx00 = start_x + (start_y - overlap)* width * texture_num;
+            var idr00 = rx + (ry - overlap) * width;
+
+            for (var l = 0; l < (width/subtexture); l++){
+                var error = Infinity;
+                var place = 0; //最小となった場所を記録する
+                for (var k = 0; k < overlap; k++){
+                    //neighbor判定を行う
+                    var idx = idx00 + (l + k * width * texture_num);
+                    var idr = idr00 + (l + k * width);
+                    var tempsum = 0;
+                    tempsum += Math.sqrt(Math.pow((synthesized[4 * idx    ] - original[4 * idr    ]),2));
+                    tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 1] - original[4 * idr + 1]),2));
+                    tempsum += Math.sqrt(Math.pow((synthesized[4 * idx + 2] - original[4 * idr + 2]),2));
+                    if(error > tempsum) {place = k; error = tempsum;}
+                }
+                for (var k = place; k < overlap; k++){
+                    //neighbor判定を行う
+                    var idx = idx00 + (l + k * width * texture_num);
+                    var idr = idr00 + (l + k * width);
+                    synthesized[4 * idx    ] = original[4 * idr    ];
+                    synthesized[4 * idx + 1] = original[4 * idr + 1];
+                    synthesized[4 * idx + 2] = original[4 * idr + 2];
+                }
+            }
+        }
+
+      }
+    }
+};
+
+
+
+function init() {
+    document.getElementById("img_original").onload = function(){
+        canvas.width  = this.width;
+        canvas.height = this.height;
+        canvas2.width  = this.width * texture_num;
+        canvas2.height = this.height * texture_num;
+        canvas3.width  = this.width * texture_num;
+        canvas3.height = this.height * texture_num;
+        canvas4.width  = this.width * texture_num;
+        canvas4.height = this.height * texture_num;
+        document.getElementById("img_random_result"  ).width  = texture_num * this.width;
+        document.getElementById("img_random_result"  ).height = texture_num * this.height;
+        document.getElementById("img_neighbor_result"  ).width  = texture_num * this.width;
+        document.getElementById("img_neighbor_result"  ).height = texture_num * this.height;
+        document.getElementById("img_result"  ).width  = texture_num * this.width;
+        document.getElementById("img_result"  ).height = texture_num * this.height;
+    };
+    document.getElementById("input_file_original").onchange = function(evt) {
+        var reader = new FileReader();
+        reader.readAsDataURL(evt.target.files[0]);
+        reader.onload = function(){
+            document.getElementById("img_original").src = this.result;
+        };
+    };
+    document.getElementById("btn_do_synthesize").onclick = function() {
+        //parameterの代入
+        texture_num = Number(document.getElementById("input_num_texture_num").value);
+        overlap = Number(document.getElementById("input_num_overlap").value);
+        subtexture = Number(document.getElementById("input_num_subtexture").value);
+        maxerr = Number(document.getElementById("input_num_maxerr").value);
+        maxitr = Number(document.getElementById("input_num_maxitr").value);
+
+        // parameterの調整
+        var width = canvas.width;
+        var height = canvas.height;
+        canvas.width  = width;
+        canvas.height = height;
+        canvas2.width  = width * texture_num;
+        canvas2.height = height * texture_num;
+        canvas3.width  = width * texture_num;
+        canvas3.height = height * texture_num;
+        canvas4.width  = width * texture_num;
+        canvas4.height = height * texture_num;
+        document.getElementById("img_random_result"  ).width  = texture_num * width;
+        document.getElementById("img_random_result"  ).height = texture_num * height;
+        document.getElementById("img_neighbor_result"  ).width  = texture_num * width;
+        document.getElementById("img_neighbor_result"  ).height = texture_num * height;
+        document.getElementById("img_result"  ).width  = texture_num * width;
+        document.getElementById("img_result"  ).height = texture_num * height;
+
+        // read original
+        context.drawImage(document.getElementById("img_original"), 0, 0);
+        var original = context.getImageData(0, 0, width, height);
+
+
+        // do synthesizing
+        var synthesized = context2.createImageData(texture_num * width, texture_num * height);
+        synthesize(width, height, original.data, synthesized.data);
+        context2.putImageData(synthesized, 0, 0);
+        document.getElementById("img_random_result").src = canvas2.toDataURL();
+
+
+
+
+        var synthesized2 = context3.createImageData(texture_num * width, texture_num * height);
+        synthesize2(width,height,original.data,synthesized2.data);
+        context3.putImageData(synthesized2,0,0);
+        document.getElementById("img_neighbor_result").src = canvas3.toDataURL();
+
+
+
+
+        var synthesized3 = context4.createImageData(texture_num * width, texture_num * height);
+        synthesize3(width,height,original.data,synthesized3.data);
+        context4.putImageData(synthesized3,0,0);
+        document.getElementById("img_result").src = canvas4.toDataURL();
+    };
+    document.getElementById("img_original").src = "https://cdn.glitch.com/f065ea62-a8fe-47cd-b5b2-9b44e13dc84d%2Ftexture-ss.png?v=1596026069143";
+};
+</script>
+</head>
+<body onload="init()">
+  <h2><a target="_blank" href="http://research.nii.ac.jp/~takayama/teaching/utokyo-iscg-2020/"><script type="text/javascript">document.write(document.getElementById("title").innerHTML);</script></a></h2>
+  <table><tr valign="top">
+    <td align="center"><img id="img_original" crossorigin="anonymous"><br>Original</td>
+    <td align="center"><img id="img_random_result"><br>random result</td>
+    <td align="center"><img id="img_neighbor_result"><br>neighbor result</td>
+    <td align="center"><img id="img_result"><br>result</td>
+  </tr></table>
+  <ul>
+    <li>Load Image: <input type="file" id="input_file_original" accept="image/*"></li>
+    <li>texture_num: <input type="number" id="input_num_texture_num" step="1" value="4"></li>
+    <li>overlap: <input type="number" id="input_num_overlap" step="1" value="4"></li>
+    <li>subtexture: <input type="number" id="input_num_subtexture" step="1" min="1" value="4"></li>
+    <li>maxerr: <input type="number" id="input_num_maxerr" step="1" min="1" value="10000"></li>
+    <li>maxitr: <input type="number" id="input_num_maxitr" step="1" min="1" value="12000"></li>
+
+    <li><button id="btn_do_synthesize">synthesize</button></li>
+  </ul>
+
+  <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+  <script src="https://button.glitch.me/button.js"></script>
+  <h3>
+    説明
+  </h3>
+    image quiltingという手法を用いて、テクスチャ合成を行った。実装に関するパラメータは以下を用意した。
+    <br>
+    texture_numはどれくらいの大きさのtextureを生成するかを表す変数である。一辺の長さがもとの画像のtexture_num倍のtextureを生成する。
+    <br>
+    overlapはneighbor判定で用いる領域の大きさである。もとの画像サイズの一辺/texture_numを超える数を入力するべきではない。
+    <br>
+    subtextureは、生成もとのtextureからどの程度のサイズのサンプルを取ってくるか（2であれば、もとのサイズの0.5のサンプルを取ってくる）を表す。もとの画像サイズの約数であることが望まれる。サンプルでは、2,4,8の値が望まれる。
+    <br>
+    maxerrはneighbor判定で、どの程度の誤差まで許容するかを表す変数。
+    上記変数によって値が変わってしまうので、適度に調節する必要がある。
+    <br>
+    maxitrは、neighbor判定のループの上限回数を表す変数。
+    <br>
+    <br>
+    実装については、三つを行った。まず、一つ目が、ランダムの結果を出力するもので、synthesize関数で実装されている。
+    <br>
+    二つ目は、neighbor判定を行うもので、textureをrandomに取ってくるが、その位置に適したものであるかを近傍のすでに置かれたtextureと比べて、近傍とあまりにも離れたものであれば、randomに再度取り直すものである。
+    今回は、二乗和誤差を用いて判定を行っている。この実装はsynthesized2関数を用いて行った。
+    <br>
+    三つ目は、neighbor判定を行っても、隣接する二つのtextureについて境界線がくっきりと浮き上がってしまうので、min squared errorが最小となる部分を境界として設定するものである。
+    その実装はsynthesized3関数を用いて行った。
+
+</body>
+</html>
