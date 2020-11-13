@@ -1,0 +1,10 @@
+(define (deriv f dx)
+  (lambda (x) (/ (- (f (+ x dx)) (f x)) dx)))
+(define (newton-iter2 g guess)
+  (if (good-enough? g guess) guess
+    (newton-iter2 g (improve g guess))))
+(define (good-enough? g guess)
+  (< (abs (g guess)) 0.0000001))
+(define (improve g guess)
+ (- guess (/ (g guess) ((deriv g 0.0001) guess))))
+(define (sqrt-base x) (lambda (t) (- (square t) x)))
