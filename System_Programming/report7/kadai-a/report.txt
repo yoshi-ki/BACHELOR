@@ -1,0 +1,192 @@
+まず、SYSCALL_DEFINEしているところを探す。
+そこでは引数の数に合わせたforkの挙動を書いている。
+
+１、重要となる構造体
+ここで重要となる構造体である、pid構造体についてまず記述する。
+pid構造体は
+struct pid
+{
+    atomic_t count;
+    unsigned int level;
+    /* lists of tasks that use this pid */
+    struct hlist_head tasks[PIDTYPE_MAX];
+    struct rcu_head rcu;
+    struct upid numbers[1];
+};
+このように定義されている。場所は、/include/linux/pid.hである。
+
+upid構造体というのもあり、
+それは以下のように定義されている。
+struct upid {
+    int nr;
+    struct pid_namespace *ns;
+    struct hlist_node pid_chain;
+};
+これもpidと同じファイルに定義されている。
+
+２、重要となる関数copy_process
+ここで次に、この後の関数の中で出てくるcopy_processについて記述する。
+この関数ではfileやsignalをコピーする関数が次々と呼ばれてく。
+返すべき構造体(task_struct)の初期化やコピー時のエラー処理については追わず、今回はfork時に変化するものである、pidをどう処理しているのかについて追ってみた。
+static __latent_entropy struct task_struct *copy_process(
+                    unsigned long clone_flags,
+                    unsigned long stack_start,
+                    unsigned long stack_size,
+                    int __user *child_tidptr,
+                    struct pid *pid,
+                    int trace,
+                    unsigned long tls,
+                    int node)
+引数などは上のようなものになっている。
+後述するようにこの関数が_do_forkという関数から呼ばれるのだが、そのときにpidはnullで渡される。
+if (pid != &init_struct_pid) {
+        pid = alloc_pid(p->nsproxy->pid_ns_for_children);
+        if (IS_ERR(pid)) {
+            retval = PTR_ERR(pid);
+            goto bad_fork_cleanup_thread;
+        }
+	}
+ここでallocでpidの初期化を行っている。
+次にpid_nr()という関数を用いて、p->pidにpid_t型の整数を入れる。
+static inline pid_t pid_nr(struct pid *pid)
+{
+    pid_t nr = 0;
+    if (pid)
+        nr = pid->numbers[0].nr;
+    return nr;
+}
+このような関数であり、これは/include/linux/pid.hに書かれている。
+
+
+３、pidが渡された後に実行される関数
+_do_forkという関数では、copy_processを行った後に、pidを設定するという場面がある。get_task_pidでpid構造体を取得し、get_pidで構造体の参照の数を増やし、(これはget_pidを行うときにinitを行うfunctionが呼ばれていて、init_idle_pids()、実際増えたことになっている。)、pidが確定する。
+nr = pid_vnr(pid);がその次に実行される。その関数では、プロセスのpid名前空間を取得する。
+
+
+４、wake_up_new_task関数について
+これはpidがセットされた後に呼ばれる関数である。
+task_structという構造体に格納された(この後のコードではcopy_processで返って来たprocessのコピー)をwake_upする関数である。
+これはlinux-4.14.123/kernel/schedのcore.cにあり、以下のようなものである。
+void wake_up_new_task(struct task_struct *p)
+{
+    struct rq_flags rf;
+    struct rq *rq;
+
+    raw_spin_lock_irqsave(&p->pi_lock, rf.flags);
+    p->state = TASK_RUNNING;
+#ifdef CONFIG_SMP
+    __set_task_cpu(p, select_task_rq(p, task_cpu(p), SD_BALANCE_FORK, 0));
+#endif
+    rq = __task_rq_lock(p, &rf);
+    update_rq_clock(rq);
+    post_init_entity_util_avg(&p->se);
+
+    activate_task(rq, p, ENQUEUE_NOCLOCK);
+    p->on_rq = TASK_ON_RQ_QUEUED;
+    trace_sched_wakeup_new(p);
+    check_preempt_curr(rq, p, WF_FORK);
+#ifdef CONFIG_SMP
+    if (p->sched_class->task_woken) {
+        rq_unpin_lock(rq, &rf);
+        p->sched_class->task_woken(rq, p);
+        rq_repin_lock(rq, &rf);
+    }
+#endif
+    task_rq_unlock(rq, p, &rf);
+}
+
+
+
+５、最後に本題であるforkのsystemcallの部分をみる。
+systemcallを呼び出している部分は以下の部分である。
+SYSCALL_DEFINE0(fork)
+{
+#ifdef CONFIG_MMU
+    return _do_fork(SIGCHLD, 0, 0, NULL, NULL, 0);
+#else
+    /* can not support in nommu mode */
+    return -EINVAL;
+#endif
+}
+のようになっている。
+
+この中で呼び出されている
+_do_forkの実行をみる。
+
+_do_forkの関数は以下のようになる。
+ここがforkの主な部分となる。
+long _do_fork(unsigned long clone_flags,
+          unsigned long stack_start,
+          unsigned long stack_size,
+          int __user *parent_tidptr,
+          int __user *child_tidptr,
+          unsigned long tls)
+{
+    struct task_struct *p;
+    int trace = 0;
+    long nr;
+
+	今の場合にはclone_flagsがSIGCHLDになっている。
+
+    if (!(clone_flags & CLONE_UNTRACED)) {
+        if (clone_flags & CLONE_VFORK)
+            trace = PTRACE_EVENT_VFORK;
+        else if ((clone_flags & CSIGNAL) != SIGCHLD)
+            trace = PTRACE_EVENT_CLONE;
+        else
+            trace = PTRACE_EVENT_FORK;
+
+        if (likely(!ptrace_event_enabled(current, trace)))
+            trace = 0;
+    }
+
+	ここでプロセスをコピーしている。
+    p = copy_process(clone_flags, stack_start, stack_size,
+             child_tidptr, NULL, trace, tls, NUMA_NO_NODE);
+    add_latent_entropy();
+
+	ここでpidの設定を行っている。copy_processで取得したpidについて設定を行う。    
+	if (!IS_ERR(p)) {
+        struct completion vfork;
+        struct pid *pid;
+
+        trace_sched_process_fork(current, p);
+		
+		ここは上述した関数の呼び出し
+        pid = get_task_pid(p, PIDTYPE_PID);
+        nr = pid_vnr(pid);
+
+        if (clone_flags & CLONE_PARENT_SETTID)
+            put_user(nr, parent_tidptr);
+
+        if (clone_flags & CLONE_VFORK) {
+            p->vfork_done = &vfork;
+            init_completion(&vfork);
+            get_task_struct(p);
+        }
+		
+		ここも上述した関数の呼び出し
+        wake_up_new_task(p);
+
+        /* forking complete and child started to run, tell ptracer */
+        if (unlikely(trace))
+            ptrace_event_pid(trace, pid);
+
+        if (clone_flags & CLONE_VFORK) {
+            if (!wait_for_vfork_done(p, &vfork))
+                ptrace_event_pid(PTRACE_EVENT_VFORK_DONE, pid);
+        }
+
+        put_pid(pid);
+    } else {
+        nr = PTR_ERR(p);
+    }
+    return nr;
+}
+
+以上のようになっている。
+基本的なforkのシステムコールは追えたと思われる。
+
+
+
+

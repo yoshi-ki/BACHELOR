@@ -1,0 +1,17 @@
+ish$ /usr/bin/wc -l < /proc/meminfo > out
+id 0 [ foreground ]
+* program = /usr/bin/wc
+  - arg[ 0 ] = /usr/bin/wc
+  - arg[ 1 ] = -l
+  - input redirection = /proc/meminfo
+  - output redirection = out [ trunc ]
+ish$ /bin/echo 0 | /usr/bin/wc -c > out
+id 0 [ foreground ]
+* program = /bin/echo
+  - arg[ 0 ] = /bin/echo
+  - arg[ 1 ] = 0
+* program = /usr/bin/wc
+  - arg[ 0 ] = /usr/bin/wc
+  - arg[ 1 ] = -c
+  - output redirection = out [ trunc ]
+

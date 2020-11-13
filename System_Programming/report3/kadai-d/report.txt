@@ -1,0 +1,75 @@
+pthread
+
+まず、cloneというシステムコールで新しいスレッドをつくる。
+mprotectというシステムコールでメモリへのアクセス許可を制限する。
+そして、set_tid_addressというシステムコールでスレッドidへのポインタを設定する。
+そのあと、futexというシステムコールを使って、待機中のスレッドをwakeさせたり、wakeされるのを待ったりする。
+
+
+
+
+以下に実際にpthreadをstraceした結果をしめす。
+
+execve("./test", ["./test"], 0x7ffe53d28fa0 /* 59 vars */) = 0
+brk(NULL)                               = 0x5647638d8000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=107824, ...}) = 0
+mmap(NULL, 107824, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f262b793000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f262b791000
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f262b368000
+mprotect(0x7f262b382000, 2093056, PROT_NONE) = 0
+mmap(0x7f262b581000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f262b581000
+mmap(0x7f262b583000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f262b583000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f262af77000
+mprotect(0x7f262b15e000, 2097152, PROT_NONE) = 0
+mmap(0x7f262b35e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f262b35e000
+mmap(0x7f262b364000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f262b364000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f262b78e000
+arch_prctl(ARCH_SET_FS, 0x7f262b78e740) = 0
+mprotect(0x7f262b35e000, 16384, PROT_READ) = 0
+mprotect(0x7f262b581000, 4096, PROT_READ) = 0
+mprotect(0x564761ef0000, 4096, PROT_READ) = 0
+mprotect(0x7f262b7ae000, 4096, PROT_READ) = 0
+munmap(0x7f262b793000, 107824)          = 0
+set_tid_address(0x7f262b78ea10)         = 19528
+set_robust_list(0x7f262b78ea20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f262b36dcb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f262b37a890}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f262b36dd50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7f262b37a890}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f262a776000
+mprotect(0x7f262a777000, 8388608, PROT_READ|PROT_WRITE) = 0
+brk(NULL)                               = 0x5647638d8000
+brk(0x5647638f9000)                     = 0x5647638f9000
+clone(child_stack=0x7f262af75fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f262af769d0, tls=0x7f262af76700, child_tidptr=0x7f262af769d0) = 19529
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=107824, ...}) = 0
+mmap(NULL, 107824, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f262b793000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=96616, ...}) = 0
+mmap(NULL, 2192432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f262a55e000
+mprotect(0x7f262a575000, 2093056, PROT_NONE) = 0
+mmap(0x7f262a774000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f262a774000
+close(3)                                = 0
+mprotect(0x7f262a774000, 4096, PROT_READ) = 0
+munmap(0x7f262b793000, 107824)          = 0
+futex(0x7f262a7751a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+exit(0)                                 = ?
++++ exited with 0 +++
+

@@ -1,0 +1,33 @@
+optional にもすべて取り組んだ。
+
+課題Bのoptionalについては、
+環境変数を見る関数lookpathを定義した。
+
+課題Dについては、
+多段pipeを実装した。pipeされている回数分、do_childを実行するように設計した。
+
+課題Eについては、以下に考察する。
+
+１byte単位での入力はtermiosというsystem callを用いればよい。
+
+＜手順は以下のようになる。＞
+
+１、struct termios tio;でtioというstructを作る。
+
+２、static struct termios tio_save;で、saveしておく場所を作る。これは後で１byte単位の入力からもどすためにある。tio_save = tioとしておく。
+
+３、tcgetattr(0,&tio)を行う。
+
+４、tio.c_cc[VMIN]=1; によって受信すべき文字の最小数を１にする。
+
+５、tcsetattr(0,TCSANOW,&tio)で設定を行う。
+
+６、戻すためには、tcsetattr(0,TCSANOW,&tio_save);を行えば良い。
+
+
+＜bashで用いられているライブラリについて＞
+タブ補完の機能は、bashの組み込み関数のcompleteによって、実現されている。
+
+機能の実現のために、bashはGNU readline libraryを使っている。
+
+

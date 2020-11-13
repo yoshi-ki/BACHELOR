@@ -1,0 +1,11 @@
+#############################################
+kadai04: info: Running tests. (v0.0.5)
+kadai-a: info: report file not found. (but not required)
+kadai-b: info: report file not found. (but not required)
+kadai-c: info: Found 'report.txt'.
+kadai-c: info: iprefc result: 100000000000         12.986380537 61602.999983
+kadai-d: info: No 'kadai-d' directory!
+kadai04: info: All tests finished!
+kadai04: note: This scripts dump the result into /home/tansei/Desktop/mon2/report4/test_dump
+kadai04: note: Please don't remove and include this file in submission
+#############################################

@@ -1,0 +1,17 @@
+今回は課題Bと課題Cを行った。
+
+課題B
+今回の課題Aでは、パケット到着の検出をRDHを監視することで行っていた。ポーリングを用いていた。(while loopで監視していた)
+
+レジスタを読まずに、パケット到着を検出するためには、read descriptorの値を見ればよい。
+
+仕様書5.2のreceive data flow の部分を見ると、receive DMAがstatus bit を触るという記述がかかれている。よって、descriptorの説明を見ればよい。
+
+仕様書の5.3.3.3にその説明がかかれている。
+下位２bitがそれをあらわしている。
+EOP(end of packet)はpacketの終了を表している。
+また、descriptor doneはEOPがdescriptorにsetされていなかったときに立てられる。
+よって、この二つのbitを見ると、パケットの到着を検出できる。
+
+
+

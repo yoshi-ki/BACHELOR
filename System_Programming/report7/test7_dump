@@ -1,0 +1,5 @@
+kadai07: error: Running tests. (v0.0.2)
+kadai-a: error: Found 'report.txt'.
+kadai-b: error: No report file.
+kadai-c: error: docker is installed
+kadai07: error: All tests finished!
