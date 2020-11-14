@@ -1,22 +1,22 @@
-# 2A-experiment
+# Basic_Algorithm
 
 These are the code that I wrote in a college class in 2A.
 https://sites.google.com/site/isutbe2018/home
 
 
-C
+## C
 
 The basic skills that we need to write the code.
 
 
-Scheme
+## Scheme
 
 The introduction to functional programming
 
-Algorithm
+## Algorithm
 
 The basic algorithm. Sort, list, stack, binary search tree, and dijkstra
 
-Scheme on scheme
+## sons( Scheme on scheme)
 
-create scheme with scheme.
+create scheme processing system with scheme.

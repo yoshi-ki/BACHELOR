@@ -1,9 +1,13 @@
-compiler 実験
+# Compiler Lab
 
-## 課題リスト
+## Repository
 
-min-caml2 : alpha変換・A正規化・共通部分式削除
+min-caml2 : alpha-conversion・A normalization・common sub expression elimination
 
-min-caml4 : ネストした組の平坦化
+min-caml4 : flattening of nested pairs
 
-new-min-caml6 : ラムダ抽象と部分適用の実現
+new-min-caml6 : lambda abstraction and partial application
+
+
+## Reference
+These new-mincaml is a revised version of mincaml (http://esumii.github.io/min-caml/)
