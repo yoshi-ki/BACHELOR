@@ -1,4 +1,4 @@
-3A-thu2
+Intelligence system
 ====
 
 Overview
@@ -15,10 +15,10 @@ Overview
 
   3 : dual ascent method
 
-  5 : correlation 
-    correlation.py : calculate correlation 
+  5 : correlation
+    correlation.py : calculate correlation
 
-  6 : histgram of gaussian distribution 
+  6 : histgram of gaussian distribution
 
   7 : large number theorem and central limit theorem
 

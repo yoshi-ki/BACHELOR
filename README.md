@@ -17,9 +17,17 @@ I learned some characteristics of functional programming and logic programming (
 ## Hardware
 I learned hardware by creating some circuits using verilog. These codes are run on FPGA platform.
 
+## Numerical_Analysis
+I learned lots of numerical analysis algorithms and wrote code for it. I also learned tools for effectively executing code (ex: GPU, BLAS).
+
 ## is-cg
 This directory contains class assignments for a computer graphics class.
 
+## Statistical Machine Learning
+This directory contains part of machine learning algorithms.
+
+## Intelligence system
+This repository contains code that I wrote in a class, "Intelligence system."
 
 ## AOJ
 AOJ is a name of a programming contest site. This repository contains some solution for the problems in the web site. These are class assignments in a particular class.
