@@ -1,4 +1,4 @@
-3S-mon34
+System programming
 ====
 
 Overview
@@ -13,7 +13,7 @@ Overview
 		kadai-d : code that changes file extention
 		kadai-e : use strace
 		kadai-f : kill command
-	
+
 	report2:
 		kadai-a : measure the time that take to run a specific program
 		kadai-b : a program that copies files
@@ -26,33 +26,33 @@ Overview
 		kadai-b : realize lock
 		kadai-c : creates bounded buffer
 		kadai-d : research pthread
-	
+
 	report4:
 		kadai-a : UDP server and client
 		kadai-b : TCP server and client
 		kadai-c : measure through put
-	
+
 	report5:
 		kadai-a : exeute a given command
 		kadai-bcde : shell that corresponds to the redirection and pipe
-	
-	report6: 
+
+	report6:
 		kadai-a : count SIGINT
 		kadai-bcde : fore-ground, back-ground execution, and resume
 
 	report7:
 		kadai-a : read the source code of the system call fork
-		kadai-b : add a new system call to Linux Kernel 
-		
+		kadai-b : add a new system call to Linux Kernel
+
 	report8:
 		kadai-a : map virtual addresses to physical addresses
 		kadai-b : multi-stage paging
 		kadai-c : About CR3
-	
+
 	report9:
 		kadai-a : heap by atomic instruction
 
 	report10:
-		kadai-a : create function that read the calue of the counter register
+		kadai-a : create function that read the value of the counter register
 
 
