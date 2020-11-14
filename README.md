@@ -2,7 +2,7 @@
 This repository contains code from projects I did in when I was an undergraduate. This README describes these projects in order of the time spent of them.
 
 ## CPU
-I created CPU with my classmates. Code for the projects are in this directory.
+I created CPU with my classmates. Code for the projects are in this directory. This core can be run on FPGA using our own ISA. This repository contains a compiler for our ISA.
 
 
 ## Compiler_Lab
@@ -12,7 +12,10 @@ This directory contains a code of compiler for min-caml, which is a subset of Oc
 These are the code I wrote to learn basic programming skills and basic algorithms. I learned C and scheme. Besides, I mastered some algorithms using C, and created scheme processing system using scheme.
 
 ## Functional_Programming
-In this repository I learned some characteristics of functional programming and logic programming (ex: monad), by creating programs for it. Besides, I played with functional programming by creating interpreter and Reversi program.
+I learned some characteristics of functional programming and logic programming (ex: monad), by creating programs for it. Besides, I played with functional programming by creating interpreter and Reversi program.
+
+## Hardware
+I learned hardware by creating some circuits using verilog. These codes are run on FPGA platform.
 
 ## is-cg
 This directory contains class assignments for a computer graphics class.
