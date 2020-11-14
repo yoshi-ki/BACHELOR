@@ -1,15 +1,14 @@
-# コンピュータグラフィックス論課題Rendering 1
+# Rendering 1
 
-コンピュータグラフィックス論のrendering第一回の課題のコードです。
 
 # 課題それぞれについての説明
 
-  ここでは、課題それぞれの簡単なタスクの概要を説明する。詳しい説明については、別途レポートを作成して説明している。
+  This section provides a brief overview of the tasks for each assignment. A separate report has been prepared to explain the details.
 
 
 ## 1.cc
   http://glslsandbox.com/e#65362.0
-  
+
 
 
 
