@@ -23,7 +23,7 @@ These are the code I wrote to learn basic programming skills and basic algorithm
 ## Numerical_Analysis
 I learned lots of numerical analysis algorithms and wrote code for it. I also learned tools for effectively executing code (ex: GPU, BLAS).
 
-## is-cg
+## Computer graphics
 This directory contains class assignments for a computer graphics class.
 
 ## Statistical Machine Learning
