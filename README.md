@@ -4,13 +4,6 @@ This repository contains code from projects I did in when I was an undergraduate
 ## CPU
 I created CPU with my classmates. Code for the projects are in this directory. This core can be run on FPGA using our own ISA. This repository contains a compiler for our ISA.
 
-
-## Compiler_Lab
-This directory contains a code of compiler for min-caml, which is a subset of Ocaml. I leaned compiler system by creating a compiler.
-
-## Basic_Algorithm
-These are the code I wrote to learn basic programming skills and basic algorithms. I learned C and scheme. Besides, I mastered some algorithms using C, and created scheme processing system using scheme.
-
 ## System_Programming
 I learned computer systems by creating some programs. I wrote a code of important systems (ex : shell, paging,...)
 
@@ -19,6 +12,13 @@ I learned some characteristics of functional programming and logic programming (
 
 ## Hardware
 I learned hardware by creating some circuits using verilog. These codes are run on FPGA platform.
+
+## Compiler_Lab
+This directory contains a code of compiler for min-caml, which is a subset of Ocaml. I leaned compiler system by creating a compiler.
+
+## Basic_Algorithm
+These are the code I wrote to learn basic programming skills and basic algorithms. I learned C and scheme. Besides, I mastered some algorithms using C, and created scheme processing system using scheme.
+
 
 ## Numerical_Analysis
 I learned lots of numerical analysis algorithms and wrote code for it. I also learned tools for effectively executing code (ex: GPU, BLAS).
