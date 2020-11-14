@@ -1,0 +1,23 @@
+let rec read_matrix mat i n =
+  if i = n then
+   ()
+  else
+    let row = create_array n 0.0 in
+    let rec read_row row i n =
+      if i = n then
+        ()
+      else
+        (row.(i) <- read_float ();
+         read_row row (i + 1) n)
+    in
+    read_row row 0 n;
+    mat.(i) <- row;
+    read_matrix mat (i+1) n
+in
+
+let rec make_matrix n =
+  let mat = create_array n (create_array n 0.0) in
+  read_matrix mat 0 n;
+  mat
+    
+    

@@ -1,0 +1,11692 @@
+j 52
+ilw %r0 %r26 2
+ilw %r0 %r27 1
+addi %r0 %r1 0
+bne %r1 %r27 1691
+addi %r0 %r1 1
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 4
+bne %r1 %r27 1686
+addi %r0 %r1 0
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 4
+bne %r1 %r27 1681
+addi %r0 %r1 0
+	sw	%r27 %r1 0
+addi %r0 %r1 0
+	sw	%r27 %r1 4
+addi %r0 %r1 0
+	sw	%r27 %r1 8
+addi %r0 %r1 0
+	sw	%r27 %r1 12
+addi %r0 %r1 4
+	sw	%r27 %r1 16
+addi %r0 %r1 4
+	sw	%r27 %r1 20
+addi %r0 %r1 0
+	sw	%r27 %r1 24
+addi %r0 %r1 4
+	sw	%r27 %r1 28
+addi %r0 %r1 4
+	sw	%r27 %r1 32
+addi %r0 %r1 4
+	sw	%r27 %r1 36
+addi %r0 %r1 4
+	sw	%r27 %r1 40
+addi %r27 %r27 44
+addi %r0 %r1 48
+bne %r1 %r27 1656
+addi %r0 %r1 60
+addi %r0 %r2 4
+jal 11723
+addi %r0 %r1 288
+bne %r1 %r27 1651
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 300
+bne %r1 %r27 1646
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 312
+bne %r1 %r27 1641
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 324
+bne %r1 %r27 1636
+addi %r0 %r1 1
+ilw.s %r0 %f0 50
+jal 11733
+addi %r0 %r1 328
+bne %r1 %r27 1631
+addi %r0 %r1 1
+addi %r0 %r2 -1
+jal 11723
+addi %r0 %r1 332
+bne %r1 %r27 1626
+addi %r0 %r1 50
+addi %r0 %r2 328
+jal 11723
+addi %r0 %r1 532
+bne %r1 %r27 1621
+addi %r0 %r1 1
+addi %r0 %r2 328
+jal 11723
+addi %r0 %r1 536
+bne %r1 %r27 1616
+addi %r0 %r1 1
+addi %r0 %r2 532
+jal 11723
+addi %r0 %r1 540
+bne %r1 %r27 1611
+addi %r0 %r1 1
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 544
+bne %r1 %r27 1606
+addi %r0 %r1 1
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 548
+bne %r1 %r27 1601
+addi %r0 %r1 1
+ilw.s %r0 %f0 49
+jal 11733
+addi %r0 %r1 552
+bne %r1 %r27 1596
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 564
+bne %r1 %r27 1591
+addi %r0 %r1 1
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 568
+bne %r1 %r27 1586
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 580
+bne %r1 %r27 1581
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 592
+bne %r1 %r27 1576
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 604
+bne %r1 %r27 1571
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 616
+bne %r1 %r27 1566
+addi %r0 %r1 2
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 624
+bne %r1 %r27 1561
+addi %r0 %r1 2
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 632
+bne %r1 %r27 1556
+addi %r0 %r1 1
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 636
+bne %r1 %r27 1551
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 648
+bne %r1 %r27 1546
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 660
+bne %r1 %r27 1541
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 672
+bne %r1 %r27 1536
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 684
+bne %r1 %r27 1531
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 696
+bne %r1 %r27 1526
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 708
+bne %r1 %r27 1521
+addi %r0 %r1 0
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 708
+bne %r1 %r27 1516
+addi %r0 %r1 0
+addi %r0 %r2 708
+jal 11723
+addi %r0 %r1 708
+bne %r1 %r27 1511
+addi %r0 %r1 708
+	sw	%r27 %r1 0
+addi %r0 %r1 708
+	sw	%r27 %r1 4
+addi %r27 %r27 8
+addi %r0 %r1 716
+bne %r1 %r27 1504
+addi %r0 %r1 0
+addi %r0 %r2 708
+jal 11723
+addi %r0 %r1 716
+bne %r1 %r27 1499
+addi %r0 %r1 5
+addi %r0 %r2 716
+jal 11723
+addi %r0 %r1 736
+bne %r1 %r27 1494
+addi %r0 %r1 0
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 736
+bne %r1 %r27 1489
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 748
+bne %r1 %r27 1484
+addi %r0 %r1 60
+addi %r0 %r2 736
+jal 11723
+addi %r0 %r1 988
+bne %r1 %r27 1479
+addi %r0 %r1 736
+	sw	%r27 %r1 0
+addi %r0 %r1 748
+	sw	%r27 %r1 4
+addi %r27 %r27 8
+addi %r0 %r1 996
+bne %r1 %r27 1472
+addi %r0 %r1 0
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 996
+bne %r1 %r27 1467
+addi %r0 %r1 0
+addi %r0 %r2 996
+jal 11723
+addi %r0 %r1 996
+bne %r1 %r27 1462
+addi %r0 %r1 996
+	sw	%r27 %r1 0
+addi %r0 %r1 996
+	sw	%r27 %r1 4
+addi %r27 %r27 8
+addi %r0 %r1 1004
+bne %r1 %r27 1455
+addi %r0 %r1 0
+	sw	%r27 %r1 0
+addi %r0 %r1 996
+	sw	%r27 %r1 4
+ilw.s %r0 %f0 51
+	sw.s	%r27 %f0 8
+addi %r27 %r27 12
+addi %r0 %r1 1016
+bne %r1 %r27 1446
+addi %r0 %r1 180
+addi %r0 %r2 1004
+jal 11723
+addi %r0 %r1 1736
+bne %r1 %r27 1441
+addi %r0 %r1 1
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 1740
+bne %r1 %r27 1436
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1752
+bne %r1 %r27 1431
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1764
+bne %r1 %r27 1426
+addi %r0 %r1 5
+addi %r0 %r2 1752
+jal 11723
+addi %r0 %r1 1784
+bne %r1 %r27 1421
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1796
+bne %r1 %r27 1416
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1808
+bne %r1 %r27 1411
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1820
+bne %r1 %r27 1406
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1832
+bne %r1 %r27 1401
+addi %r0 %r1 5
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 1852
+bne %r1 %r27 1396
+addi %r0 %r1 5
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 1872
+bne %r1 %r27 1391
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1884
+bne %r1 %r27 1386
+addi %r0 %r1 5
+addi %r0 %r2 1872
+jal 11723
+addi %r0 %r1 1904
+bne %r1 %r27 1381
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1916
+bne %r1 %r27 1376
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1928
+bne %r1 %r27 1371
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1940
+bne %r1 %r27 1366
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1952
+bne %r1 %r27 1361
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1964
+bne %r1 %r27 1356
+addi %r0 %r1 5
+addi %r0 %r2 1952
+jal 11723
+addi %r0 %r1 1984
+bne %r1 %r27 1351
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 1996
+bne %r1 %r27 1346
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2008
+bne %r1 %r27 1341
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2020
+bne %r1 %r27 1336
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2032
+bne %r1 %r27 1331
+addi %r0 %r1 1
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 2036
+bne %r1 %r27 1326
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2048
+bne %r1 %r27 1321
+addi %r0 %r1 5
+addi %r0 %r2 2036
+jal 11723
+addi %r0 %r1 2068
+bne %r1 %r27 1316
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2080
+bne %r1 %r27 1311
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2092
+bne %r1 %r27 1306
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2104
+bne %r1 %r27 1301
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2116
+bne %r1 %r27 1296
+addi %r0 %r1 1740
+	sw	%r27 %r1 0
+addi %r0 %r1 1764
+	sw	%r27 %r1 4
+addi %r0 %r1 1832
+	sw	%r27 %r1 8
+addi %r0 %r1 1852
+	sw	%r27 %r1 12
+addi %r0 %r1 1884
+	sw	%r27 %r1 16
+addi %r0 %r1 1964
+	sw	%r27 %r1 20
+addi %r0 %r1 2032
+	sw	%r27 %r1 24
+addi %r0 %r1 2048
+	sw	%r27 %r1 28
+addi %r27 %r27 32
+addi %r0 %r1 2148
+bne %r1 %r27 1277
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2160
+bne %r1 %r27 1272
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2172
+bne %r1 %r27 1267
+addi %r0 %r1 5
+addi %r0 %r2 2160
+jal 11723
+addi %r0 %r1 2192
+bne %r1 %r27 1262
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2204
+bne %r1 %r27 1257
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2216
+bne %r1 %r27 1252
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2228
+bne %r1 %r27 1247
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2240
+bne %r1 %r27 1242
+addi %r0 %r1 5
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 2260
+bne %r1 %r27 1237
+addi %r0 %r1 5
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 2280
+bne %r1 %r27 1232
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2292
+bne %r1 %r27 1227
+addi %r0 %r1 5
+addi %r0 %r2 2280
+jal 11723
+addi %r0 %r1 2312
+bne %r1 %r27 1222
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2324
+bne %r1 %r27 1217
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2336
+bne %r1 %r27 1212
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2348
+bne %r1 %r27 1207
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2360
+bne %r1 %r27 1202
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2372
+bne %r1 %r27 1197
+addi %r0 %r1 5
+addi %r0 %r2 2360
+jal 11723
+addi %r0 %r1 2392
+bne %r1 %r27 1192
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2404
+bne %r1 %r27 1187
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2416
+bne %r1 %r27 1182
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2428
+bne %r1 %r27 1177
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2440
+bne %r1 %r27 1172
+addi %r0 %r1 1
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 2444
+bne %r1 %r27 1167
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2456
+bne %r1 %r27 1162
+addi %r0 %r1 5
+addi %r0 %r2 2444
+jal 11723
+addi %r0 %r1 2476
+bne %r1 %r27 1157
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2488
+bne %r1 %r27 1152
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2500
+bne %r1 %r27 1147
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2512
+bne %r1 %r27 1142
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2524
+bne %r1 %r27 1137
+addi %r0 %r1 2148
+	sw	%r27 %r1 0
+addi %r0 %r1 2172
+	sw	%r27 %r1 4
+addi %r0 %r1 2240
+	sw	%r27 %r1 8
+addi %r0 %r1 2260
+	sw	%r27 %r1 12
+addi %r0 %r1 2292
+	sw	%r27 %r1 16
+addi %r0 %r1 2372
+	sw	%r27 %r1 20
+addi %r0 %r1 2440
+	sw	%r27 %r1 24
+addi %r0 %r1 2456
+	sw	%r27 %r1 28
+addi %r27 %r27 32
+addi %r0 %r1 2556
+bne %r1 %r27 1118
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2568
+bne %r1 %r27 1113
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2580
+bne %r1 %r27 1108
+addi %r0 %r1 5
+addi %r0 %r2 2568
+jal 11723
+addi %r0 %r1 2600
+bne %r1 %r27 1103
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2612
+bne %r1 %r27 1098
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2624
+bne %r1 %r27 1093
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2636
+bne %r1 %r27 1088
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2648
+bne %r1 %r27 1083
+addi %r0 %r1 5
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 2668
+bne %r1 %r27 1078
+addi %r0 %r1 5
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 2688
+bne %r1 %r27 1073
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2700
+bne %r1 %r27 1068
+addi %r0 %r1 5
+addi %r0 %r2 2688
+jal 11723
+addi %r0 %r1 2720
+bne %r1 %r27 1063
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2732
+bne %r1 %r27 1058
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2744
+bne %r1 %r27 1053
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2756
+bne %r1 %r27 1048
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2768
+bne %r1 %r27 1043
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2780
+bne %r1 %r27 1038
+addi %r0 %r1 5
+addi %r0 %r2 2768
+jal 11723
+addi %r0 %r1 2800
+bne %r1 %r27 1033
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2812
+bne %r1 %r27 1028
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2824
+bne %r1 %r27 1023
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2836
+bne %r1 %r27 1018
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2848
+bne %r1 %r27 1013
+addi %r0 %r1 1
+addi %r0 %r2 0
+jal 11723
+addi %r0 %r1 2852
+bne %r1 %r27 1008
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2864
+bne %r1 %r27 1003
+addi %r0 %r1 5
+addi %r0 %r2 2852
+jal 11723
+addi %r0 %r1 2884
+bne %r1 %r27 998
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2896
+bne %r1 %r27 993
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2908
+bne %r1 %r27 988
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2920
+bne %r1 %r27 983
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+jal 11733
+addi %r0 %r1 2932
+bne %r1 %r27 978
+addi %r0 %r1 2556
+	sw	%r27 %r1 0
+addi %r0 %r1 2580
+	sw	%r27 %r1 4
+addi %r0 %r1 2648
+	sw	%r27 %r1 8
+addi %r0 %r1 2668
+	sw	%r27 %r1 12
+addi %r0 %r1 2700
+	sw	%r27 %r1 16
+addi %r0 %r1 2780
+	sw	%r27 %r1 20
+addi %r0 %r1 2848
+	sw	%r27 %r1 24
+addi %r0 %r1 2864
+	sw	%r27 %r1 28
+addi %r27 %r27 32
+addi %r0 %r28 1746
+addi %r0 %r6 988
+addi %r0 %r2 128
+addi %r0 %r1 128
+	sw	%r0 %r2 616
+	sw	%r0 %r1 620
+addi %r0 %r1 64
+	sw	%r0 %r1 624
+addi %r0 %r1 64
+	sw	%r0 %r1 628
+ilw.s %r0 %f1 5
+	mtc1	%r2 %f0
+	div.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 632
+	lw	%r0 %r2 616
+addi %r0 %r1 1784
+	sw	%r0 %r1 1768
+addi %r0 %r1 1796
+	sw	%r0 %r1 1772
+addi %r0 %r1 1808
+	sw	%r0 %r1 1776
+addi %r0 %r1 1820
+	sw	%r0 %r1 1780
+addi %r0 %r1 1904
+	sw	%r0 %r1 1888
+addi %r0 %r1 1916
+	sw	%r0 %r1 1892
+addi %r0 %r1 1928
+	sw	%r0 %r1 1896
+addi %r0 %r1 1940
+	sw	%r0 %r1 1900
+addi %r0 %r1 1984
+	sw	%r0 %r1 1968
+addi %r0 %r1 1996
+	sw	%r0 %r1 1972
+addi %r0 %r1 2008
+	sw	%r0 %r1 1976
+addi %r0 %r1 2020
+	sw	%r0 %r1 1980
+addi %r0 %r1 2068
+	sw	%r0 %r1 2052
+addi %r0 %r1 2080
+	sw	%r0 %r1 2056
+addi %r0 %r1 2092
+	sw	%r0 %r1 2060
+addi %r0 %r1 2104
+	sw	%r0 %r1 2064
+addi %r0 %r1 2116
+	mov	%r2 %r31
+	mov	%r1 %r2
+	mov	%r31 %r1
+	sw	%r26 %r28 0
+jal 11723
+	lw	%r26 %r28 0
+	mov	%r1 %r3
+	lw	%r0 %r1 616
+addi %r1 %r2 -2
+	sw	%r26 %r6 0
+	mov	%r3 %r1
+	sw	%r26 %r28 -4
+addi %r26 %r26 -8
+jal 10588
+addi %r26 %r26 8
+	lw	%r26 %r28 -4
+	mov	%r1 %r3
+	lw	%r26 %r6 0
+	lw	%r0 %r4 616
+addi %r0 %r1 2192
+	sw	%r0 %r1 2176
+addi %r0 %r1 2204
+	sw	%r0 %r1 2180
+addi %r0 %r1 2216
+	sw	%r0 %r1 2184
+addi %r0 %r1 2228
+	sw	%r0 %r1 2188
+addi %r0 %r1 2312
+	sw	%r0 %r1 2296
+addi %r0 %r1 2324
+	sw	%r0 %r1 2300
+addi %r0 %r1 2336
+	sw	%r0 %r1 2304
+addi %r0 %r1 2348
+	sw	%r0 %r1 2308
+addi %r0 %r1 2392
+	sw	%r0 %r1 2376
+addi %r0 %r1 2404
+	sw	%r0 %r1 2380
+addi %r0 %r1 2416
+	sw	%r0 %r1 2384
+addi %r0 %r1 2428
+	sw	%r0 %r1 2388
+addi %r0 %r1 2476
+	sw	%r0 %r1 2460
+addi %r0 %r1 2488
+	sw	%r0 %r1 2464
+addi %r0 %r1 2500
+	sw	%r0 %r1 2468
+addi %r0 %r1 2512
+	sw	%r0 %r1 2472
+addi %r0 %r2 2524
+	mov	%r4 %r1
+	sw	%r26 %r28 0
+jal 11723
+	lw	%r26 %r28 0
+	mov	%r1 %r4
+	lw	%r0 %r1 616
+addi %r1 %r2 -2
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	mov	%r4 %r1
+	sw	%r26 %r28 -8
+addi %r26 %r26 -12
+jal 10588
+addi %r26 %r26 12
+	lw	%r26 %r28 -8
+	mov	%r1 %r5
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+	lw	%r0 %r4 616
+addi %r0 %r1 2600
+	sw	%r0 %r1 2584
+addi %r0 %r1 2612
+	sw	%r0 %r1 2588
+addi %r0 %r1 2624
+	sw	%r0 %r1 2592
+addi %r0 %r1 2636
+	sw	%r0 %r1 2596
+addi %r0 %r1 2720
+	sw	%r0 %r1 2704
+addi %r0 %r1 2732
+	sw	%r0 %r1 2708
+addi %r0 %r1 2744
+	sw	%r0 %r1 2712
+addi %r0 %r1 2756
+	sw	%r0 %r1 2716
+addi %r0 %r1 2800
+	sw	%r0 %r1 2784
+addi %r0 %r1 2812
+	sw	%r0 %r1 2788
+addi %r0 %r1 2824
+	sw	%r0 %r1 2792
+addi %r0 %r1 2836
+	sw	%r0 %r1 2796
+addi %r0 %r1 2884
+	sw	%r0 %r1 2868
+addi %r0 %r1 2896
+	sw	%r0 %r1 2872
+addi %r0 %r1 2908
+	sw	%r0 %r1 2876
+addi %r0 %r1 2920
+	sw	%r0 %r1 2880
+addi %r0 %r2 2932
+	mov	%r4 %r1
+	sw	%r26 %r28 0
+jal 11723
+	lw	%r26 %r28 0
+	lw	%r0 %r2 616
+addi %r2 %r2 -2
+	sw	%r26 %r5 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 10588
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	mov	%r1 %r4
+	lw	%r26 %r5 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+	fin	%f0
+	sw.s	%r0 %f0 288
+	fin	%f0
+	sw.s	%r0 %f0 292
+	fin	%f0
+	sw.s	%r0 %f0 296
+	fin	%f1
+ilw.s %r0 %f0 36
+	mul.s	%f0 %f1 %f0
+	sw.s	%r26 %f0 -16
+	sw	%r26 %r4 -12
+	sw	%r26 %r5 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 1916
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	mov.s	%f0 %f5
+	lw.s	%r26 %f0 -16
+	lw	%r26 %r4 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+	sw.s	%r26 %f5 -16
+	sw	%r26 %r4 -12
+	sw	%r26 %r5 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 1748
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	mov.s	%f0 %f3
+	lw.s	%r26 %f5 -16
+	lw	%r26 %r4 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+	fin	%f0
+ilw.s %r0 %f1 36
+	mul.s	%f1 %f0 %f0
+	sw.s	%r26 %f0 -24
+	sw.s	%r26 %f3 -20
+	sw.s	%r26 %f5 -16
+	sw	%r26 %r4 -12
+	sw	%r26 %r5 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -28
+addi %r26 %r26 -32
+jal 1916
+addi %r26 %r26 32
+	lw	%r26 %r28 -28
+	mov.s	%f0 %f2
+	lw.s	%r26 %f0 -24
+	lw.s	%r26 %f3 -20
+	lw.s	%r26 %f5 -16
+	lw	%r26 %r4 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+	sw.s	%r26 %f2 -24
+	sw.s	%r26 %f3 -20
+	sw.s	%r26 %f5 -16
+	sw	%r26 %r4 -12
+	sw	%r26 %r5 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -28
+addi %r26 %r26 -32
+jal 1748
+addi %r26 %r26 32
+	lw	%r26 %r28 -28
+	lw.s	%r26 %f2 -24
+	lw.s	%r26 %f3 -20
+	lw.s	%r26 %f5 -16
+	lw	%r26 %r4 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+	mul.s	%f0 %f5 %f4
+ilw.s %r0 %f1 4
+	mul.s	%f1 %f4 %f1
+	sw.s	%r0 %f1 684
+ilw.s %r0 %f1 3
+	mul.s	%f1 %f3 %f1
+	sw.s	%r0 %f1 688
+	mul.s	%f2 %f5 %f4
+ilw.s %r0 %f1 4
+	mul.s	%f1 %f4 %f1
+	sw.s	%r0 %f1 692
+	sw.s	%r0 %f2 660
+ilw.s %r0 %f1 51
+	sw.s	%r0 %f1 664
+	neg.s	%f0 %f1
+	sw.s	%r0 %f1 668
+	neg.s	%f3 %f1
+	mul.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 672
+	neg.s	%f5 %f0
+	sw.s	%r0 %f0 676
+	neg.s	%f3 %f0
+	mul.s	%f2 %f0 %f0
+	sw.s	%r0 %f0 680
+	lw.s	%r0 %f0 288
+	lw.s	%r0 %f1 684
+	sub.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 300
+	lw.s	%r0 %f1 292
+	lw.s	%r0 %f0 688
+	sub.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 304
+	lw.s	%r0 %f1 296
+	lw.s	%r0 %f0 692
+	sub.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 308
+	in	%r1
+	fin	%f0
+ilw.s %r0 %f1 36
+	mul.s	%f1 %f0 %f1
+	sw	%r26 %r4 -16
+	sw	%r26 %r5 -12
+	sw	%r26 %r3 -8
+	sw.s	%r26 %f1 -4
+	sw	%r26 %r6 0
+	mov.s	%f1 %f0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 1748
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw	%r26 %r4 -16
+	lw	%r26 %r5 -12
+	lw	%r26 %r3 -8
+	lw.s	%r26 %f1 -4
+	lw	%r26 %r6 0
+	neg.s	%f0 %f0
+	sw.s	%r0 %f0 316
+	fin	%f0
+ilw.s %r0 %f2 36
+	mul.s	%f2 %f0 %f0
+	sw	%r26 %r4 -16
+	sw	%r26 %r5 -12
+	sw	%r26 %r3 -8
+	sw.s	%r26 %f0 -4
+	sw	%r26 %r6 0
+	mov.s	%f1 %f0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 1916
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	mov.s	%f0 %f1
+	lw	%r26 %r4 -16
+	lw	%r26 %r5 -12
+	lw	%r26 %r3 -8
+	lw.s	%r26 %f0 -4
+	lw	%r26 %r6 0
+	sw	%r26 %r4 -20
+	sw	%r26 %r5 -16
+	sw	%r26 %r3 -12
+	sw.s	%r26 %f1 -8
+	sw.s	%r26 %f0 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -24
+addi %r26 %r26 -28
+jal 1748
+addi %r26 %r26 28
+	lw	%r26 %r28 -24
+	mov.s	%f0 %f2
+	lw	%r26 %r4 -20
+	lw	%r26 %r5 -16
+	lw	%r26 %r3 -12
+	lw.s	%r26 %f1 -8
+	lw.s	%r26 %f0 -4
+	lw	%r26 %r6 0
+	mul.s	%f2 %f1 %f2
+	sw.s	%r0 %f2 312
+	sw	%r26 %r4 -16
+	sw	%r26 %r5 -12
+	sw	%r26 %r3 -8
+	sw.s	%r26 %f1 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 1916
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw	%r26 %r4 -16
+	lw	%r26 %r5 -12
+	lw	%r26 %r3 -8
+	lw.s	%r26 %f1 -4
+	lw	%r26 %r6 0
+	mul.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 320
+	fin	%f0
+	sw.s	%r0 %f0 324
+addi %r0 %r1 0
+	sw	%r26 %r4 -12
+	sw	%r26 %r5 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -16
+addi %r26 %r26 -20
+jal 2083
+addi %r26 %r26 20
+	lw	%r26 %r28 -16
+	lw	%r26 %r4 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+addi %r0 %r1 0
+	sw	%r26 %r4 -12
+	sw	%r26 %r5 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -16
+addi %r26 %r26 -20
+jal 2659
+addi %r26 %r26 20
+	lw	%r26 %r28 -16
+	lw	%r26 %r4 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+addi %r0 %r1 0
+	sw	%r26 %r4 -12
+	sw	%r26 %r5 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -16
+addi %r26 %r26 -20
+jal 2623
+addi %r26 %r26 20
+	lw	%r26 %r28 -16
+	lw	%r26 %r4 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+	sw	%r0 %r1 536
+addi %r0 %r1 80
+	out	%r1
+addi %r0 %r1 51
+	out	%r1
+addi %r0 %r1 10
+	out	%r1
+	lw	%r0 %r9 616
+addi %r0 %r1 100
+	div	%r9 %r1 %r7
+addi %r0 %r1 100
+	mul	%r7 %r1 %r1
+	sub	%r9 %r1 %r1
+addi %r0 %r2 10
+	div	%r1 %r2 %r8
+addi %r0 %r1 100
+	mul	%r7 %r1 %r1
+	sub	%r9 %r1 %r2
+addi %r0 %r1 10
+	mul	%r8 %r1 %r1
+	sub	%r2 %r1 %r2
+addi %r0 %r1 0
+bl %r1 %r7 11
+addi %r0 %r1 0
+bl %r1 %r8 4
+addi %r2 %r1 48
+	out	%r1
+j 1237
+addi %r8 %r1 48
+	out	%r1
+addi %r2 %r1 48
+	out	%r1
+j 1237
+addi %r7 %r1 48
+	out	%r1
+addi %r8 %r1 48
+	out	%r1
+addi %r2 %r1 48
+	out	%r1
+addi %r0 %r1 32
+	out	%r1
+	lw	%r0 %r2 620
+addi %r0 %r1 100
+	div	%r2 %r1 %r8
+addi %r0 %r1 100
+	mul	%r8 %r1 %r1
+	sub	%r2 %r1 %r1
+addi %r0 %r7 10
+	div	%r1 %r7 %r7
+addi %r0 %r1 100
+	mul	%r8 %r1 %r1
+	sub	%r2 %r1 %r2
+addi %r0 %r1 10
+	mul	%r7 %r1 %r1
+	sub	%r2 %r1 %r2
+addi %r0 %r1 0
+bl %r1 %r8 11
+addi %r0 %r1 0
+bl %r1 %r7 4
+addi %r2 %r1 48
+	out	%r1
+j 1271
+addi %r7 %r1 48
+	out	%r1
+addi %r2 %r1 48
+	out	%r1
+j 1271
+addi %r8 %r1 48
+	out	%r1
+addi %r7 %r1 48
+	out	%r1
+addi %r2 %r1 48
+	out	%r1
+addi %r0 %r1 32
+	out	%r1
+addi %r0 %r1 50
+	out	%r1
+addi %r0 %r1 53
+	out	%r1
+addi %r0 %r1 53
+	out	%r1
+addi %r0 %r1 10
+	out	%r1
+addi %r0 %r1 4
+	sw	%r26 %r4 -12
+	sw	%r26 %r5 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -16
+addi %r26 %r26 -20
+jal 11629
+addi %r26 %r26 20
+	lw	%r26 %r28 -16
+	lw	%r26 %r4 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+addi %r0 %r1 9
+addi %r0 %r2 0
+addi %r0 %r7 0
+	sw	%r26 %r4 -12
+	sw	%r26 %r5 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	mov	%r7 %r3
+	sw	%r26 %r28 -16
+addi %r26 %r26 -20
+jal 11567
+addi %r26 %r26 20
+	lw	%r26 %r28 -16
+	lw	%r26 %r4 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+addi %r0 %r1 4
+	sw	%r26 %r4 -12
+	sw	%r26 %r5 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -16
+addi %r26 %r26 -20
+jal 11704
+addi %r26 %r26 20
+	lw	%r26 %r28 -16
+	lw	%r26 %r4 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r6 0
+	lw.s	%r0 %f0 312
+	sw.s	%r0 %f0 736
+	lw.s	%r0 %f0 316
+	sw.s	%r0 %f0 740
+	lw.s	%r0 %f0 320
+	sw.s	%r0 %f0 744
+	lw	%r0 %r1 0
+addi %r1 %r2 -1
+	sw	%r26 %r4 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r3 0
+	mov	%r6 %r1
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 2679
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	lw	%r26 %r4 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r3 0
+	lw	%r0 %r1 0
+addi %r1 %r6 -1
+addi %r0 %r1 0
+ble %r1 %r6 2
+j 1695
+	slli	%r6 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r2 0
+	lw	%r2 %r7 8
+addi %r0 %r1 2
+beq %r7 %r1 2
+j 1695
+	lw	%r2 %r1 28
+	lw.s	%r1 %f1 0
+ilw.s %r0 %f0 46
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 1365
+addi %r0 %r1 0
+addi %r0 %r7 0
+beq %r1 %r7 329
+	lw	%r2 %r7 4
+addi %r0 %r1 1
+beq %r7 %r1 109
+addi %r0 %r1 2
+beq %r7 %r1 2
+j 1695
+addi %r0 %r1 4
+	mul	%r6 %r1 %r1
+addi %r1 %r7 1
+	lw	%r0 %r6 1736
+ilw.s %r0 %f0 46
+	lw	%r2 %r1 28
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f5
+	lw	%r2 %r1 16
+	lw.s	%r0 %f1 312
+	mov	%r1 %r8
+	lw.s	%r8 %f0 0
+	mul.s	%f0 %f1 %f0
+	lw.s	%r0 %f2 316
+addi %r1 %r8 4
+	lw.s	%r8 %f1 0
+	mul.s	%f1 %f2 %f1
+	add.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 320
+addi %r1 %r1 8
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 35
+	lw	%r2 %r1 16
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	mul.s	%f1 %f0 %f0
+	lw.s	%r0 %f2 312
+	sub.s	%f2 %f0 %f4
+ilw.s %r0 %f0 35
+	lw	%r2 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	mul.s	%f1 %f0 %f2
+	lw.s	%r0 %f0 316
+	sub.s	%f0 %f2 %f2
+ilw.s %r0 %f3 35
+	lw	%r2 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f3 %f0
+	mul.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 320
+	sub.s	%f0 %f1 %f0
+addi %r0 %r1 3
+ilw.s %r0 %f1 51
+	sw.s	%r26 %f0 0
+	mov.s	%f1 %f0
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r8
+	lw.s	%r26 %f0 0
+	lw	%r0 %r1 0
+	mov	%r8 %r2
+	sw	%r26 %r28 0
+jal 11723
+	lw	%r26 %r28 0
+	mov	%r2 %r8
+	mov	%r27 %r2
+addi %r27 %r27 8
+	sw	%r2 %r1 4
+	sw	%r2 %r8 0
+	mov	%r2 %r1
+	mov	%r8 %r2
+	sw.s	%r2 %f4 0
+addi %r8 %r2 4
+	sw.s	%r2 %f2 0
+addi %r8 %r2 8
+	sw.s	%r2 %f0 0
+	lw	%r0 %r2 0
+addi %r2 %r2 -1
+	sw	%r26 %r4 -24
+	sw	%r26 %r5 -20
+	sw	%r26 %r1 -16
+	sw.s	%r26 %f5 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r7 -4
+	sw	%r26 %r3 0
+	sw	%r26 %r28 -28
+addi %r26 %r26 -32
+jal 2679
+addi %r26 %r26 32
+	lw	%r26 %r28 -28
+	mov	%r1 %r2
+	lw	%r26 %r4 -24
+	lw	%r26 %r5 -20
+	lw	%r26 %r1 -16
+	lw.s	%r26 %f5 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r7 -4
+	lw	%r26 %r3 0
+	mov	%r27 %r2
+addi %r27 %r27 12
+	sw.s	%r2 %f5 8
+	sw	%r2 %r1 4
+	sw	%r2 %r7 0
+	slli	%r6 %r1 2
+addi %r1 %r1 1016
+	sw	%r1 %r2 0
+addi %r6 %r1 1
+	sw	%r0 %r1 1736
+j 1695
+addi %r0 %r1 4
+	mul	%r6 %r1 %r8
+	lw	%r0 %r7 1736
+ilw.s %r0 %f1 46
+	lw	%r2 %r1 28
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f0
+	lw.s	%r0 %f1 312
+	neg.s	%f1 %f1
+	lw.s	%r0 %f2 316
+	neg.s	%f2 %f3
+	lw.s	%r0 %f2 320
+	neg.s	%f2 %f5
+addi %r8 %r2 1
+	lw.s	%r0 %f4 312
+addi %r0 %r1 3
+ilw.s %r0 %f2 51
+	sw.s	%r26 %f0 0
+	mov.s	%f2 %f0
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r9
+	lw.s	%r26 %f0 0
+	lw	%r0 %r1 0
+	sw	%r26 %r2 0
+	mov	%r9 %r2
+	sw	%r26 %r28 -4
+jal 11723
+	lw	%r26 %r28 -4
+	mov	%r2 %r9
+	lw	%r26 %r2 0
+	mov	%r27 %r6
+addi %r27 %r27 8
+	sw	%r6 %r1 4
+	sw	%r6 %r9 0
+	mov	%r9 %r1
+	sw.s	%r1 %f4 0
+addi %r9 %r1 4
+	sw.s	%r1 %f3 0
+addi %r9 %r1 8
+	sw.s	%r1 %f5 0
+	lw	%r0 %r1 0
+addi %r1 %r1 -1
+	sw	%r26 %r4 -40
+	sw	%r26 %r5 -36
+	sw	%r26 %r3 -32
+	sw	%r26 %r6 -28
+	sw	%r26 %r2 -24
+	sw.s	%r26 %f5 -20
+	sw.s	%r26 %f3 -16
+	sw.s	%r26 %f1 -12
+	sw.s	%r26 %f0 -8
+	sw	%r26 %r7 -4
+	sw	%r26 %r8 0
+	mov	%r1 %r2
+	mov	%r6 %r1
+	sw	%r26 %r28 -44
+addi %r26 %r26 -48
+jal 2679
+addi %r26 %r26 48
+	lw	%r26 %r28 -44
+	lw	%r26 %r4 -40
+	lw	%r26 %r5 -36
+	lw	%r26 %r3 -32
+	lw	%r26 %r6 -28
+	lw	%r26 %r2 -24
+	lw.s	%r26 %f5 -20
+	lw.s	%r26 %f3 -16
+	lw.s	%r26 %f1 -12
+	lw.s	%r26 %f0 -8
+	lw	%r26 %r7 -4
+	lw	%r26 %r8 0
+	mov	%r27 %r1
+addi %r27 %r27 12
+	sw.s	%r1 %f0 8
+	sw	%r1 %r6 4
+	sw	%r1 %r2 0
+	mov	%r1 %r2
+	slli	%r7 %r1 2
+addi %r1 %r1 1016
+	sw	%r1 %r2 0
+addi %r7 %r9 1
+addi %r8 %r2 2
+	lw.s	%r0 %f4 316
+addi %r0 %r1 3
+ilw.s %r0 %f2 51
+	sw.s	%r26 %f0 0
+	mov.s	%f2 %f0
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r10
+	lw.s	%r26 %f0 0
+	lw	%r0 %r1 0
+	sw	%r26 %r2 0
+	mov	%r10 %r2
+	sw	%r26 %r28 -4
+jal 11723
+	lw	%r26 %r28 -4
+	mov	%r2 %r10
+	mov	%r1 %r6
+	lw	%r26 %r2 0
+	mov	%r27 %r1
+addi %r27 %r27 8
+	sw	%r1 %r6 4
+	sw	%r1 %r10 0
+	mov	%r10 %r6
+	sw.s	%r6 %f1 0
+addi %r10 %r6 4
+	sw.s	%r6 %f4 0
+addi %r10 %r6 8
+	sw.s	%r6 %f5 0
+	lw	%r0 %r6 0
+addi %r6 %r6 -1
+	sw	%r26 %r4 -40
+	sw	%r26 %r5 -36
+	sw	%r26 %r3 -32
+	sw	%r26 %r1 -28
+	sw	%r26 %r2 -24
+	sw	%r26 %r9 -20
+	sw.s	%r26 %f3 -16
+	sw.s	%r26 %f1 -12
+	sw.s	%r26 %f0 -8
+	sw	%r26 %r7 -4
+	sw	%r26 %r8 0
+	mov	%r6 %r2
+	sw	%r26 %r28 -44
+addi %r26 %r26 -48
+jal 2679
+addi %r26 %r26 48
+	lw	%r26 %r28 -44
+	mov	%r1 %r6
+	lw	%r26 %r4 -40
+	lw	%r26 %r5 -36
+	lw	%r26 %r3 -32
+	lw	%r26 %r1 -28
+	lw	%r26 %r2 -24
+	lw	%r26 %r9 -20
+	lw.s	%r26 %f3 -16
+	lw.s	%r26 %f1 -12
+	lw.s	%r26 %f0 -8
+	lw	%r26 %r7 -4
+	lw	%r26 %r8 0
+	mov	%r27 %r6
+addi %r27 %r27 12
+	sw.s	%r6 %f0 8
+	sw	%r6 %r1 4
+	sw	%r6 %r2 0
+	mov	%r6 %r2
+	slli	%r9 %r1 2
+addi %r1 %r1 1016
+	sw	%r1 %r2 0
+addi %r7 %r9 2
+addi %r8 %r8 3
+	lw.s	%r0 %f2 320
+addi %r0 %r1 3
+ilw.s %r0 %f4 51
+	sw.s	%r26 %f0 0
+	mov.s	%f4 %f0
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r6
+	lw.s	%r26 %f0 0
+	lw	%r0 %r1 0
+	mov	%r6 %r2
+	sw	%r26 %r28 0
+jal 11723
+	lw	%r26 %r28 0
+	mov	%r2 %r6
+	mov	%r27 %r2
+addi %r27 %r27 8
+	sw	%r2 %r1 4
+	sw	%r2 %r6 0
+	mov	%r2 %r1
+	mov	%r6 %r2
+	sw.s	%r2 %f1 0
+addi %r6 %r2 4
+	sw.s	%r2 %f3 0
+addi %r6 %r2 8
+	sw.s	%r2 %f2 0
+	lw	%r0 %r2 0
+addi %r2 %r2 -1
+	sw	%r26 %r4 -28
+	sw	%r26 %r5 -24
+	sw	%r26 %r1 -20
+	sw	%r26 %r8 -16
+	sw	%r26 %r9 -12
+	sw	%r26 %r3 -8
+	sw.s	%r26 %f0 -4
+	sw	%r26 %r7 0
+	sw	%r26 %r28 -32
+addi %r26 %r26 -36
+jal 2679
+addi %r26 %r26 36
+	lw	%r26 %r28 -32
+	mov	%r1 %r2
+	lw	%r26 %r4 -28
+	lw	%r26 %r5 -24
+	lw	%r26 %r1 -20
+	lw	%r26 %r8 -16
+	lw	%r26 %r9 -12
+	lw	%r26 %r3 -8
+	lw.s	%r26 %f0 -4
+	lw	%r26 %r7 0
+	mov	%r27 %r2
+addi %r27 %r27 12
+	sw.s	%r2 %f0 8
+	sw	%r2 %r1 4
+	sw	%r2 %r8 0
+	slli	%r9 %r1 2
+addi %r1 %r1 1016
+	sw	%r1 %r2 0
+addi %r7 %r1 3
+	sw	%r0 %r1 1736
+j 1695
+addi %r0 %r1 0
+addi %r0 %r2 0
+	lw.s	%r0 %f0 632
+	lw	%r0 %r6 628
+	sub	%r1 %r6 %r1
+	mtc1	%r1 %f1
+	mul.s	%f1 %f0 %f0
+	lw.s	%r0 %f1 672
+	mul.s	%f1 %f0 %f2
+	lw.s	%r0 %f1 684
+	add.s	%f1 %f2 %f3
+	lw.s	%r0 %f1 676
+	mul.s	%f1 %f0 %f2
+	lw.s	%r0 %f1 688
+	add.s	%f1 %f2 %f2
+	lw.s	%r0 %f1 680
+	mul.s	%f1 %f0 %f0
+	lw.s	%r0 %f1 692
+	add.s	%f1 %f0 %f0
+	lw	%r0 %r1 616
+addi %r1 %r1 -1
+	sw	%r26 %r4 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r3 0
+	mov	%r2 %r3
+	mov	%r1 %r2
+	mov	%r5 %r1
+	mov.s	%f2 %f1
+	mov.s	%f0 %f2
+	mov.s	%f3 %f0
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 10151
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	lw	%r26 %r4 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r3 0
+addi %r0 %r2 0
+addi %r0 %r1 2
+	mov	%r5 %r31
+	mov	%r1 %r5
+	mov	%r2 %r1
+	mov	%r3 %r2
+	mov	%r31 %r3
+	sw	%r26 %r28 0
+addi %r26 %r26 -4
+jal 10506
+addi %r26 %r26 4
+	lw	%r26 %r28 0
+addi %r0 %r1 0
+	add	%r0 %r0 %r0
+	ret
+	mov.s	%f0 %f4
+ilw.s %r0 %f1 48
+ilw.s %r0 %f0 47
+fbg %f0 %f4 5
+ilw.s %r0 %f0 47
+	sub.s	%f0 %f4 %f0
+	mov.s	%f0 %f4
+j 1749
+ilw.s %r0 %f0 51
+fbge %f4 %f0 5
+ilw.s %r0 %f0 47
+	add.s	%f0 %f4 %f0
+	mov.s	%f0 %f4
+j 1749
+fbg %f1 %f4 78
+	sub.s	%f1 %f4 %f4
+ilw.s %r0 %f3 44
+ilw.s %r0 %f0 45
+fbg %f0 %f4 38
+	sub.s	%f4 %f1 %f2
+ilw.s %r0 %f0 43
+fbg %f2 %f0 19
+	mul.s	%f2 %f2 %f0
+	neg.s	%f0 %f4
+ilw.s %r0 %f0 39
+	mul.s	%f2 %f0 %f0
+ilw.s %r0 %f1 38
+	mul.s	%f2 %f1 %f1
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f1 %f5
+ilw.s %r0 %f0 37
+	mul.s	%f2 %f0 %f1
+	mul.s	%f4 %f5 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 46
+	mul.s	%f2 %f0 %f0
+	mul.s	%f4 %f1 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f3 %f0 %f0
+j 1915
+ilw.s %r0 %f0 45
+	sub.s	%f2 %f0 %f0
+	mul.s	%f0 %f0 %f0
+	neg.s	%f0 %f2
+ilw.s %r0 %f0 42
+ilw.s %r0 %f1 41
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 40
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 46
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f3 %f0 %f0
+j 1915
+ilw.s %r0 %f0 43
+fbg %f4 %f0 19
+	mul.s	%f4 %f4 %f0
+	neg.s	%f0 %f2
+ilw.s %r0 %f0 39
+	mul.s	%f4 %f0 %f0
+ilw.s %r0 %f1 38
+	mul.s	%f4 %f1 %f1
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 37
+	mul.s	%f4 %f1 %f1
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 46
+	mul.s	%f4 %f0 %f0
+	mul.s	%f2 %f1 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f3 %f0 %f0
+j 1915
+ilw.s %r0 %f0 45
+	sub.s	%f4 %f0 %f0
+	mul.s	%f0 %f0 %f0
+	neg.s	%f0 %f2
+ilw.s %r0 %f1 42
+ilw.s %r0 %f0 41
+	mul.s	%f2 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 40
+	mul.s	%f2 %f1 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 46
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f3 %f0 %f0
+j 1915
+ilw.s %r0 %f3 46
+ilw.s %r0 %f0 45
+fbg %f0 %f4 38
+	sub.s	%f4 %f1 %f2
+ilw.s %r0 %f0 43
+fbg %f2 %f0 19
+	mul.s	%f2 %f2 %f0
+	neg.s	%f0 %f5
+ilw.s %r0 %f0 39
+	mul.s	%f2 %f0 %f0
+ilw.s %r0 %f1 38
+	mul.s	%f2 %f1 %f1
+	mul.s	%f5 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 37
+	mul.s	%f2 %f0 %f4
+	mul.s	%f5 %f1 %f0
+	add.s	%f0 %f4 %f4
+ilw.s %r0 %f0 46
+	mul.s	%f2 %f0 %f1
+	mul.s	%f5 %f4 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f3 %f0 %f0
+j 1915
+ilw.s %r0 %f0 45
+	sub.s	%f2 %f0 %f0
+	mul.s	%f0 %f0 %f0
+	neg.s	%f0 %f0
+ilw.s %r0 %f2 42
+ilw.s %r0 %f1 41
+	mul.s	%f0 %f2 %f2
+	add.s	%f2 %f1 %f2
+ilw.s %r0 %f1 40
+	mul.s	%f0 %f2 %f2
+	add.s	%f2 %f1 %f2
+ilw.s %r0 %f1 46
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f3 %f0 %f0
+j 1915
+ilw.s %r0 %f0 43
+fbg %f4 %f0 19
+	mul.s	%f4 %f4 %f0
+	neg.s	%f0 %f2
+ilw.s %r0 %f0 39
+	mul.s	%f4 %f0 %f1
+ilw.s %r0 %f0 38
+	mul.s	%f4 %f0 %f5
+	mul.s	%f2 %f1 %f0
+	add.s	%f0 %f5 %f0
+ilw.s %r0 %f1 37
+	mul.s	%f4 %f1 %f1
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 46
+	mul.s	%f4 %f0 %f4
+	mul.s	%f2 %f1 %f0
+	add.s	%f0 %f4 %f0
+	mul.s	%f3 %f0 %f0
+j 1915
+ilw.s %r0 %f0 45
+	sub.s	%f4 %f0 %f0
+	mul.s	%f0 %f0 %f0
+	neg.s	%f0 %f1
+ilw.s %r0 %f0 42
+ilw.s %r0 %f2 41
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f0
+ilw.s %r0 %f2 40
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f0
+ilw.s %r0 %f2 46
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f0
+	mul.s	%f3 %f0 %f0
+	retl
+ilw.s %r0 %f3 48
+ilw.s %r0 %f1 47
+fbg %f1 %f0 4
+ilw.s %r0 %f1 47
+	sub.s	%f1 %f0 %f0
+j 1916
+ilw.s %r0 %f1 51
+fbge %f0 %f1 4
+ilw.s %r0 %f1 47
+	add.s	%f1 %f0 %f0
+j 1916
+fbg %f3 %f0 79
+	sub.s	%f3 %f0 %f1
+ilw.s %r0 %f2 44
+ilw.s %r0 %f0 45
+fbg %f0 %f1 39
+	sub.s	%f1 %f3 %f0
+ilw.s %r0 %f4 46
+ilw.s %r0 %f1 43
+fbg %f0 %f1 15
+	mul.s	%f0 %f0 %f0
+	neg.s	%f0 %f1
+ilw.s %r0 %f2 42
+ilw.s %r0 %f0 41
+	mul.s	%f1 %f2 %f2
+	add.s	%f2 %f0 %f2
+ilw.s %r0 %f0 40
+	mul.s	%f1 %f2 %f2
+	add.s	%f2 %f0 %f0
+ilw.s %r0 %f2 46
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f0
+	mul.s	%f4 %f0 %f0
+j 2082
+ilw.s %r0 %f1 45
+	sub.s	%f0 %f1 %f1
+	mul.s	%f1 %f1 %f0
+	neg.s	%f0 %f3
+ilw.s %r0 %f0 39
+	mul.s	%f1 %f0 %f0
+ilw.s %r0 %f2 38
+	mul.s	%f1 %f2 %f2
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f2 %f0
+ilw.s %r0 %f2 37
+	mul.s	%f1 %f2 %f2
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f2 %f0
+ilw.s %r0 %f2 46
+	mul.s	%f1 %f2 %f1
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f4 %f0 %f0
+j 2082
+ilw.s %r0 %f0 43
+fbg %f1 %f0 15
+	mul.s	%f1 %f1 %f0
+	neg.s	%f0 %f3
+ilw.s %r0 %f0 42
+ilw.s %r0 %f1 41
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 40
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 46
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f2 %f0 %f0
+j 2082
+ilw.s %r0 %f0 45
+	sub.s	%f1 %f0 %f3
+	mul.s	%f3 %f3 %f0
+	neg.s	%f0 %f5
+ilw.s %r0 %f0 39
+	mul.s	%f3 %f0 %f1
+ilw.s %r0 %f0 38
+	mul.s	%f3 %f0 %f4
+	mul.s	%f5 %f1 %f0
+	add.s	%f0 %f4 %f0
+ilw.s %r0 %f1 37
+	mul.s	%f3 %f1 %f1
+	mul.s	%f5 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 46
+	mul.s	%f3 %f0 %f0
+	mul.s	%f5 %f1 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f2 %f0 %f0
+j 2082
+ilw.s %r0 %f4 46
+ilw.s %r0 %f1 45
+fbg %f1 %f0 39
+	sub.s	%f0 %f3 %f1
+ilw.s %r0 %f2 44
+ilw.s %r0 %f0 43
+fbg %f1 %f0 15
+	mul.s	%f1 %f1 %f0
+	neg.s	%f0 %f1
+ilw.s %r0 %f0 42
+ilw.s %r0 %f3 41
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f3
+ilw.s %r0 %f0 40
+	mul.s	%f1 %f3 %f3
+	add.s	%f3 %f0 %f0
+ilw.s %r0 %f3 46
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f0
+	mul.s	%f2 %f0 %f0
+j 2082
+ilw.s %r0 %f0 45
+	sub.s	%f1 %f0 %f4
+	mul.s	%f4 %f4 %f0
+	neg.s	%f0 %f3
+ilw.s %r0 %f0 39
+	mul.s	%f4 %f0 %f1
+ilw.s %r0 %f0 38
+	mul.s	%f4 %f0 %f0
+	mul.s	%f3 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 37
+	mul.s	%f4 %f0 %f0
+	mul.s	%f3 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 46
+	mul.s	%f4 %f0 %f0
+	mul.s	%f3 %f1 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f2 %f0 %f0
+j 2082
+ilw.s %r0 %f1 43
+fbg %f0 %f1 15
+	mul.s	%f0 %f0 %f0
+	neg.s	%f0 %f1
+ilw.s %r0 %f0 42
+ilw.s %r0 %f2 41
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f2
+ilw.s %r0 %f0 40
+	mul.s	%f1 %f2 %f2
+	add.s	%f2 %f0 %f0
+ilw.s %r0 %f2 46
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f0
+	mul.s	%f4 %f0 %f0
+j 2082
+ilw.s %r0 %f1 45
+	sub.s	%f0 %f1 %f3
+	mul.s	%f3 %f3 %f0
+	neg.s	%f0 %f1
+ilw.s %r0 %f0 39
+	mul.s	%f3 %f0 %f2
+ilw.s %r0 %f0 38
+	mul.s	%f3 %f0 %f0
+	mul.s	%f1 %f2 %f2
+	add.s	%f2 %f0 %f2
+ilw.s %r0 %f0 37
+	mul.s	%f3 %f0 %f0
+	mul.s	%f1 %f2 %f2
+	add.s	%f2 %f0 %f2
+ilw.s %r0 %f0 46
+	mul.s	%f3 %f0 %f3
+	mul.s	%f1 %f2 %f0
+	add.s	%f0 %f3 %f0
+	mul.s	%f4 %f0 %f0
+	retl
+	mov	%r1 %r4
+addi %r0 %r1 60
+bl %r4 %r1 2
+j 2596
+	in	%r11
+addi %r0 %r1 -1
+bne %r11 %r1 3
+addi %r0 %r1 0
+j 2590
+	in	%r13
+	in	%r3
+	in	%r7
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r28 0
+jal 11733
+	lw	%r26 %r28 0
+	mov	%r1 %r5
+	fin	%f0
+	mov	%r5 %r1
+	sw.s	%r1 %f0 0
+	fin	%f0
+addi %r5 %r1 4
+	sw.s	%r1 %f0 0
+	fin	%f0
+addi %r5 %r1 8
+	sw.s	%r1 %f0 0
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r28 0
+jal 11733
+	lw	%r26 %r28 0
+	fin	%f0
+	mov	%r1 %r2
+	sw.s	%r2 %f0 0
+	fin	%f0
+addi %r1 %r2 4
+	sw.s	%r2 %f0 0
+	fin	%f0
+addi %r1 %r2 8
+	sw.s	%r2 %f0 0
+	fin	%f0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+addi %r0 %r12 1
+j 2130
+addi %r0 %r12 0
+addi %r0 %r2 2
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r10
+	lw	%r26 %r1 0
+	fin	%f0
+	mov	%r10 %r2
+	sw.s	%r2 %f0 0
+	fin	%f0
+addi %r10 %r2 4
+	sw.s	%r2 %f0 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r8
+	lw	%r26 %r1 0
+	fin	%f0
+	mov	%r8 %r2
+	sw.s	%r2 %f0 0
+	fin	%f0
+addi %r8 %r2 4
+	sw.s	%r2 %f0 0
+	fin	%f0
+addi %r8 %r2 8
+	sw.s	%r2 %f0 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r6
+	lw	%r26 %r1 0
+addi %r0 %r2 0
+bne %r7 %r2 2
+j 2190
+	fin	%f1
+ilw.s %r0 %f0 36
+	mul.s	%f0 %f1 %f0
+	mov	%r6 %r2
+	sw.s	%r2 %f0 0
+	fin	%f0
+ilw.s %r0 %f1 36
+	mul.s	%f1 %f0 %f0
+addi %r6 %r2 4
+	sw.s	%r2 %f0 0
+	fin	%f1
+ilw.s %r0 %f0 36
+	mul.s	%f0 %f1 %f0
+addi %r6 %r2 8
+	sw.s	%r2 %f0 0
+addi %r0 %r2 2
+beq %r13 %r2 3
+	mov	%r12 %r2
+j 2195
+addi %r0 %r2 1
+addi %r0 %r9 4
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r9 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r14
+	lw	%r26 %r1 0
+	mov	%r27 %r9
+addi %r27 %r27 44
+	sw	%r9 %r14 40
+	sw	%r9 %r6 36
+	sw	%r9 %r8 32
+	sw	%r9 %r10 28
+	sw	%r9 %r2 24
+	sw	%r9 %r1 20
+	sw	%r9 %r5 16
+	sw	%r9 %r7 12
+	sw	%r9 %r3 8
+	sw	%r9 %r13 4
+	sw	%r9 %r11 0
+	mov	%r9 %r1
+	slli	%r4 %r2 2
+addi %r2 %r2 48
+	sw	%r2 %r1 0
+addi %r0 %r1 3
+beq %r13 %r1 10
+addi %r0 %r1 2
+beq %r13 %r1 2
+j 2378
+addi %r0 %r1 0
+beq %r12 %r1 3
+addi %r0 %r3 0
+j 2335
+addi %r0 %r3 1
+j 2335
+	mov	%r5 %r1
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f1 51
+fbne %f0 %f1 3
+addi %r0 %r1 1
+j 2239
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 3
+ilw.s %r0 %f0 51
+j 2264
+ilw.s %r0 %f1 51
+fbne %f0 %f1 3
+addi %r0 %r1 1
+j 2248
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 3
+ilw.s %r0 %f1 51
+j 2262
+ilw.s %r0 %f1 51
+fbge %f1 %f0 3
+addi %r0 %r2 1
+j 2257
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f1 46
+j 2262
+ilw.s %r0 %f1 44
+	mul.s	%f0 %f0 %f0
+	div.s	%f0 %f1 %f0
+	mov	%r5 %r1
+	sw.s	%r1 %f0 0
+addi %r5 %r1 4
+	lw.s	%r1 %f2 0
+ilw.s %r0 %f0 51
+fbne %f2 %f0 3
+addi %r0 %r2 1
+j 2273
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f0 51
+j 2298
+ilw.s %r0 %f0 51
+fbne %f2 %f0 3
+addi %r0 %r1 1
+j 2282
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 3
+ilw.s %r0 %f1 51
+j 2296
+ilw.s %r0 %f0 51
+fbge %f0 %f2 3
+addi %r0 %r1 1
+j 2291
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 3
+ilw.s %r0 %f1 46
+j 2296
+ilw.s %r0 %f1 44
+	mul.s	%f2 %f2 %f0
+	div.s	%f0 %f1 %f0
+addi %r5 %r1 4
+	sw.s	%r1 %f0 0
+addi %r5 %r1 8
+	lw.s	%r1 %f2 0
+ilw.s %r0 %f0 51
+fbne %f2 %f0 3
+addi %r0 %r2 1
+j 2307
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f0 51
+j 2332
+ilw.s %r0 %f0 51
+fbne %f2 %f0 3
+addi %r0 %r2 1
+j 2316
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f1 51
+j 2330
+ilw.s %r0 %f0 51
+fbge %f0 %f2 3
+addi %r0 %r2 1
+j 2325
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f1 46
+j 2330
+ilw.s %r0 %f1 44
+	mul.s	%f2 %f2 %f0
+	div.s	%f0 %f1 %f0
+addi %r5 %r1 8
+	sw.s	%r1 %f0 0
+j 2378
+	mov	%r5 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f0 %f1
+addi %r5 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f0 %f0
+	add.s	%f0 %f1 %f1
+addi %r5 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f0 %f0
+	add.s	%f0 %f1 %f0
+	sqrt.s	%f0 %f1
+ilw.s %r0 %f0 51
+fbne %f1 %f0 3
+addi %r0 %r2 1
+j 2352
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f1 46
+j 2363
+addi %r0 %r1 0
+beq %r3 %r1 4
+ilw.s %r0 %f0 44
+	div.s	%f1 %f0 %f1
+j 2363
+ilw.s %r0 %f0 46
+	div.s	%f1 %f0 %f1
+	mov	%r5 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f1 %f0 %f0
+	mov	%r5 %r1
+	sw.s	%r1 %f0 0
+addi %r5 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f1 %f0 %f0
+addi %r5 %r1 4
+	sw.s	%r1 %f0 0
+addi %r5 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f1 %f0 %f0
+addi %r5 %r1 8
+	sw.s	%r1 %f0 0
+addi %r0 %r1 0
+bne %r7 %r1 2
+j 2589
+	mov	%r6 %r1
+	lw.s	%r1 %f0 0
+	sw	%r26 %r6 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r4 0
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 1916
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	mov.s	%f0 %f7
+	lw	%r26 %r6 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r4 0
+	mov	%r6 %r1
+	lw.s	%r1 %f0 0
+	sw.s	%r26 %f7 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r4 0
+	sw	%r26 %r28 -16
+addi %r26 %r26 -20
+jal 1748
+addi %r26 %r26 20
+	lw	%r26 %r28 -16
+	mov.s	%f0 %f6
+	lw.s	%r26 %f7 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r4 0
+addi %r6 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r26 %f6 -16
+	sw.s	%r26 %f7 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r4 0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 1916
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	mov.s	%f0 %f4
+	lw.s	%r26 %f6 -16
+	lw.s	%r26 %f7 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r4 0
+addi %r6 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r26 %f4 -20
+	sw.s	%r26 %f6 -16
+	sw.s	%r26 %f7 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r4 0
+	sw	%r26 %r28 -24
+addi %r26 %r26 -28
+jal 1748
+addi %r26 %r26 28
+	lw	%r26 %r28 -24
+	lw.s	%r26 %f4 -20
+	lw.s	%r26 %f6 -16
+	lw.s	%r26 %f7 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r4 0
+addi %r6 %r1 8
+	lw.s	%r1 %f1 0
+	sw.s	%r26 %f0 -24
+	sw.s	%r26 %f4 -20
+	sw.s	%r26 %f6 -16
+	sw.s	%r26 %f7 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r4 0
+	mov.s	%f1 %f0
+	sw	%r26 %r28 -28
+addi %r26 %r26 -32
+jal 1916
+addi %r26 %r26 32
+	lw	%r26 %r28 -28
+	mov.s	%f0 %f2
+	lw.s	%r26 %f0 -24
+	lw.s	%r26 %f4 -20
+	lw.s	%r26 %f6 -16
+	lw.s	%r26 %f7 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r4 0
+addi %r6 %r1 8
+	lw.s	%r1 %f1 0
+	sw.s	%r26 %f2 -28
+	sw.s	%r26 %f0 -24
+	sw.s	%r26 %f4 -20
+	sw.s	%r26 %f6 -16
+	sw.s	%r26 %f7 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r4 0
+	mov.s	%f1 %f0
+	sw	%r26 %r28 -32
+addi %r26 %r26 -36
+jal 1748
+addi %r26 %r26 36
+	lw	%r26 %r28 -32
+	mov.s	%f0 %f10
+	lw.s	%r26 %f2 -28
+	lw.s	%r26 %f0 -24
+	lw.s	%r26 %f4 -20
+	lw.s	%r26 %f6 -16
+	lw.s	%r26 %f7 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r4 0
+	mul.s	%f2 %f4 %f8
+	mul.s	%f0 %f6 %f1
+	mul.s	%f2 %f1 %f3
+	mul.s	%f10 %f7 %f1
+	sub.s	%f1 %f3 %f3
+	mul.s	%f0 %f7 %f1
+	mul.s	%f2 %f1 %f5
+	mul.s	%f10 %f6 %f1
+	add.s	%f1 %f5 %f12
+	mul.s	%f10 %f4 %f5
+	mul.s	%f0 %f6 %f1
+	mul.s	%f10 %f1 %f9
+	mul.s	%f2 %f7 %f1
+	add.s	%f1 %f9 %f9
+	mul.s	%f0 %f7 %f1
+	mul.s	%f10 %f1 %f1
+	mul.s	%f2 %f6 %f2
+	sub.s	%f2 %f1 %f14
+	neg.s	%f0 %f10
+	mul.s	%f4 %f6 %f6
+	mul.s	%f4 %f7 %f2
+	mov	%r5 %r1
+	lw.s	%r1 %f13 0
+addi %r5 %r1 4
+	lw.s	%r1 %f7 0
+addi %r5 %r1 8
+	lw.s	%r1 %f11 0
+	mul.s	%f8 %f8 %f0
+	mul.s	%f0 %f13 %f0
+	mul.s	%f5 %f5 %f1
+	mul.s	%f1 %f7 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f10 %f10 %f1
+	mul.s	%f1 %f11 %f1
+	add.s	%f1 %f0 %f0
+	mov	%r5 %r1
+	sw.s	%r1 %f0 0
+	mul.s	%f3 %f3 %f0
+	mul.s	%f0 %f13 %f0
+	mul.s	%f9 %f9 %f1
+	mul.s	%f1 %f7 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f6 %f6 %f1
+	mul.s	%f1 %f11 %f1
+	add.s	%f1 %f0 %f0
+addi %r5 %r1 4
+	sw.s	%r1 %f0 0
+	mul.s	%f12 %f12 %f0
+	mul.s	%f0 %f13 %f1
+	mul.s	%f14 %f14 %f0
+	mul.s	%f0 %f7 %f0
+	add.s	%f0 %f1 %f1
+	mul.s	%f2 %f2 %f0
+	mul.s	%f0 %f11 %f0
+	add.s	%f0 %f1 %f0
+addi %r5 %r1 8
+	sw.s	%r1 %f0 0
+ilw.s %r0 %f4 35
+	mul.s	%f3 %f13 %f0
+	mul.s	%f12 %f0 %f1
+	mul.s	%f9 %f7 %f0
+	mul.s	%f14 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f6 %f11 %f1
+	mul.s	%f2 %f1 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f0 %f4 %f0
+	mov	%r6 %r1
+	sw.s	%r1 %f0 0
+ilw.s %r0 %f4 35
+	mul.s	%f8 %f13 %f0
+	mul.s	%f12 %f0 %f1
+	mul.s	%f5 %f7 %f0
+	mul.s	%f14 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f10 %f11 %f1
+	mul.s	%f2 %f1 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f0 %f4 %f0
+addi %r6 %r1 4
+	sw.s	%r1 %f0 0
+ilw.s %r0 %f1 35
+	mul.s	%f8 %f13 %f0
+	mul.s	%f3 %f0 %f2
+	mul.s	%f5 %f7 %f0
+	mul.s	%f9 %f0 %f0
+	add.s	%f0 %f2 %f2
+	mul.s	%f10 %f11 %f0
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f2 %f0
+	mul.s	%f0 %f1 %f0
+addi %r6 %r1 8
+	sw.s	%r1 %f0 0
+addi %r0 %r1 1
+addi %r0 %r2 0
+beq %r1 %r2 4
+addi %r4 %r1 1
+	mov	%r1 %r4
+j 2084
+	sw	%r0 %r4 0
+	retl
+	in	%r2
+addi %r0 %r3 -1
+beq %r2 %r3 18
+addi %r1 %r3 1
+	sw	%r26 %r2 -4
+	sw	%r26 %r1 0
+	mov	%r3 %r1
+	sw	%r26 %r28 -8
+addi %r26 %r26 -12
+jal 2597
+addi %r26 %r26 12
+	lw	%r26 %r28 -8
+	mov	%r1 %r3
+	lw	%r26 %r2 -4
+	lw	%r26 %r1 0
+	slli	%r1 %r1 2
+	add	%r3 %r1 %r1
+	sw	%r1 %r2 0
+	mov	%r3 %r1
+j 2622
+addi %r1 %r1 1
+addi %r0 %r2 -1
+	sw	%r26 %r28 0
+jal 11723
+	lw	%r26 %r28 0
+	retl
+	mov	%r1 %r2
+addi %r0 %r1 0
+	sw	%r26 %r2 0
+	sw	%r26 %r28 -4
+addi %r26 %r26 -8
+jal 2597
+addi %r26 %r26 8
+	lw	%r26 %r28 -4
+	mov	%r1 %r4
+	lw	%r26 %r2 0
+	mov	%r4 %r1
+	lw	%r1 %r3 0
+addi %r0 %r1 -1
+beq %r3 %r1 17
+addi %r2 %r1 1
+	sw	%r26 %r4 -4
+	sw	%r26 %r2 0
+	sw	%r26 %r28 -8
+addi %r26 %r26 -12
+jal 2623
+addi %r26 %r26 12
+	lw	%r26 %r28 -8
+	mov	%r1 %r3
+	lw	%r26 %r4 -4
+	lw	%r26 %r2 0
+	slli	%r2 %r1 2
+	add	%r3 %r1 %r1
+	sw	%r1 %r4 0
+	mov	%r3 %r1
+j 2658
+addi %r2 %r1 1
+	mov	%r4 %r2
+	sw	%r26 %r28 0
+jal 11723
+	lw	%r26 %r28 0
+	retl
+	mov	%r1 %r2
+addi %r0 %r1 0
+	sw	%r26 %r2 0
+	sw	%r26 %r28 -4
+addi %r26 %r26 -8
+jal 2597
+addi %r26 %r26 8
+	lw	%r26 %r28 -4
+	lw	%r26 %r2 0
+	mov	%r1 %r3
+	lw	%r3 %r3 0
+addi %r0 %r4 -1
+beq %r3 %r4 7
+	slli	%r2 %r3 2
+addi %r3 %r3 332
+	sw	%r3 %r1 0
+addi %r2 %r1 1
+	mov	%r1 %r2
+j 2660
+	retl
+	mov	%r2 %r3
+	mov	%r1 %r4
+addi %r0 %r1 0
+ble %r1 %r3 2
+j 3056
+	slli	%r3 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r6 0
+	lw	%r4 %r5 4
+	lw	%r4 %r7 0
+	lw	%r6 %r2 4
+addi %r0 %r1 1
+beq %r2 %r1 85
+addi %r0 %r1 2
+beq %r2 %r1 52
+addi %r0 %r1 5
+ilw.s %r0 %f0 51
+	sw	%r26 %r28 0
+jal 11733
+	lw	%r26 %r28 0
+	mov	%r1 %r2
+	mov	%r7 %r1
+	lw.s	%r1 %f5 0
+addi %r7 %r1 4
+	lw.s	%r1 %f4 0
+addi %r7 %r1 8
+	lw.s	%r1 %f3 0
+	mul.s	%f5 %f5 %f1
+	lw	%r6 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f2
+	mul.s	%f4 %f4 %f1
+	lw	%r6 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f2 %f1
+	mul.s	%f3 %f3 %f0
+	lw	%r6 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f1
+	lw	%r6 %r1 12
+addi %r0 %r8 0
+beq %r1 %r8 19
+	mul.s	%f3 %f4 %f0
+	lw	%r6 %r1 36
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f2
+	mul.s	%f5 %f3 %f1
+	lw	%r6 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f2 %f1
+	mul.s	%f4 %f5 %f0
+	lw	%r6 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f5
+j 2956
+	mov.s	%f1 %f5
+j 2956
+addi %r0 %r1 4
+ilw.s %r0 %f0 51
+	sw	%r26 %r28 0
+jal 11733
+	lw	%r26 %r28 0
+	mov	%r1 %r8
+	mov	%r7 %r1
+	lw.s	%r1 %f1 0
+	lw	%r6 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+addi %r7 %r1 4
+	lw.s	%r1 %f1 0
+	lw	%r6 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f1 %f1
+	add.s	%f1 %f0 %f1
+addi %r7 %r1 8
+	lw.s	%r1 %f0 0
+	lw	%r6 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 51
+fbge %f0 %f1 3
+addi %r0 %r1 1
+j 2922
+addi %r0 %r1 0
+j 2922
+addi %r0 %r1 6
+ilw.s %r0 %f0 51
+	sw	%r26 %r28 0
+jal 11733
+	lw	%r26 %r28 0
+	mov	%r1 %r8
+	mov	%r7 %r1
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f1 51
+fbne %f0 %f1 3
+addi %r0 %r1 1
+j 2789
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 5
+ilw.s %r0 %f0 51
+addi %r8 %r1 4
+	sw.s	%r1 %f0 0
+j 2826
+	lw	%r6 %r9 24
+	mov	%r7 %r1
+	lw.s	%r1 %f1 0
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 2803
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r9 %r2 7
+addi %r0 %r2 0
+beq %r1 %r2 3
+addi %r0 %r2 0
+j 2812
+addi %r0 %r2 1
+j 2812
+	mov	%r1 %r2
+	lw	%r6 %r1 16
+	lw.s	%r1 %f0 0
+addi %r0 %r1 0
+beq %r2 %r1 2
+j 2818
+	neg.s	%f0 %f0
+	mov	%r8 %r1
+	sw.s	%r1 %f0 0
+ilw.s %r0 %f1 46
+	mov	%r7 %r1
+	lw.s	%r1 %f0 0
+	div.s	%f0 %f1 %f0
+addi %r8 %r1 4
+	sw.s	%r1 %f0 0
+addi %r7 %r1 4
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f1 51
+fbne %f0 %f1 3
+addi %r0 %r1 1
+j 2833
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 5
+ilw.s %r0 %f0 51
+addi %r8 %r1 12
+	sw.s	%r1 %f0 0
+j 2871
+	lw	%r6 %r1 24
+addi %r7 %r2 4
+	lw.s	%r2 %f0 0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+addi %r0 %r9 1
+j 2847
+addi %r0 %r9 0
+addi %r0 %r2 0
+beq %r1 %r2 7
+addi %r0 %r1 0
+beq %r9 %r1 3
+addi %r0 %r2 0
+j 2856
+addi %r0 %r2 1
+j 2856
+	mov	%r9 %r2
+	lw	%r6 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+addi %r0 %r1 0
+beq %r2 %r1 2
+j 2863
+	neg.s	%f0 %f0
+addi %r8 %r1 8
+	sw.s	%r1 %f0 0
+ilw.s %r0 %f0 46
+addi %r7 %r1 4
+	lw.s	%r1 %f1 0
+	div.s	%f1 %f0 %f0
+addi %r8 %r1 12
+	sw.s	%r1 %f0 0
+addi %r7 %r1 8
+	lw.s	%r1 %f1 0
+ilw.s %r0 %f0 51
+fbne %f1 %f0 3
+addi %r0 %r1 1
+j 2878
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 5
+ilw.s %r0 %f0 51
+addi %r8 %r1 20
+	sw.s	%r1 %f0 0
+j 2916
+	lw	%r6 %r9 24
+addi %r7 %r1 8
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 2892
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r9 %r1 7
+addi %r0 %r1 0
+beq %r2 %r1 3
+addi %r0 %r1 0
+j 2901
+addi %r0 %r1 1
+j 2901
+	mov	%r2 %r1
+	lw	%r6 %r2 16
+addi %r2 %r2 8
+	lw.s	%r2 %f0 0
+addi %r0 %r2 0
+beq %r1 %r2 2
+j 2908
+	neg.s	%f0 %f0
+addi %r8 %r1 16
+	sw.s	%r1 %f0 0
+ilw.s %r0 %f0 46
+addi %r7 %r1 8
+	lw.s	%r1 %f1 0
+	div.s	%f1 %f0 %f0
+addi %r8 %r1 20
+	sw.s	%r1 %f0 0
+	slli	%r3 %r1 2
+	add	%r5 %r1 %r1
+	sw	%r1 %r8 0
+addi %r3 %r1 -1
+	mov	%r1 %r3
+j 2681
+addi %r0 %r2 0
+beq %r1 %r2 26
+ilw.s %r0 %f0 44
+	div.s	%f1 %f0 %f0
+	mov	%r8 %r1
+	sw.s	%r1 %f0 0
+	lw	%r6 %r1 16
+	lw.s	%r1 %f0 0
+	div.s	%f1 %f0 %f0
+	neg.s	%f0 %f0
+addi %r8 %r1 4
+	sw.s	%r1 %f0 0
+	lw	%r6 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	div.s	%f1 %f0 %f0
+	neg.s	%f0 %f0
+addi %r8 %r1 8
+	sw.s	%r1 %f0 0
+	lw	%r6 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	div.s	%f1 %f0 %f0
+	neg.s	%f0 %f0
+addi %r8 %r1 12
+	sw.s	%r1 %f0 0
+j 2952
+ilw.s %r0 %f0 51
+	mov	%r8 %r1
+	sw.s	%r1 %f0 0
+	slli	%r3 %r1 2
+	add	%r5 %r1 %r1
+	sw	%r1 %r8 0
+j 2919
+	mov	%r7 %r1
+	lw.s	%r1 %f1 0
+	lw	%r6 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	neg.s	%f0 %f6
+addi %r7 %r1 4
+	lw.s	%r1 %f0 0
+	lw	%r6 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	neg.s	%f0 %f2
+addi %r7 %r1 8
+	lw.s	%r1 %f1 0
+	lw	%r6 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	neg.s	%f0 %f3
+	mov	%r2 %r1
+	sw.s	%r1 %f5 0
+	lw	%r6 %r1 12
+addi %r0 %r8 0
+bne %r1 %r8 8
+addi %r2 %r1 4
+	sw.s	%r1 %f6 0
+addi %r2 %r1 8
+	sw.s	%r1 %f2 0
+addi %r2 %r1 12
+	sw.s	%r1 %f3 0
+j 3040
+addi %r7 %r1 8
+	lw.s	%r1 %f1 0
+	lw	%r6 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f1
+addi %r7 %r1 4
+	lw.s	%r1 %f4 0
+	lw	%r6 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f4 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 35
+	div.s	%f1 %f0 %f0
+	sub.s	%f0 %f6 %f0
+addi %r2 %r1 4
+	sw.s	%r1 %f0 0
+addi %r7 %r1 8
+	lw.s	%r1 %f0 0
+	lw	%r6 %r1 36
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	mov	%r7 %r1
+	lw.s	%r1 %f1 0
+	lw	%r6 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f4 0
+	mul.s	%f4 %f1 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 35
+	div.s	%f1 %f0 %f0
+	sub.s	%f0 %f2 %f0
+addi %r2 %r1 8
+	sw.s	%r1 %f0 0
+addi %r7 %r1 4
+	lw.s	%r1 %f1 0
+	lw	%r6 %r1 36
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f2
+	mov	%r7 %r1
+	lw.s	%r1 %f1 0
+	lw	%r6 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f2 %f1
+ilw.s %r0 %f0 35
+	div.s	%f0 %f1 %f0
+	sub.s	%f0 %f3 %f0
+addi %r2 %r1 12
+	sw.s	%r1 %f0 0
+ilw.s %r0 %f0 51
+fbne %f5 %f0 3
+addi %r0 %r1 1
+j 3045
+addi %r0 %r1 0
+addi %r0 %r6 0
+beq %r1 %r6 2
+j 3052
+ilw.s %r0 %f0 46
+	div.s	%f5 %f0 %f0
+addi %r2 %r1 16
+	sw.s	%r1 %f0 0
+	slli	%r3 %r1 2
+	add	%r5 %r1 %r1
+	sw	%r1 %r2 0
+j 2919
+	retl
+	mov	%r2 %r5
+	mov	%r1 %r3
+addi %r0 %r1 0
+ble %r1 %r5 2
+j 3170
+	slli	%r5 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r2 0
+	lw	%r2 %r4 40
+	lw	%r2 %r6 4
+	mov	%r3 %r1
+	lw.s	%r1 %f1 0
+	lw	%r2 %r1 20
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f0
+	mov	%r4 %r1
+	sw.s	%r1 %f0 0
+addi %r3 %r1 4
+	lw.s	%r1 %f1 0
+	lw	%r2 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f0
+addi %r4 %r1 4
+	sw.s	%r1 %f0 0
+addi %r3 %r1 8
+	lw.s	%r1 %f0 0
+	lw	%r2 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f0
+addi %r4 %r1 8
+	sw.s	%r1 %f0 0
+addi %r0 %r1 2
+beq %r6 %r1 48
+addi %r0 %r1 2
+bl %r1 %r6 2
+j 3167
+	mov	%r4 %r1
+	lw.s	%r1 %f3 0
+addi %r4 %r1 4
+	lw.s	%r1 %f5 0
+addi %r4 %r1 8
+	lw.s	%r1 %f2 0
+	mul.s	%f3 %f3 %f0
+	lw	%r2 %r1 16
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f4
+	mul.s	%f5 %f5 %f1
+	lw	%r2 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f4 %f4
+	mul.s	%f2 %f2 %f1
+	lw	%r2 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f4 %f0
+	lw	%r2 %r1 12
+addi %r0 %r7 0
+beq %r1 %r7 19
+	mul.s	%f2 %f5 %f4
+	lw	%r2 %r1 36
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f4 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f3 %f2 %f2
+	lw	%r2 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f2 %f1
+	add.s	%f1 %f0 %f1
+	mul.s	%f5 %f3 %f2
+	lw	%r2 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f1 %f0
+j 3160
+j 3160
+	lw	%r2 %r2 16
+	mov	%r4 %r1
+	lw.s	%r1 %f2 0
+addi %r4 %r1 4
+	lw.s	%r1 %f1 0
+addi %r4 %r1 8
+	lw.s	%r1 %f3 0
+	mov	%r2 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f2 %f0 %f0
+addi %r2 %r1 4
+	lw.s	%r1 %f2 0
+	mul.s	%f1 %f2 %f1
+	add.s	%f1 %f0 %f0
+addi %r2 %r1 8
+	lw.s	%r1 %f1 0
+	mul.s	%f3 %f1 %f1
+	add.s	%f1 %f0 %f0
+addi %r4 %r1 12
+	sw.s	%r1 %f0 0
+j 3167
+addi %r0 %r1 3
+beq %r6 %r1 2
+j 3165
+ilw.s %r0 %f1 46
+	sub.s	%f1 %f0 %f0
+addi %r4 %r1 12
+	sw.s	%r1 %f0 0
+addi %r5 %r1 -1
+	mov	%r1 %r5
+j 3059
+	retl
+	mov	%r2 %r4
+	mov	%r1 %r3
+	mov.s	%f2 %f5
+	mov.s	%f0 %f6
+	mov.s	%f1 %f2
+	slli	%r3 %r1 2
+	add	%r4 %r1 %r1
+	lw	%r1 %r2 0
+addi %r0 %r1 -1
+beq %r2 %r1 84
+	slli	%r2 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r5 0
+	lw	%r5 %r1 20
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f6 %f3
+	lw	%r5 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f2 %f4
+	lw	%r5 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f5 %f8
+	lw	%r5 %r1 4
+addi %r0 %r2 1
+beq %r1 %r2 61
+addi %r0 %r2 2
+beq %r1 %r2 40
+	mul.s	%f3 %f3 %f0
+	lw	%r5 %r1 16
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	mul.s	%f4 %f4 %f7
+	lw	%r5 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f7 %f1
+	add.s	%f1 %f0 %f1
+	mul.s	%f8 %f8 %f0
+	lw	%r5 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f7 0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f1 %f0
+	lw	%r5 %r1 12
+addi %r0 %r2 0
+beq %r1 %r2 19
+	mul.s	%f8 %f4 %f7
+	lw	%r5 %r1 36
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f7 %f1
+	add.s	%f1 %f0 %f1
+	mul.s	%f3 %f8 %f7
+	lw	%r5 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f7 %f0
+	add.s	%f0 %f1 %f7
+	mul.s	%f4 %f3 %f0
+	lw	%r5 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f7 %f1
+j 3337
+	mov.s	%f0 %f1
+j 3337
+	lw	%r5 %r1 16
+	mov	%r1 %r2
+	lw.s	%r2 %f0 0
+	mul.s	%f3 %f0 %f0
+addi %r1 %r2 4
+	lw.s	%r2 %f1 0
+	mul.s	%f4 %f1 %f1
+	add.s	%f1 %f0 %f0
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	mul.s	%f8 %f1 %f1
+	add.s	%f1 %f0 %f0
+	lw	%r5 %r2 24
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+addi %r0 %r1 1
+j 3323
+addi %r0 %r1 0
+j 3323
+ilw.s %r0 %f0 51
+fbge %f3 %f0 3
+	neg.s	%f3 %f0
+j 3266
+	mov.s	%f3 %f0
+j 3266
+addi %r0 %r1 1
+	retl
+	lw	%r5 %r1 16
+	lw.s	%r1 %f1 0
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 3272
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 7
+ilw.s %r0 %f0 51
+fbge %f4 %f0 3
+	neg.s	%f4 %f0
+j 3298
+	mov.s	%f4 %f0
+j 3298
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 3
+	lw	%r5 %r1 24
+j 3291
+	lw	%r5 %r1 24
+addi %r0 %r2 0
+beq %r1 %r2 3
+addi %r0 %r1 0
+j 3291
+addi %r0 %r1 1
+addi %r0 %r2 0
+beq %r1 %r2 3
+addi %r0 %r1 0
+j 3265
+addi %r3 %r1 1
+	mov	%r1 %r3
+j 3176
+	lw	%r5 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 3305
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 7
+ilw.s %r0 %f0 51
+fbge %f8 %f0 3
+	neg.s	%f8 %f1
+j 3315
+	mov.s	%f8 %f1
+j 3315
+addi %r0 %r1 0
+j 3281
+	lw	%r5 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 3281
+addi %r0 %r1 0
+j 3281
+addi %r0 %r5 0
+beq %r2 %r5 7
+addi %r0 %r2 0
+beq %r1 %r2 3
+addi %r0 %r1 0
+j 3331
+addi %r0 %r1 1
+j 3331
+addi %r0 %r2 0
+beq %r1 %r2 3
+addi %r0 %r1 0
+j 3291
+addi %r0 %r1 1
+j 3291
+	lw	%r5 %r1 4
+addi %r0 %r2 3
+beq %r1 %r2 2
+j 3343
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f1 %f1
+	lw	%r5 %r1 24
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+addi %r0 %r2 1
+j 3349
+addi %r0 %r2 0
+addi %r0 %r5 0
+beq %r1 %r5 7
+addi %r0 %r1 0
+beq %r2 %r1 3
+addi %r0 %r1 0
+j 3358
+addi %r0 %r1 1
+j 3358
+	mov	%r2 %r1
+addi %r0 %r2 0
+beq %r1 %r2 3
+addi %r0 %r1 0
+j 3291
+addi %r0 %r1 1
+j 3291
+	mov	%r1 %r3
+	slli	%r3 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r4 0
+addi %r0 %r1 -1
+beq %r4 %r1 60
+	slli	%r3 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r4 0
+	slli	%r4 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r7 0
+	lw.s	%r0 %f0 552
+	lw	%r7 %r1 20
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f4
+	lw.s	%r0 %f0 556
+	lw	%r7 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f3
+	lw.s	%r0 %f0 560
+	lw	%r7 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f6
+	slli	%r4 %r1 2
+addi %r1 %r1 748
+	lw	%r1 %r6 0
+	lw	%r7 %r1 4
+addi %r0 %r5 1
+beq %r1 %r5 19
+addi %r0 %r5 2
+beq %r1 %r5 9
+	mov	%r6 %r1
+	lw.s	%r1 %f5 0
+ilw.s %r0 %f0 51
+fbne %f5 %f0 3
+addi %r0 %r5 1
+j 3678
+addi %r0 %r5 0
+j 3678
+	mov	%r6 %r1
+	lw.s	%r1 %f1 0
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+addi %r0 %r5 1
+j 3660
+addi %r0 %r5 0
+j 3660
+	mov	%r6 %r1
+	lw.s	%r1 %f0 0
+	sub.s	%f4 %f0 %f1
+addi %r6 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f2
+	lw.s	%r0 %f0 740
+	mul.s	%f0 %f2 %f0
+	add.s	%f3 %f0 %f0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+	neg.s	%f0 %f1
+j 3431
+	mov.s	%f0 %f1
+j 3431
+addi %r0 %r1 0
+	retl
+	lw	%r7 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 3438
+addi %r0 %r1 0
+addi %r0 %r5 0
+beq %r1 %r5 10
+	lw.s	%r0 %f0 744
+	mul.s	%f0 %f2 %f0
+	add.s	%f6 %f0 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+	neg.s	%f1 %f0
+j 3635
+	mov.s	%f1 %f0
+j 3635
+addi %r0 %r5 0
+addi %r0 %r1 0
+beq %r5 %r1 4
+	sw.s	%r0 %f2 540
+addi %r0 %r5 1
+j 3580
+addi %r6 %r1 8
+	lw.s	%r1 %f0 0
+	sub.s	%f3 %f0 %f1
+addi %r6 %r1 12
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	lw.s	%r0 %f1 736
+	mul.s	%f1 %f0 %f1
+	add.s	%f4 %f1 %f2
+ilw.s %r0 %f1 51
+fbge %f2 %f1 3
+	neg.s	%f2 %f1
+j 3469
+	mov.s	%f2 %f1
+	lw	%r7 %r1 16
+	lw.s	%r1 %f2 0
+fbge %f1 %f2 3
+addi %r0 %r1 1
+j 3475
+addi %r0 %r1 0
+addi %r0 %r5 0
+beq %r1 %r5 9
+	lw.s	%r0 %f1 744
+	mul.s	%f1 %f0 %f1
+	add.s	%f6 %f1 %f2
+ilw.s %r0 %f1 51
+fbge %f2 %f1 3
+	neg.s	%f2 %f2
+j 3555
+j 3555
+addi %r0 %r5 0
+addi %r0 %r1 0
+beq %r5 %r1 4
+	sw.s	%r0 %f0 540
+addi %r0 %r5 2
+j 3580
+addi %r6 %r1 16
+	lw.s	%r1 %f0 0
+	sub.s	%f6 %f0 %f1
+addi %r6 %r1 20
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f2
+	lw.s	%r0 %f0 736
+	mul.s	%f0 %f2 %f0
+	add.s	%f4 %f0 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+	neg.s	%f1 %f0
+j 3505
+	mov.s	%f1 %f0
+	lw	%r7 %r1 16
+	lw.s	%r1 %f1 0
+fbge %f0 %f1 3
+addi %r0 %r1 1
+j 3511
+addi %r0 %r1 0
+addi %r0 %r5 0
+beq %r1 %r5 10
+	lw.s	%r0 %f0 740
+	mul.s	%f0 %f2 %f0
+	add.s	%f3 %f0 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+	neg.s	%f1 %f0
+j 3530
+	mov.s	%f1 %f0
+j 3530
+addi %r0 %r5 0
+addi %r0 %r1 0
+beq %r5 %r1 4
+	sw.s	%r0 %f2 540
+addi %r0 %r5 3
+j 3580
+addi %r0 %r5 0
+j 3580
+	lw	%r7 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+fbge %f0 %f1 3
+addi %r0 %r5 1
+j 3537
+addi %r0 %r5 0
+addi %r0 %r1 0
+beq %r5 %r1 9
+addi %r6 %r1 20
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f1 51
+fbne %f0 %f1 3
+addi %r0 %r5 1
+j 3549
+addi %r0 %r5 0
+j 3549
+addi %r0 %r5 0
+j 3523
+addi %r0 %r1 0
+beq %r5 %r1 3
+addi %r0 %r5 0
+j 3523
+addi %r0 %r5 1
+j 3523
+	lw	%r7 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+fbge %f2 %f1 3
+addi %r0 %r5 1
+j 3562
+addi %r0 %r5 0
+addi %r0 %r1 0
+beq %r5 %r1 9
+addi %r6 %r1 12
+	lw.s	%r1 %f1 0
+ilw.s %r0 %f2 51
+fbne %f1 %f2 3
+addi %r0 %r5 1
+j 3574
+addi %r0 %r5 0
+j 3574
+addi %r0 %r5 0
+j 3486
+addi %r0 %r1 0
+beq %r5 %r1 3
+addi %r0 %r5 0
+j 3486
+addi %r0 %r5 1
+j 3486
+	lw.s	%r0 %f1 540
+addi %r0 %r1 0
+bne %r5 %r1 3
+addi %r0 %r5 0
+j 3590
+ilw.s %r0 %f0 34
+fbge %f1 %f0 3
+addi %r0 %r5 1
+j 3590
+addi %r0 %r5 0
+addi %r0 %r1 0
+beq %r5 %r1 33
+ilw.s %r0 %f0 33
+	add.s	%f0 %f1 %f1
+	lw.s	%r0 %f0 312
+	mul.s	%f1 %f0 %f0
+	lw.s	%r0 %f2 552
+	add.s	%f2 %f0 %f0
+	lw.s	%r0 %f2 316
+	mul.s	%f1 %f2 %f3
+	lw.s	%r0 %f2 556
+	add.s	%f2 %f3 %f3
+	lw.s	%r0 %f2 320
+	mul.s	%f1 %f2 %f2
+	lw.s	%r0 %f1 560
+	add.s	%f1 %f2 %f2
+addi %r0 %r1 0
+	sw	%r26 %r3 -4
+	sw	%r26 %r2 0
+	mov.s	%f3 %f1
+	sw	%r26 %r28 -8
+addi %r26 %r26 -12
+jal 3171
+addi %r26 %r26 12
+	lw	%r26 %r28 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r2 0
+addi %r0 %r4 0
+beq %r1 %r4 3
+addi %r0 %r1 1
+j 3430
+addi %r3 %r1 1
+	mov	%r1 %r3
+j 3365
+	slli	%r4 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r1 0
+	lw	%r1 %r1 24
+addi %r0 %r4 0
+beq %r1 %r4 4
+addi %r3 %r1 1
+	mov	%r1 %r3
+j 3365
+addi %r0 %r1 0
+j 3430
+	lw	%r7 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+fbge %f0 %f1 3
+addi %r0 %r5 1
+j 3642
+addi %r0 %r5 0
+addi %r0 %r1 0
+beq %r5 %r1 9
+addi %r6 %r1 4
+	lw.s	%r1 %f1 0
+ilw.s %r0 %f0 51
+fbne %f1 %f0 3
+addi %r0 %r1 1
+j 3654
+addi %r0 %r1 0
+j 3654
+addi %r0 %r5 0
+j 3450
+addi %r0 %r5 0
+beq %r1 %r5 3
+addi %r0 %r5 0
+j 3450
+addi %r0 %r5 1
+j 3450
+addi %r0 %r1 0
+beq %r5 %r1 15
+addi %r6 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f4 %f0 %f1
+addi %r6 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f1 %f0
+addi %r6 %r1 12
+	lw.s	%r1 %f1 0
+	mul.s	%f6 %f1 %f1
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 540
+addi %r0 %r5 1
+j 3580
+addi %r0 %r5 0
+j 3580
+addi %r0 %r1 0
+beq %r5 %r1 3
+addi %r0 %r5 0
+j 3580
+addi %r6 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f4 %f0 %f1
+addi %r6 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f1 %f1
+addi %r6 %r1 12
+	lw.s	%r1 %f0 0
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f1 %f7
+	mul.s	%f4 %f4 %f0
+	lw	%r7 %r1 16
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	mul.s	%f3 %f3 %f1
+	lw	%r7 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f1 %f1
+	add.s	%f1 %f0 %f1
+	mul.s	%f6 %f6 %f2
+	lw	%r7 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f1 %f0
+	lw	%r7 %r5 12
+addi %r0 %r1 0
+beq %r5 %r1 19
+	mul.s	%f6 %f3 %f1
+	lw	%r7 %r1 36
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f1 %f1
+	add.s	%f1 %f0 %f2
+	mul.s	%f4 %f6 %f0
+	lw	%r7 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f1
+	mul.s	%f3 %f4 %f0
+	lw	%r7 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f0
+j 3730
+	lw	%r7 %r1 4
+addi %r0 %r5 3
+beq %r1 %r5 2
+j 3736
+ilw.s %r0 %f1 46
+	sub.s	%f1 %f0 %f0
+	mul.s	%f7 %f7 %f1
+	mul.s	%f0 %f5 %f0
+	sub.s	%f0 %f1 %f1
+ilw.s %r0 %f0 51
+fbge %f0 %f1 3
+addi %r0 %r5 1
+j 3744
+addi %r0 %r5 0
+addi %r0 %r1 0
+beq %r5 %r1 18
+	lw	%r7 %r5 24
+addi %r0 %r1 0
+beq %r5 %r1 8
+	sqrt.s	%f1 %f0
+	add.s	%f0 %f7 %f1
+addi %r6 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 540
+j 3765
+	sqrt.s	%f1 %f0
+	sub.s	%f0 %f7 %f1
+addi %r6 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 540
+j 3765
+addi %r0 %r5 0
+j 3580
+addi %r0 %r5 1
+j 3580
+	mov	%r1 %r3
+	slli	%r3 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r1 0
+addi %r0 %r4 -1
+beq %r1 %r4 22
+	slli	%r1 %r1 2
+addi %r1 %r1 332
+	lw	%r1 %r4 0
+addi %r0 %r1 0
+	sw	%r26 %r3 -4
+	sw	%r26 %r2 0
+	mov	%r4 %r2
+	sw	%r26 %r28 -8
+addi %r26 %r26 -12
+jal 3364
+addi %r26 %r26 12
+	lw	%r26 %r28 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r2 0
+addi %r0 %r4 0
+beq %r1 %r4 3
+addi %r0 %r1 1
+j 3795
+addi %r3 %r1 1
+	mov	%r1 %r3
+j 3768
+addi %r0 %r1 0
+	retl
+	mov	%r2 %r3
+	mov	%r1 %r4
+	slli	%r4 %r1 2
+	add	%r3 %r1 %r1
+	lw	%r1 %r5 0
+	mov	%r5 %r1
+	lw	%r1 %r2 0
+addi %r0 %r1 -1
+beq %r2 %r1 60
+addi %r0 %r1 99
+beq %r2 %r1 56
+	slli	%r2 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r6 0
+	lw.s	%r0 %f0 552
+	lw	%r6 %r1 20
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 556
+	lw	%r6 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f2 0
+	sub.s	%f2 %f0 %f5
+	lw.s	%r0 %f0 560
+	lw	%r6 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f2 0
+	sub.s	%f2 %f0 %f4
+	slli	%r2 %r1 2
+addi %r1 %r1 748
+	lw	%r1 %r7 0
+	lw	%r6 %r2 4
+addi %r0 %r1 1
+beq %r2 %r1 19
+addi %r0 %r1 2
+beq %r2 %r1 9
+	mov	%r7 %r1
+	lw.s	%r1 %f3 0
+ilw.s %r0 %f0 51
+fbne %f3 %f0 3
+addi %r0 %r2 1
+j 4112
+addi %r0 %r2 0
+j 4112
+	mov	%r7 %r1
+	lw.s	%r1 %f2 0
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+addi %r0 %r1 1
+j 4094
+addi %r0 %r1 0
+j 4094
+	mov	%r7 %r1
+	lw.s	%r1 %f0 0
+	sub.s	%f1 %f0 %f2
+addi %r7 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f3
+	lw.s	%r0 %f0 740
+	mul.s	%f0 %f3 %f0
+	add.s	%f5 %f0 %f2
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+	neg.s	%f2 %f2
+j 3889
+j 3889
+addi %r0 %r1 1
+j 3866
+addi %r0 %r1 0
+	retl
+addi %r0 %r2 0
+beq %r1 %r2 19
+addi %r0 %r1 1
+	sw	%r26 %r4 -4
+	sw	%r26 %r3 0
+	mov	%r5 %r2
+	sw	%r26 %r28 -8
+addi %r26 %r26 -12
+jal 3767
+addi %r26 %r26 12
+	lw	%r26 %r28 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r3 0
+addi %r0 %r2 0
+beq %r1 %r2 3
+addi %r0 %r1 1
+j 3865
+addi %r4 %r1 1
+	mov	%r1 %r4
+j 3798
+addi %r4 %r1 1
+	mov	%r1 %r4
+j 3798
+	lw	%r6 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+fbge %f2 %f0 3
+addi %r0 %r1 1
+j 3896
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 9
+	lw.s	%r0 %f0 744
+	mul.s	%f0 %f3 %f0
+	add.s	%f4 %f0 %f2
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+	neg.s	%f2 %f2
+j 4069
+j 4069
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 4
+	sw.s	%r0 %f3 540
+addi %r0 %r2 1
+j 4036
+addi %r7 %r1 8
+	lw.s	%r1 %f0 0
+	sub.s	%f5 %f0 %f0
+addi %r7 %r1 12
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f3
+	lw.s	%r0 %f0 736
+	mul.s	%f0 %f3 %f0
+	add.s	%f1 %f0 %f2
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+	neg.s	%f2 %f2
+j 3925
+	lw	%r6 %r1 16
+	lw.s	%r1 %f0 0
+fbge %f2 %f0 3
+addi %r0 %r2 1
+j 3931
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 10
+	lw.s	%r0 %f0 744
+	mul.s	%f0 %f3 %f0
+	add.s	%f4 %f0 %f2
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+	neg.s	%f2 %f0
+j 4011
+	mov.s	%f2 %f0
+j 4011
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 4
+	sw.s	%r0 %f3 540
+addi %r0 %r2 2
+j 4036
+addi %r7 %r1 16
+	lw.s	%r1 %f0 0
+	sub.s	%f4 %f0 %f0
+addi %r7 %r1 20
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f2
+	lw.s	%r0 %f0 736
+	mul.s	%f0 %f2 %f0
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+	neg.s	%f0 %f1
+j 3962
+	mov.s	%f0 %f1
+	lw	%r6 %r1 16
+	lw.s	%r1 %f0 0
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 3968
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 9
+	lw.s	%r0 %f0 740
+	mul.s	%f0 %f2 %f0
+	add.s	%f5 %f0 %f0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+	neg.s	%f0 %f0
+j 3986
+j 3986
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 4
+	sw.s	%r0 %f2 540
+addi %r0 %r2 3
+j 4036
+addi %r0 %r2 0
+j 4036
+	lw	%r6 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+fbge %f0 %f1 3
+addi %r0 %r1 1
+j 3993
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 9
+addi %r7 %r1 20
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f1 51
+fbne %f0 %f1 3
+addi %r0 %r2 1
+j 4005
+addi %r0 %r2 0
+j 4005
+addi %r0 %r1 0
+j 3979
+addi %r0 %r1 0
+beq %r2 %r1 3
+addi %r0 %r1 0
+j 3979
+addi %r0 %r1 1
+j 3979
+	lw	%r6 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f2 0
+fbge %f0 %f2 3
+addi %r0 %r1 1
+j 4018
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 9
+addi %r7 %r1 12
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbne %f0 %f2 3
+addi %r0 %r2 1
+j 4030
+addi %r0 %r2 0
+j 4030
+addi %r0 %r2 0
+j 3943
+addi %r0 %r1 0
+beq %r2 %r1 3
+addi %r0 %r2 0
+j 3943
+addi %r0 %r2 1
+j 3943
+addi %r0 %r1 0
+bne %r2 %r1 3
+addi %r0 %r1 0
+j 3866
+	lw.s	%r0 %f0 540
+ilw.s %r0 %f1 32
+fbge %f0 %f1 3
+addi %r0 %r1 1
+j 4046
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 20
+addi %r0 %r1 1
+	sw	%r26 %r5 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r3 0
+	mov	%r5 %r2
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 3767
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r3 0
+addi %r0 %r2 0
+beq %r1 %r2 3
+addi %r0 %r1 1
+j 3866
+addi %r0 %r1 0
+j 3866
+addi %r0 %r1 0
+j 3866
+	lw	%r6 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+fbge %f2 %f0 3
+addi %r0 %r1 1
+j 4076
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 9
+addi %r7 %r1 4
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbne %f0 %f2 3
+addi %r0 %r1 1
+j 4088
+addi %r0 %r1 0
+j 4088
+addi %r0 %r2 0
+j 3907
+addi %r0 %r2 0
+beq %r1 %r2 3
+addi %r0 %r2 0
+j 3907
+addi %r0 %r2 1
+j 3907
+addi %r0 %r2 0
+beq %r1 %r2 15
+addi %r7 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f1 %f0 %f1
+addi %r7 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f5 %f0 %f0
+	add.s	%f0 %f1 %f1
+addi %r7 %r1 12
+	lw.s	%r1 %f0 0
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 540
+addi %r0 %r2 1
+j 4036
+addi %r0 %r2 0
+j 4036
+addi %r0 %r1 0
+beq %r2 %r1 3
+addi %r0 %r2 0
+j 4036
+addi %r7 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f1 %f0 %f2
+addi %r7 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f5 %f0 %f0
+	add.s	%f0 %f2 %f0
+addi %r7 %r1 12
+	lw.s	%r1 %f2 0
+	mul.s	%f4 %f2 %f2
+	add.s	%f2 %f0 %f2
+	mul.s	%f1 %f1 %f0
+	lw	%r6 %r1 16
+	lw.s	%r1 %f6 0
+	mul.s	%f6 %f0 %f6
+	mul.s	%f5 %f5 %f7
+	lw	%r6 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f7 %f0
+	add.s	%f0 %f6 %f7
+	mul.s	%f4 %f4 %f0
+	lw	%r6 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f6 0
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f7 %f6
+	lw	%r6 %r2 12
+addi %r0 %r1 0
+beq %r2 %r1 19
+	mul.s	%f4 %f5 %f0
+	lw	%r6 %r1 36
+	lw.s	%r1 %f7 0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f6 %f0
+	mul.s	%f1 %f4 %f6
+	lw	%r6 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f4 0
+	mul.s	%f4 %f6 %f4
+	add.s	%f4 %f0 %f4
+	mul.s	%f5 %f1 %f1
+	lw	%r6 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f4 %f0
+j 4165
+	mov.s	%f6 %f0
+	lw	%r6 %r1 4
+addi %r0 %r2 3
+beq %r1 %r2 2
+j 4171
+ilw.s %r0 %f1 46
+	sub.s	%f1 %f0 %f0
+	mul.s	%f2 %f2 %f1
+	mul.s	%f0 %f3 %f0
+	sub.s	%f0 %f1 %f0
+ilw.s %r0 %f1 51
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 4179
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 18
+	lw	%r6 %r2 24
+addi %r0 %r1 0
+beq %r2 %r1 8
+	sqrt.s	%f0 %f0
+	add.s	%f0 %f2 %f0
+addi %r7 %r1 16
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 540
+j 4200
+	sqrt.s	%f0 %f0
+	sub.s	%f0 %f2 %f1
+addi %r7 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 540
+j 4200
+addi %r0 %r2 0
+j 4036
+addi %r0 %r2 1
+j 4036
+	mov	%r1 %r4
+	slli	%r4 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r5 0
+addi %r0 %r1 -1
+beq %r5 %r1 100
+	slli	%r5 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r7 0
+	lw.s	%r0 %f0 636
+	lw	%r7 %r1 20
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f4
+	lw.s	%r0 %f1 640
+	lw	%r7 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f1
+	lw.s	%r0 %f2 644
+	lw	%r7 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f2 %f3
+	lw	%r7 %r1 4
+addi %r0 %r6 1
+beq %r1 %r6 72
+addi %r0 %r6 2
+beq %r1 %r6 46
+	mov	%r3 %r1
+	lw.s	%r1 %f8 0
+addi %r3 %r1 4
+	lw.s	%r1 %f5 0
+addi %r3 %r1 8
+	lw.s	%r1 %f6 0
+	mul.s	%f8 %f8 %f2
+	lw	%r7 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f7
+	mul.s	%f5 %f5 %f0
+	lw	%r7 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f7 %f2
+	mul.s	%f6 %f6 %f7
+	lw	%r7 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f7 %f0
+	add.s	%f0 %f2 %f2
+	lw	%r7 %r6 12
+addi %r0 %r1 0
+beq %r6 %r1 19
+	mul.s	%f6 %f5 %f0
+	lw	%r7 %r1 36
+	lw.s	%r1 %f7 0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f2 %f0
+	mul.s	%f8 %f6 %f6
+	lw	%r7 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f6 %f2
+	add.s	%f2 %f0 %f0
+	mul.s	%f5 %f8 %f5
+	lw	%r7 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f5 %f2
+	add.s	%f2 %f0 %f5
+j 4656
+	mov.s	%f2 %f5
+j 4656
+	lw	%r7 %r6 16
+	mov	%r3 %r1
+	lw.s	%r1 %f0 0
+	mov	%r6 %r1
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f5
+addi %r3 %r1 4
+	lw.s	%r1 %f0 0
+addi %r6 %r1 4
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f5 %f2
+addi %r3 %r1 8
+	lw.s	%r1 %f0 0
+addi %r6 %r1 8
+	lw.s	%r1 %f5 0
+	mul.s	%f5 %f0 %f0
+	add.s	%f0 %f2 %f5
+ilw.s %r0 %f0 51
+fbge %f0 %f5 3
+addi %r0 %r7 1
+j 4636
+addi %r0 %r7 0
+j 4636
+	mov	%r3 %r1
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbne %f0 %f2 3
+addi %r0 %r1 1
+j 4308
+addi %r0 %r1 0
+j 4308
+	retl
+addi %r0 %r6 0
+beq %r1 %r6 3
+addi %r0 %r6 0
+j 4379
+	lw	%r7 %r8 16
+	lw	%r7 %r9 24
+	mov	%r3 %r1
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+addi %r0 %r6 1
+j 4321
+addi %r0 %r6 0
+addi %r0 %r1 0
+beq %r9 %r1 7
+addi %r0 %r1 0
+beq %r6 %r1 3
+addi %r0 %r6 0
+j 4329
+addi %r0 %r6 1
+j 4329
+	mov	%r8 %r1
+	lw.s	%r1 %f0 0
+addi %r0 %r1 0
+beq %r6 %r1 2
+j 4335
+	neg.s	%f0 %f0
+	sub.s	%f4 %f0 %f2
+	mov	%r3 %r1
+	lw.s	%r1 %f0 0
+	div.s	%f0 %f2 %f5
+addi %r3 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+	neg.s	%f0 %f0
+j 4347
+addi %r8 %r1 4
+	lw.s	%r1 %f2 0
+fbge %f0 %f2 3
+addi %r0 %r1 1
+j 4353
+addi %r0 %r1 0
+addi %r0 %r6 0
+beq %r1 %r6 11
+addi %r3 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f3 %f0 %f2
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+	neg.s	%f2 %f0
+j 4367
+	mov.s	%f2 %f0
+j 4367
+addi %r0 %r6 0
+j 4379
+addi %r8 %r1 8
+	lw.s	%r1 %f2 0
+fbge %f0 %f2 3
+addi %r0 %r1 1
+j 4373
+addi %r0 %r1 0
+addi %r0 %r6 0
+beq %r1 %r6 4
+	sw.s	%r0 %f5 540
+addi %r0 %r6 1
+j 4379
+addi %r0 %r6 0
+addi %r0 %r1 0
+beq %r6 %r1 3
+addi %r0 %r7 1
+j 4551
+addi %r3 %r1 4
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbne %f0 %f2 3
+addi %r0 %r1 1
+j 4390
+addi %r0 %r1 0
+addi %r0 %r6 0
+beq %r1 %r6 3
+addi %r0 %r6 0
+j 4462
+	lw	%r7 %r6 16
+	lw	%r7 %r8 24
+addi %r3 %r1 4
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+addi %r0 %r1 1
+j 4403
+addi %r0 %r1 0
+addi %r0 %r9 0
+beq %r8 %r9 7
+addi %r0 %r8 0
+beq %r1 %r8 3
+addi %r0 %r8 0
+j 4412
+addi %r0 %r8 1
+j 4412
+	mov	%r1 %r8
+addi %r6 %r1 4
+	lw.s	%r1 %f0 0
+addi %r0 %r1 0
+beq %r8 %r1 2
+j 4418
+	neg.s	%f0 %f0
+	sub.s	%f1 %f0 %f2
+addi %r3 %r1 4
+	lw.s	%r1 %f0 0
+	div.s	%f0 %f2 %f5
+addi %r3 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f3 %f0 %f2
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+	neg.s	%f2 %f0
+j 4431
+	mov.s	%f2 %f0
+addi %r6 %r1 8
+	lw.s	%r1 %f2 0
+fbge %f0 %f2 3
+addi %r0 %r8 1
+j 4437
+addi %r0 %r8 0
+addi %r0 %r1 0
+beq %r8 %r1 10
+	mov	%r3 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f4 %f0 %f0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+	neg.s	%f0 %f0
+j 4450
+j 4450
+addi %r0 %r6 0
+j 4462
+	mov	%r6 %r1
+	lw.s	%r1 %f2 0
+fbge %f0 %f2 3
+addi %r0 %r6 1
+j 4456
+addi %r0 %r6 0
+addi %r0 %r1 0
+beq %r6 %r1 4
+	sw.s	%r0 %f5 540
+addi %r0 %r6 1
+j 4462
+addi %r0 %r6 0
+addi %r0 %r1 0
+beq %r6 %r1 3
+addi %r0 %r7 2
+j 4551
+addi %r3 %r1 8
+	lw.s	%r1 %f2 0
+ilw.s %r0 %f0 51
+fbne %f2 %f0 3
+addi %r0 %r1 1
+j 4473
+addi %r0 %r1 0
+addi %r0 %r6 0
+beq %r1 %r6 3
+addi %r0 %r6 0
+j 4546
+	lw	%r7 %r8 16
+	lw	%r7 %r6 24
+addi %r3 %r1 8
+	lw.s	%r1 %f2 0
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+addi %r0 %r7 1
+j 4486
+addi %r0 %r7 0
+addi %r0 %r1 0
+beq %r6 %r1 7
+addi %r0 %r1 0
+beq %r7 %r1 3
+addi %r0 %r6 0
+j 4495
+addi %r0 %r6 1
+j 4495
+	mov	%r7 %r6
+addi %r8 %r1 8
+	lw.s	%r1 %f0 0
+addi %r0 %r1 0
+beq %r6 %r1 2
+j 4501
+	neg.s	%f0 %f0
+	sub.s	%f3 %f0 %f2
+addi %r3 %r1 8
+	lw.s	%r1 %f0 0
+	div.s	%f0 %f2 %f2
+	mov	%r3 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f4 %f0 %f0
+ilw.s %r0 %f3 51
+fbge %f0 %f3 3
+	neg.s	%f0 %f3
+j 4514
+	mov.s	%f0 %f3
+	mov	%r8 %r1
+	lw.s	%r1 %f0 0
+fbge %f3 %f0 3
+addi %r0 %r1 1
+j 4520
+addi %r0 %r1 0
+addi %r0 %r6 0
+beq %r1 %r6 11
+addi %r3 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+	neg.s	%f0 %f1
+j 4534
+	mov.s	%f0 %f1
+j 4534
+addi %r0 %r6 0
+j 4546
+addi %r8 %r1 4
+	lw.s	%r1 %f0 0
+fbge %f1 %f0 3
+addi %r0 %r6 1
+j 4540
+addi %r0 %r6 0
+addi %r0 %r1 0
+beq %r6 %r1 4
+	sw.s	%r0 %f2 540
+addi %r0 %r6 1
+j 4546
+addi %r0 %r6 0
+addi %r0 %r1 0
+beq %r6 %r1 3
+addi %r0 %r7 3
+j 4551
+addi %r0 %r7 0
+addi %r0 %r1 0
+bne %r7 %r1 11
+	slli	%r5 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r1 0
+	lw	%r1 %r5 24
+addi %r0 %r1 0
+beq %r5 %r1 4
+addi %r4 %r1 1
+	mov	%r1 %r4
+j 4203
+j 4307
+	lw.s	%r0 %f1 540
+ilw.s %r0 %f0 51
+fbge %f0 %f1 3
+addi %r0 %r6 1
+j 4569
+addi %r0 %r6 0
+addi %r0 %r1 0
+beq %r6 %r1 7
+	lw.s	%r0 %f0 548
+fbge %f1 %f0 3
+addi %r0 %r6 1
+j 4580
+addi %r0 %r6 0
+j 4580
+addi %r4 %r1 1
+	mov	%r1 %r4
+j 4203
+addi %r0 %r1 0
+beq %r6 %r1 54
+ilw.s %r0 %f0 33
+	add.s	%f0 %f1 %f3
+	mov	%r3 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f3 %f0 %f1
+	lw.s	%r0 %f0 636
+	add.s	%f0 %f1 %f1
+addi %r3 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f3 %f0 %f0
+	lw.s	%r0 %f2 640
+	add.s	%f2 %f0 %f4
+addi %r3 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f3 %f0 %f2
+	lw.s	%r0 %f0 644
+	add.s	%f0 %f2 %f2
+addi %r0 %r1 0
+	sw.s	%r26 %f2 -32
+	sw.s	%r26 %f4 -28
+	sw.s	%r26 %f1 -24
+	sw.s	%r26 %f3 -20
+	sw	%r26 %r7 -16
+	sw	%r26 %r5 -12
+	sw	%r26 %r4 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r2 0
+	mov.s	%f1 %f0
+	mov.s	%f4 %f1
+	sw	%r26 %r28 -36
+addi %r26 %r26 -40
+jal 3171
+addi %r26 %r26 40
+	lw	%r26 %r28 -36
+	lw.s	%r26 %f2 -32
+	lw.s	%r26 %f4 -28
+	lw.s	%r26 %f1 -24
+	lw.s	%r26 %f3 -20
+	lw	%r26 %r7 -16
+	lw	%r26 %r5 -12
+	lw	%r26 %r4 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r2 0
+addi %r0 %r6 0
+beq %r1 %r6 8
+	sw.s	%r0 %f3 548
+	sw.s	%r0 %f1 552
+	sw.s	%r0 %f4 556
+	sw.s	%r0 %f2 560
+	sw	%r0 %r5 564
+	sw	%r0 %r7 544
+j 4577
+j 4577
+j 4577
+addi %r0 %r1 0
+beq %r7 %r1 17
+	mov	%r6 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f4 %f0 %f2
+addi %r6 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f1
+addi %r6 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f1 %f0
+	neg.s	%f0 %f0
+	div.s	%f5 %f0 %f0
+	sw.s	%r0 %f0 540
+addi %r0 %r7 1
+j 4551
+addi %r0 %r7 0
+j 4551
+ilw.s %r0 %f0 51
+fbne %f5 %f0 3
+addi %r0 %r6 1
+j 4661
+addi %r0 %r6 0
+addi %r0 %r1 0
+beq %r6 %r1 3
+addi %r0 %r7 0
+j 4551
+	mov	%r3 %r1
+	lw.s	%r1 %f8 0
+addi %r3 %r1 4
+	lw.s	%r1 %f9 0
+addi %r3 %r1 8
+	lw.s	%r1 %f6 0
+	mul.s	%f4 %f8 %f2
+	lw	%r7 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f2
+	mul.s	%f1 %f9 %f7
+	lw	%r7 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f7 %f0
+	add.s	%f0 %f2 %f2
+	mul.s	%f3 %f6 %f0
+	lw	%r7 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f7 0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f2 %f7
+	lw	%r7 %r6 12
+addi %r0 %r1 0
+beq %r6 %r1 27
+	mul.s	%f1 %f6 %f2
+	mul.s	%f3 %f9 %f0
+	add.s	%f0 %f2 %f0
+	lw	%r7 %r1 36
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	mul.s	%f3 %f8 %f2
+	mul.s	%f4 %f6 %f6
+	add.s	%f6 %f2 %f6
+	lw	%r7 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f6 %f2
+	add.s	%f2 %f0 %f6
+	mul.s	%f1 %f8 %f0
+	mul.s	%f4 %f9 %f2
+	add.s	%f2 %f0 %f2
+	lw	%r7 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f6 %f0
+ilw.s %r0 %f2 35
+	div.s	%f2 %f0 %f0
+	add.s	%f0 %f7 %f6
+j 4717
+	mov.s	%f7 %f6
+	mul.s	%f4 %f4 %f2
+	lw	%r7 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	mul.s	%f1 %f1 %f2
+	lw	%r7 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f7 0
+	mul.s	%f7 %f2 %f2
+	add.s	%f2 %f0 %f0
+	mul.s	%f3 %f3 %f2
+	lw	%r7 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f7 0
+	mul.s	%f7 %f2 %f2
+	add.s	%f2 %f0 %f7
+	lw	%r7 %r1 12
+addi %r0 %r6 0
+beq %r1 %r6 19
+	mul.s	%f3 %f1 %f0
+	lw	%r7 %r1 36
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f7 %f2
+	mul.s	%f4 %f3 %f0
+	lw	%r7 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f3 0
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f2 %f2
+	mul.s	%f1 %f4 %f0
+	lw	%r7 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f0
+j 4755
+	mov.s	%f7 %f0
+	lw	%r7 %r1 4
+addi %r0 %r6 3
+beq %r1 %r6 2
+j 4761
+ilw.s %r0 %f1 46
+	sub.s	%f1 %f0 %f0
+	mul.s	%f6 %f6 %f1
+	mul.s	%f0 %f5 %f0
+	sub.s	%f0 %f1 %f0
+ilw.s %r0 %f1 51
+fbge %f1 %f0 3
+addi %r0 %r6 1
+j 4769
+addi %r0 %r6 0
+addi %r0 %r1 0
+beq %r6 %r1 8
+	sqrt.s	%f0 %f0
+	lw	%r7 %r6 24
+addi %r0 %r1 0
+beq %r6 %r1 2
+j 4780
+	neg.s	%f0 %f0
+j 4780
+addi %r0 %r7 0
+j 4551
+	sub.s	%f6 %f0 %f0
+	div.s	%f5 %f0 %f0
+	sw.s	%r0 %f0 540
+addi %r0 %r7 1
+j 4551
+	mov	%r3 %r5
+	mov	%r2 %r3
+	mov	%r1 %r2
+	slli	%r2 %r1 2
+	add	%r3 %r1 %r1
+	lw	%r1 %r4 0
+addi %r0 %r1 -1
+bne %r4 %r1 2
+j 4814
+	slli	%r4 %r1 2
+addi %r1 %r1 332
+	lw	%r1 %r4 0
+addi %r0 %r1 0
+	sw	%r26 %r2 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r3 0
+	mov	%r5 %r3
+	mov	%r4 %r2
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 4202
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	lw	%r26 %r2 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r3 0
+addi %r2 %r1 1
+	mov	%r1 %r2
+j 4788
+	retl
+	mov	%r3 %r5
+	mov	%r2 %r4
+	mov	%r1 %r2
+	slli	%r2 %r1 2
+	add	%r4 %r1 %r1
+	lw	%r1 %r3 0
+	mov	%r3 %r1
+	lw	%r1 %r6 0
+addi %r0 %r1 -1
+beq %r6 %r1 117
+addi %r0 %r1 99
+beq %r6 %r1 100
+	slli	%r6 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r6 0
+	lw.s	%r0 %f1 636
+	lw	%r6 %r1 20
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f1
+	lw.s	%r0 %f0 640
+	lw	%r6 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f2 0
+	sub.s	%f2 %f0 %f3
+	lw.s	%r0 %f2 644
+	lw	%r6 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f2 %f4
+	lw	%r6 %r7 4
+addi %r0 %r1 1
+beq %r7 %r1 72
+addi %r0 %r1 2
+beq %r7 %r1 46
+	mov	%r5 %r1
+	lw.s	%r1 %f5 0
+addi %r5 %r1 4
+	lw.s	%r1 %f6 0
+addi %r5 %r1 8
+	lw.s	%r1 %f8 0
+	mul.s	%f5 %f5 %f2
+	lw	%r6 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f2
+	mul.s	%f6 %f6 %f0
+	lw	%r6 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f7 0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f2 %f2
+	mul.s	%f8 %f8 %f7
+	lw	%r6 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f7 %f0
+	add.s	%f0 %f2 %f0
+	lw	%r6 %r7 12
+addi %r0 %r1 0
+beq %r7 %r1 19
+	mul.s	%f8 %f6 %f2
+	lw	%r6 %r1 36
+	lw.s	%r1 %f7 0
+	mul.s	%f7 %f2 %f2
+	add.s	%f2 %f0 %f7
+	mul.s	%f5 %f8 %f2
+	lw	%r6 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f6 %f5 %f5
+	lw	%r6 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f5 %f2
+	add.s	%f2 %f0 %f8
+j 5233
+	mov.s	%f0 %f8
+j 5233
+	lw	%r6 %r6 16
+	mov	%r5 %r1
+	lw.s	%r1 %f0 0
+	mov	%r6 %r1
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f5
+addi %r5 %r1 4
+	lw.s	%r1 %f2 0
+addi %r6 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f5 %f5
+addi %r5 %r1 8
+	lw.s	%r1 %f2 0
+addi %r6 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f5 %f2
+ilw.s %r0 %f0 51
+fbge %f0 %f2 3
+addi %r0 %r7 1
+j 5213
+addi %r0 %r7 0
+j 5213
+	mov	%r5 %r1
+	lw.s	%r1 %f2 0
+ilw.s %r0 %f0 51
+fbne %f2 %f0 3
+addi %r0 %r7 1
+j 4945
+addi %r0 %r7 0
+j 4945
+addi %r0 %r1 1
+	sw	%r26 %r2 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r4 0
+	mov	%r3 %r2
+	mov	%r5 %r3
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 4785
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	lw	%r26 %r2 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r4 0
+j 4942
+	retl
+addi %r2 %r1 1
+	mov	%r1 %r2
+j 4818
+addi %r0 %r1 0
+beq %r7 %r1 3
+addi %r0 %r1 0
+j 5017
+	lw	%r6 %r8 16
+	lw	%r6 %r7 24
+	mov	%r5 %r1
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+addi %r0 %r9 1
+j 4958
+addi %r0 %r9 0
+addi %r0 %r1 0
+beq %r7 %r1 7
+addi %r0 %r1 0
+beq %r9 %r1 3
+addi %r0 %r1 0
+j 4967
+addi %r0 %r1 1
+j 4967
+	mov	%r9 %r1
+	mov	%r8 %r7
+	lw.s	%r7 %f0 0
+addi %r0 %r7 0
+beq %r1 %r7 2
+j 4973
+	neg.s	%f0 %f0
+	sub.s	%f1 %f0 %f2
+	mov	%r5 %r1
+	lw.s	%r1 %f0 0
+	div.s	%f0 %f2 %f5
+addi %r5 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f3 %f0 %f2
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+	neg.s	%f2 %f2
+j 4985
+addi %r8 %r1 4
+	lw.s	%r1 %f0 0
+fbge %f2 %f0 3
+addi %r0 %r7 1
+j 4991
+addi %r0 %r7 0
+addi %r0 %r1 0
+beq %r7 %r1 11
+addi %r5 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f4 %f0 %f0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+	neg.s	%f0 %f2
+j 5005
+	mov.s	%f0 %f2
+j 5005
+addi %r0 %r1 0
+j 5017
+addi %r8 %r1 8
+	lw.s	%r1 %f0 0
+fbge %f2 %f0 3
+addi %r0 %r1 1
+j 5011
+addi %r0 %r1 0
+addi %r0 %r7 0
+beq %r1 %r7 4
+	sw.s	%r0 %f5 540
+addi %r0 %r1 1
+j 5017
+addi %r0 %r1 0
+addi %r0 %r7 0
+beq %r1 %r7 3
+addi %r0 %r1 1
+j 5186
+addi %r5 %r1 4
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbne %f0 %f2 3
+addi %r0 %r1 1
+j 5028
+addi %r0 %r1 0
+addi %r0 %r7 0
+beq %r1 %r7 3
+addi %r0 %r7 0
+j 5099
+	lw	%r6 %r8 16
+	lw	%r6 %r7 24
+addi %r5 %r1 4
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+addi %r0 %r9 1
+j 5041
+addi %r0 %r9 0
+addi %r0 %r1 0
+beq %r7 %r1 7
+addi %r0 %r1 0
+beq %r9 %r1 3
+addi %r0 %r1 0
+j 5050
+addi %r0 %r1 1
+j 5050
+	mov	%r9 %r1
+addi %r8 %r7 4
+	lw.s	%r7 %f0 0
+addi %r0 %r7 0
+beq %r1 %r7 2
+j 5056
+	neg.s	%f0 %f0
+	sub.s	%f3 %f0 %f0
+addi %r5 %r1 4
+	lw.s	%r1 %f2 0
+	div.s	%f2 %f0 %f5
+addi %r5 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f4 %f0 %f0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+	neg.s	%f0 %f0
+j 5068
+addi %r8 %r1 8
+	lw.s	%r1 %f2 0
+fbge %f0 %f2 3
+addi %r0 %r7 1
+j 5074
+addi %r0 %r7 0
+addi %r0 %r1 0
+beq %r7 %r1 10
+	mov	%r5 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+	neg.s	%f0 %f0
+j 5087
+j 5087
+addi %r0 %r7 0
+j 5099
+	mov	%r8 %r1
+	lw.s	%r1 %f2 0
+fbge %f0 %f2 3
+addi %r0 %r7 1
+j 5093
+addi %r0 %r7 0
+addi %r0 %r1 0
+beq %r7 %r1 4
+	sw.s	%r0 %f5 540
+addi %r0 %r7 1
+j 5099
+addi %r0 %r7 0
+addi %r0 %r1 0
+beq %r7 %r1 3
+addi %r0 %r1 2
+j 5186
+addi %r5 %r1 8
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbne %f0 %f2 3
+addi %r0 %r7 1
+j 5110
+addi %r0 %r7 0
+addi %r0 %r1 0
+beq %r7 %r1 3
+addi %r0 %r1 0
+j 5181
+	lw	%r6 %r7 16
+	lw	%r6 %r6 24
+addi %r5 %r1 8
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+addi %r0 %r8 1
+j 5123
+addi %r0 %r8 0
+addi %r0 %r1 0
+beq %r6 %r1 7
+addi %r0 %r1 0
+beq %r8 %r1 3
+addi %r0 %r1 0
+j 5132
+addi %r0 %r1 1
+j 5132
+	mov	%r8 %r1
+addi %r7 %r6 8
+	lw.s	%r6 %f0 0
+addi %r0 %r6 0
+beq %r1 %r6 2
+j 5138
+	neg.s	%f0 %f0
+	sub.s	%f4 %f0 %f0
+addi %r5 %r1 8
+	lw.s	%r1 %f2 0
+	div.s	%f2 %f0 %f0
+	mov	%r5 %r1
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f2
+	add.s	%f1 %f2 %f2
+ilw.s %r0 %f1 51
+fbge %f2 %f1 3
+	neg.s	%f2 %f2
+j 5150
+	mov	%r7 %r1
+	lw.s	%r1 %f1 0
+fbge %f2 %f1 3
+addi %r0 %r6 1
+j 5156
+addi %r0 %r6 0
+addi %r0 %r1 0
+beq %r6 %r1 10
+addi %r5 %r1 4
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f1
+	add.s	%f3 %f1 %f2
+ilw.s %r0 %f1 51
+fbge %f2 %f1 3
+	neg.s	%f2 %f2
+j 5169
+j 5169
+addi %r0 %r1 0
+j 5181
+addi %r7 %r1 4
+	lw.s	%r1 %f1 0
+fbge %f2 %f1 3
+addi %r0 %r1 1
+j 5175
+addi %r0 %r1 0
+addi %r0 %r6 0
+beq %r1 %r6 4
+	sw.s	%r0 %f0 540
+addi %r0 %r1 1
+j 5181
+addi %r0 %r1 0
+addi %r0 %r6 0
+beq %r1 %r6 3
+addi %r0 %r1 3
+j 5186
+addi %r0 %r1 0
+addi %r0 %r6 0
+bne %r1 %r6 2
+j 4942
+	lw.s	%r0 %f1 540
+	lw.s	%r0 %f0 548
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 5195
+addi %r0 %r1 0
+addi %r0 %r6 0
+beq %r1 %r6 16
+addi %r0 %r1 1
+	sw	%r26 %r2 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r4 0
+	mov	%r3 %r2
+	mov	%r5 %r3
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 4785
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	lw	%r26 %r2 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r4 0
+j 4942
+j 4942
+addi %r0 %r1 0
+beq %r7 %r1 17
+	mov	%r6 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f1 %f0 %f1
+addi %r6 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f1 %f0
+addi %r6 %r1 8
+	lw.s	%r1 %f1 0
+	mul.s	%f4 %f1 %f1
+	add.s	%f1 %f0 %f0
+	neg.s	%f0 %f0
+	div.s	%f2 %f0 %f0
+	sw.s	%r0 %f0 540
+addi %r0 %r1 1
+j 5186
+addi %r0 %r1 0
+j 5186
+ilw.s %r0 %f0 51
+fbne %f8 %f0 3
+addi %r0 %r1 1
+j 5238
+addi %r0 %r1 0
+addi %r0 %r7 0
+beq %r1 %r7 3
+addi %r0 %r1 0
+j 5186
+	mov	%r5 %r1
+	lw.s	%r1 %f6 0
+addi %r5 %r1 4
+	lw.s	%r1 %f2 0
+addi %r5 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f1 %f6 %f5
+	lw	%r6 %r1 16
+	lw.s	%r1 %f7 0
+	mul.s	%f7 %f5 %f7
+	mul.s	%f3 %f2 %f5
+	lw	%r6 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f9 0
+	mul.s	%f9 %f5 %f5
+	add.s	%f5 %f7 %f5
+	mul.s	%f4 %f0 %f9
+	lw	%r6 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f7 0
+	mul.s	%f7 %f9 %f7
+	add.s	%f7 %f5 %f5
+	lw	%r6 %r7 12
+addi %r0 %r1 0
+beq %r7 %r1 27
+	mul.s	%f3 %f0 %f7
+	mul.s	%f4 %f2 %f9
+	add.s	%f9 %f7 %f7
+	lw	%r6 %r1 36
+	lw.s	%r1 %f9 0
+	mul.s	%f9 %f7 %f9
+	mul.s	%f4 %f6 %f7
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f7 %f7
+	lw	%r6 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f7 %f0
+	add.s	%f0 %f9 %f7
+	mul.s	%f3 %f6 %f6
+	mul.s	%f1 %f2 %f0
+	add.s	%f0 %f6 %f2
+	lw	%r6 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f7 %f0
+ilw.s %r0 %f2 35
+	div.s	%f2 %f0 %f0
+	add.s	%f0 %f5 %f5
+j 5293
+	mul.s	%f1 %f1 %f0
+	lw	%r6 %r1 16
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f2
+	mul.s	%f3 %f3 %f6
+	lw	%r6 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f6 %f0
+	add.s	%f0 %f2 %f6
+	mul.s	%f4 %f4 %f0
+	lw	%r6 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f6 %f0
+	lw	%r6 %r7 12
+addi %r0 %r1 0
+beq %r7 %r1 19
+	mul.s	%f4 %f3 %f6
+	lw	%r6 %r1 36
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f6 %f2
+	add.s	%f2 %f0 %f0
+	mul.s	%f1 %f4 %f2
+	lw	%r6 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f4 0
+	mul.s	%f4 %f2 %f2
+	add.s	%f2 %f0 %f2
+	mul.s	%f3 %f1 %f1
+	lw	%r6 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f2 %f0
+j 5330
+	lw	%r6 %r7 4
+addi %r0 %r1 3
+beq %r7 %r1 3
+	mov.s	%f0 %f1
+j 5337
+ilw.s %r0 %f1 46
+	sub.s	%f1 %f0 %f1
+	mul.s	%f5 %f5 %f0
+	mul.s	%f1 %f8 %f1
+	sub.s	%f1 %f0 %f0
+ilw.s %r0 %f1 51
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 5345
+addi %r0 %r1 0
+addi %r0 %r7 0
+beq %r1 %r7 8
+	sqrt.s	%f0 %f0
+	lw	%r6 %r6 24
+addi %r0 %r1 0
+beq %r6 %r1 2
+j 5356
+	neg.s	%f0 %f0
+j 5356
+addi %r0 %r1 0
+j 5186
+	sub.s	%f5 %f0 %f0
+	div.s	%f8 %f0 %f0
+	sw.s	%r0 %f0 540
+addi %r0 %r1 1
+j 5186
+	mov	%r2 %r5
+	mov	%r1 %r6
+	lw	%r3 %r7 0
+	slli	%r6 %r1 2
+	add	%r5 %r1 %r1
+	lw	%r1 %r4 0
+addi %r0 %r1 -1
+beq %r4 %r1 52
+	slli	%r4 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r10 0
+	lw	%r10 %r8 40
+	mov	%r8 %r1
+	lw.s	%r1 %f1 0
+addi %r8 %r1 4
+	lw.s	%r1 %f3 0
+addi %r8 %r1 8
+	lw.s	%r1 %f4 0
+	lw	%r3 %r2 4
+	slli	%r4 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r9 0
+	lw	%r10 %r1 4
+addi %r0 %r2 1
+beq %r1 %r2 19
+addi %r0 %r2 2
+beq %r1 %r2 9
+	mov	%r9 %r1
+	lw.s	%r1 %f5 0
+ilw.s %r0 %f0 51
+fbne %f5 %f0 3
+addi %r0 %r2 1
+j 5698
+addi %r0 %r2 0
+j 5698
+	mov	%r9 %r1
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 5686
+addi %r0 %r2 0
+j 5686
+	lw	%r3 %r8 0
+	mov	%r9 %r1
+	lw.s	%r1 %f0 0
+	sub.s	%f1 %f0 %f2
+addi %r9 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f5
+addi %r8 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f3 %f0 %f2
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+	neg.s	%f2 %f2
+j 5421
+j 5421
+	retl
+	lw	%r10 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+fbge %f2 %f0 3
+addi %r0 %r2 1
+j 5428
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 11
+addi %r8 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f4 %f0 %f2
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+	neg.s	%f2 %f0
+j 5661
+	mov.s	%f2 %f0
+j 5661
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 4
+	sw.s	%r0 %f5 540
+addi %r0 %r8 1
+j 5574
+addi %r9 %r1 8
+	lw.s	%r1 %f0 0
+	sub.s	%f3 %f0 %f2
+addi %r9 %r1 12
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f5
+	mov	%r8 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f1 %f0 %f2
+ilw.s %r0 %f0 51
+fbge %f2 %f0 3
+	neg.s	%f2 %f2
+j 5460
+	lw	%r10 %r1 16
+	lw.s	%r1 %f0 0
+fbge %f2 %f0 3
+addi %r0 %r2 1
+j 5466
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 11
+addi %r8 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	add.s	%f4 %f0 %f0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+	neg.s	%f0 %f2
+j 5549
+	mov.s	%f0 %f2
+j 5549
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 4
+	sw.s	%r0 %f5 540
+addi %r0 %r8 2
+j 5574
+addi %r9 %r1 16
+	lw.s	%r1 %f0 0
+	sub.s	%f4 %f0 %f2
+addi %r9 %r1 20
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f2
+	mov	%r8 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+	neg.s	%f0 %f1
+j 5499
+	mov.s	%f0 %f1
+	lw	%r10 %r1 16
+	lw.s	%r1 %f0 0
+fbge %f1 %f0 3
+addi %r0 %r2 1
+j 5505
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 10
+addi %r8 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f3 %f0 %f0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+	neg.s	%f0 %f0
+j 5524
+j 5524
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 4
+	sw.s	%r0 %f2 540
+addi %r0 %r8 3
+j 5574
+addi %r0 %r8 0
+j 5574
+	lw	%r10 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 5531
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 9
+addi %r9 %r1 20
+	lw.s	%r1 %f1 0
+ilw.s %r0 %f0 51
+fbne %f1 %f0 3
+addi %r0 %r2 1
+j 5543
+addi %r0 %r2 0
+j 5543
+addi %r0 %r2 0
+j 5517
+addi %r0 %r1 0
+beq %r2 %r1 3
+addi %r0 %r2 0
+j 5517
+addi %r0 %r2 1
+j 5517
+	lw	%r10 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+fbge %f2 %f0 3
+addi %r0 %r1 1
+j 5556
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 9
+addi %r9 %r1 12
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbne %f0 %f2 3
+addi %r0 %r2 1
+j 5568
+addi %r0 %r2 0
+j 5568
+addi %r0 %r1 0
+j 5479
+addi %r0 %r1 0
+beq %r2 %r1 3
+addi %r0 %r1 0
+j 5479
+addi %r0 %r1 1
+j 5479
+addi %r0 %r1 0
+bne %r8 %r1 11
+	slli	%r4 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r1 0
+	lw	%r1 %r1 24
+addi %r0 %r2 0
+beq %r1 %r2 4
+addi %r6 %r1 1
+	mov	%r1 %r6
+j 5363
+j 5420
+	lw.s	%r0 %f1 540
+ilw.s %r0 %f0 51
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 5592
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 7
+	lw.s	%r0 %f0 548
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 5603
+addi %r0 %r1 0
+j 5603
+addi %r6 %r1 1
+	mov	%r1 %r6
+j 5363
+addi %r0 %r2 0
+beq %r1 %r2 56
+ilw.s %r0 %f0 33
+	add.s	%f0 %f1 %f4
+	mov	%r7 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f4 %f0 %f0
+	lw.s	%r0 %f1 648
+	add.s	%f1 %f0 %f3
+addi %r7 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f4 %f0 %f1
+	lw.s	%r0 %f0 652
+	add.s	%f0 %f1 %f5
+addi %r7 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f4 %f0 %f1
+	lw.s	%r0 %f0 656
+	add.s	%f0 %f1 %f2
+addi %r0 %r1 0
+	sw.s	%r26 %f2 -32
+	sw.s	%r26 %f5 -28
+	sw.s	%r26 %f3 -24
+	sw.s	%r26 %f4 -20
+	sw	%r26 %r8 -16
+	sw	%r26 %r4 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r5 0
+	mov	%r5 %r2
+	mov.s	%f5 %f1
+	mov.s	%f3 %f0
+	sw	%r26 %r28 -36
+addi %r26 %r26 -40
+jal 3171
+addi %r26 %r26 40
+	lw	%r26 %r28 -36
+	mov	%r1 %r2
+	lw.s	%r26 %f2 -32
+	lw.s	%r26 %f5 -28
+	lw.s	%r26 %f3 -24
+	lw.s	%r26 %f4 -20
+	lw	%r26 %r8 -16
+	lw	%r26 %r4 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r5 0
+addi %r0 %r1 0
+beq %r2 %r1 8
+	sw.s	%r0 %f4 548
+	sw.s	%r0 %f3 552
+	sw.s	%r0 %f5 556
+	sw.s	%r0 %f2 560
+	sw	%r0 %r4 564
+	sw	%r0 %r8 544
+j 5600
+j 5600
+j 5600
+	lw	%r10 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f2 0
+fbge %f0 %f2 3
+addi %r0 %r2 1
+j 5668
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 9
+addi %r9 %r1 4
+	lw.s	%r1 %f2 0
+ilw.s %r0 %f0 51
+fbne %f2 %f0 3
+addi %r0 %r1 1
+j 5680
+addi %r0 %r1 0
+j 5680
+addi %r0 %r1 0
+j 5441
+addi %r0 %r2 0
+beq %r1 %r2 3
+addi %r0 %r1 0
+j 5441
+addi %r0 %r1 1
+j 5441
+addi %r0 %r1 0
+beq %r2 %r1 9
+	mov	%r9 %r1
+	lw.s	%r1 %f1 0
+addi %r8 %r1 12
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 540
+addi %r0 %r8 1
+j 5574
+addi %r0 %r8 0
+j 5574
+addi %r0 %r1 0
+beq %r2 %r1 3
+addi %r0 %r8 0
+j 5574
+addi %r9 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f1 %f0 %f0
+addi %r9 %r1 8
+	lw.s	%r1 %f1 0
+	mul.s	%f3 %f1 %f1
+	add.s	%f1 %f0 %f1
+addi %r9 %r1 12
+	lw.s	%r1 %f0 0
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f1 %f1
+addi %r8 %r1 12
+	lw.s	%r1 %f0 0
+	mul.s	%f1 %f1 %f2
+	mul.s	%f0 %f5 %f0
+	sub.s	%f0 %f2 %f0
+ilw.s %r0 %f2 51
+fbge %f2 %f0 3
+addi %r0 %r2 1
+j 5723
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 18
+	lw	%r10 %r1 24
+addi %r0 %r2 0
+beq %r1 %r2 8
+	sqrt.s	%f0 %f0
+	add.s	%f0 %f1 %f0
+addi %r9 %r1 16
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 540
+j 5744
+	sqrt.s	%f0 %f0
+	sub.s	%f0 %f1 %f0
+addi %r9 %r1 16
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 540
+j 5744
+addi %r0 %r8 0
+j 5574
+addi %r0 %r8 1
+j 5574
+	mov	%r2 %r4
+	slli	%r1 %r2 2
+	add	%r4 %r2 %r2
+	lw	%r2 %r2 0
+addi %r0 %r5 -1
+bne %r2 %r5 2
+j 5773
+	slli	%r2 %r2 2
+addi %r2 %r2 332
+	lw	%r2 %r5 0
+addi %r0 %r2 0
+	sw	%r26 %r1 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r4 0
+	mov	%r2 %r1
+	mov	%r5 %r2
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 5361
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	mov	%r1 %r2
+	lw	%r26 %r1 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r4 0
+addi %r1 %r1 1
+j 5747
+	retl
+	mov	%r3 %r4
+	mov	%r2 %r6
+	mov	%r1 %r3
+	slli	%r3 %r1 2
+	add	%r6 %r1 %r1
+	lw	%r1 %r5 0
+	mov	%r5 %r1
+	lw	%r1 %r7 0
+addi %r0 %r1 -1
+beq %r7 %r1 69
+addi %r0 %r1 99
+beq %r7 %r1 52
+	slli	%r7 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r8 0
+	lw	%r8 %r2 40
+	mov	%r2 %r1
+	lw.s	%r1 %f5 0
+addi %r2 %r1 4
+	lw.s	%r1 %f3 0
+addi %r2 %r1 8
+	lw.s	%r1 %f1 0
+	lw	%r4 %r9 4
+	slli	%r7 %r1 2
+	add	%r9 %r1 %r1
+	lw	%r1 %r7 0
+	lw	%r8 %r9 4
+addi %r0 %r1 1
+beq %r9 %r1 19
+addi %r0 %r1 2
+beq %r9 %r1 9
+	mov	%r7 %r1
+	lw.s	%r1 %f2 0
+ilw.s %r0 %f0 51
+fbne %f2 %f0 3
+addi %r0 %r1 1
+j 6073
+addi %r0 %r1 0
+j 6073
+	mov	%r7 %r1
+	lw.s	%r1 %f1 0
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+addi %r0 %r8 1
+j 6061
+addi %r0 %r8 0
+j 6061
+	lw	%r4 %r2 0
+	mov	%r7 %r1
+	lw.s	%r1 %f0 0
+	sub.s	%f5 %f0 %f0
+addi %r7 %r1 4
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f0 %f4
+addi %r2 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f4 %f0
+	add.s	%f3 %f0 %f0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+	neg.s	%f0 %f0
+j 5856
+j 5856
+addi %r0 %r1 1
+	sw	%r26 %r3 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r6 0
+	mov	%r4 %r3
+	mov	%r5 %r2
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 5746
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	lw	%r26 %r3 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r6 0
+j 5853
+	retl
+addi %r3 %r1 1
+	mov	%r1 %r3
+j 5777
+	lw	%r8 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f2 0
+fbge %f0 %f2 3
+addi %r0 %r1 1
+j 5863
+addi %r0 %r1 0
+addi %r0 %r9 0
+beq %r1 %r9 11
+addi %r2 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f4 %f0
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f2 51
+fbge %f0 %f2 3
+	neg.s	%f0 %f2
+j 6036
+	mov.s	%f0 %f2
+j 6036
+addi %r0 %r1 0
+addi %r0 %r9 0
+beq %r1 %r9 4
+	sw.s	%r0 %f4 540
+addi %r0 %r1 1
+j 6009
+addi %r7 %r1 8
+	lw.s	%r1 %f0 0
+	sub.s	%f3 %f0 %f2
+addi %r7 %r1 12
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f2
+	mov	%r2 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f5 %f0 %f4
+ilw.s %r0 %f0 51
+fbge %f4 %f0 3
+	neg.s	%f4 %f4
+j 5895
+	lw	%r8 %r1 16
+	lw.s	%r1 %f0 0
+fbge %f4 %f0 3
+addi %r0 %r1 1
+j 5901
+addi %r0 %r1 0
+addi %r0 %r9 0
+beq %r1 %r9 11
+addi %r2 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f1 %f0 %f4
+ilw.s %r0 %f0 51
+fbge %f4 %f0 3
+	neg.s	%f4 %f0
+j 5984
+	mov.s	%f4 %f0
+j 5984
+addi %r0 %r9 0
+addi %r0 %r1 0
+beq %r9 %r1 4
+	sw.s	%r0 %f2 540
+addi %r0 %r1 2
+j 6009
+addi %r7 %r1 16
+	lw.s	%r1 %f0 0
+	sub.s	%f1 %f0 %f0
+addi %r7 %r1 20
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f2
+	mov	%r2 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f5 %f0 %f0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+	neg.s	%f0 %f1
+j 5934
+	mov.s	%f0 %f1
+	lw	%r8 %r1 16
+	lw.s	%r1 %f0 0
+fbge %f1 %f0 3
+addi %r0 %r9 1
+j 5940
+addi %r0 %r9 0
+addi %r0 %r1 0
+beq %r9 %r1 10
+addi %r2 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f3 %f0 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+	neg.s	%f1 %f1
+j 5959
+j 5959
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 4
+	sw.s	%r0 %f2 540
+addi %r0 %r1 3
+j 6009
+addi %r0 %r1 0
+j 6009
+	lw	%r8 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 5966
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 9
+addi %r7 %r1 20
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f1 51
+fbne %f0 %f1 3
+addi %r0 %r2 1
+j 5978
+addi %r0 %r2 0
+j 5978
+addi %r0 %r2 0
+j 5952
+addi %r0 %r1 0
+beq %r2 %r1 3
+addi %r0 %r2 0
+j 5952
+addi %r0 %r2 1
+j 5952
+	lw	%r8 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f4 0
+fbge %f0 %f4 3
+addi %r0 %r9 1
+j 5991
+addi %r0 %r9 0
+addi %r0 %r1 0
+beq %r9 %r1 9
+addi %r7 %r1 12
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f4 51
+fbne %f0 %f4 3
+addi %r0 %r1 1
+j 6003
+addi %r0 %r1 0
+j 6003
+addi %r0 %r9 0
+j 5914
+addi %r0 %r9 0
+beq %r1 %r9 3
+addi %r0 %r9 0
+j 5914
+addi %r0 %r9 1
+j 5914
+addi %r0 %r2 0
+bne %r1 %r2 2
+j 5853
+	lw.s	%r0 %f0 540
+	lw.s	%r0 %f1 548
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 6018
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 16
+addi %r0 %r1 1
+	sw	%r26 %r3 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r6 0
+	mov	%r4 %r3
+	mov	%r5 %r2
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 5746
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	lw	%r26 %r3 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r6 0
+j 5853
+j 5853
+	lw	%r8 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+fbge %f2 %f0 3
+addi %r0 %r1 1
+j 6043
+addi %r0 %r1 0
+addi %r0 %r9 0
+beq %r1 %r9 9
+addi %r7 %r1 4
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f2 51
+fbne %f0 %f2 3
+addi %r0 %r9 1
+j 6055
+addi %r0 %r9 0
+j 6055
+addi %r0 %r1 0
+j 5876
+addi %r0 %r1 0
+beq %r9 %r1 3
+addi %r0 %r1 0
+j 5876
+addi %r0 %r1 1
+j 5876
+addi %r0 %r1 0
+beq %r8 %r1 9
+	mov	%r7 %r1
+	lw.s	%r1 %f0 0
+addi %r2 %r1 12
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 540
+addi %r0 %r1 1
+j 6009
+addi %r0 %r1 0
+j 6009
+addi %r0 %r9 0
+beq %r1 %r9 3
+addi %r0 %r1 0
+j 6009
+addi %r7 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f5 %f0 %f4
+addi %r7 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f4 %f3
+addi %r7 %r1 12
+	lw.s	%r1 %f0 0
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f3
+addi %r2 %r1 12
+	lw.s	%r1 %f1 0
+	mul.s	%f3 %f3 %f0
+	mul.s	%f1 %f2 %f1
+	sub.s	%f1 %f0 %f0
+ilw.s %r0 %f1 51
+fbge %f1 %f0 3
+addi %r0 %r2 1
+j 6098
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 18
+	lw	%r8 %r2 24
+addi %r0 %r1 0
+beq %r2 %r1 8
+	sqrt.s	%f0 %f0
+	add.s	%f0 %f3 %f1
+addi %r7 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 540
+j 6119
+	sqrt.s	%f0 %f0
+	sub.s	%f0 %f3 %f1
+addi %r7 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 540
+j 6119
+addi %r0 %r1 0
+j 6009
+addi %r0 %r1 1
+j 6009
+	mov	%r2 %r3
+	mov	%r1 %r5
+	mov.s	%f1 %f3
+	mov.s	%f0 %f4
+addi %r0 %r1 0
+ble %r1 %r5 2
+j 6286
+	slli	%r5 %r1 2
+addi %r1 %r1 1016
+	lw	%r1 %r4 0
+	lw	%r4 %r6 4
+ilw.s %r0 %f0 49
+	sw.s	%r0 %f0 548
+addi %r0 %r1 0
+	lw	%r0 %r2 536
+	sw	%r26 %r6 -20
+	sw	%r26 %r4 -16
+	sw	%r26 %r5 -12
+	sw.s	%r26 %f3 -8
+	sw.s	%r26 %f4 -4
+	sw	%r26 %r3 0
+	mov	%r6 %r3
+	sw	%r26 %r28 -24
+addi %r26 %r26 -28
+jal 5774
+addi %r26 %r26 28
+	lw	%r26 %r28 -24
+	lw	%r26 %r6 -20
+	lw	%r26 %r4 -16
+	lw	%r26 %r5 -12
+	lw.s	%r26 %f3 -8
+	lw.s	%r26 %f4 -4
+	lw	%r26 %r3 0
+	lw.s	%r0 %f1 548
+ilw.s %r0 %f0 32
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 6160
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 7
+ilw.s %r0 %f0 31
+fbge %f1 %f0 3
+addi %r0 %r2 1
+j 6169
+addi %r0 %r2 0
+j 6169
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 74
+	lw	%r0 %r1 564
+addi %r0 %r2 4
+	mul	%r1 %r2 %r2
+	lw	%r0 %r1 544
+	add	%r2 %r1 %r2
+	lw	%r4 %r1 0
+beq %r2 %r1 2
+j 6283
+addi %r0 %r1 0
+	lw	%r0 %r2 536
+	sw	%r26 %r6 -20
+	sw	%r26 %r4 -16
+	sw	%r26 %r5 -12
+	sw.s	%r26 %f3 -8
+	sw.s	%r26 %f4 -4
+	sw	%r26 %r3 0
+	sw	%r26 %r28 -24
+addi %r26 %r26 -28
+jal 3796
+addi %r26 %r26 28
+	lw	%r26 %r28 -24
+	lw	%r26 %r6 -20
+	lw	%r26 %r4 -16
+	lw	%r26 %r5 -12
+	lw.s	%r26 %f3 -8
+	lw.s	%r26 %f4 -4
+	lw	%r26 %r3 0
+addi %r0 %r2 0
+beq %r1 %r2 2
+j 6283
+	lw	%r6 %r2 0
+	lw.s	%r0 %f0 568
+	mov	%r2 %r1
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f2
+	lw.s	%r0 %f1 572
+addi %r2 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f2 %f0
+	lw.s	%r0 %f2 576
+addi %r2 %r1 8
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f2 %f1
+	add.s	%f1 %f0 %f0
+	lw.s	%r4 %f5 8
+	mul.s	%f4 %f5 %f1
+	mul.s	%f0 %f1 %f0
+	lw	%r6 %r2 0
+	mov	%r3 %r1
+	lw.s	%r1 %f1 0
+	mov	%r2 %r1
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f1 %f6
+addi %r3 %r1 4
+	lw.s	%r1 %f2 0
+addi %r2 %r1 4
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f2 %f1
+	add.s	%f1 %f6 %f1
+addi %r3 %r1 8
+	lw.s	%r1 %f6 0
+addi %r2 %r1 8
+	lw.s	%r1 %f2 0
+	mul.s	%f2 %f6 %f2
+	add.s	%f2 %f1 %f1
+	mul.s	%f1 %f5 %f5
+ilw.s %r0 %f1 51
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 6245
+addi %r0 %r1 0
+j 6245
+j 6283
+addi %r0 %r2 0
+beq %r1 %r2 17
+	lw.s	%r0 %f2 604
+	lw.s	%r0 %f1 580
+	mul.s	%f1 %f0 %f1
+	add.s	%f1 %f2 %f1
+	sw.s	%r0 %f1 604
+	lw.s	%r0 %f1 608
+	lw.s	%r0 %f2 584
+	mul.s	%f2 %f0 %f2
+	add.s	%f2 %f1 %f1
+	sw.s	%r0 %f1 608
+	lw.s	%r0 %f1 612
+	lw.s	%r0 %f2 588
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 612
+j 6263
+ilw.s %r0 %f0 51
+fbge %f0 %f5 3
+addi %r0 %r2 1
+j 6268
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 14
+	mul.s	%f5 %f5 %f0
+	mul.s	%f0 %f0 %f0
+	mul.s	%f3 %f0 %f1
+	lw.s	%r0 %f0 604
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 604
+	lw.s	%r0 %f0 608
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 608
+	lw.s	%r0 %f0 612
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 612
+j 6283
+addi %r5 %r1 -1
+	mov	%r1 %r5
+j 6125
+	retl
+	mov	%r3 %r7
+	mov	%r2 %r6
+	mov	%r1 %r2
+	mov.s	%f1 %f2
+	mov.s	%f0 %f3
+addi %r0 %r5 552
+addi %r0 %r1 4
+ble %r2 %r1 2
+j 7572
+	lw	%r7 %r8 8
+ilw.s %r0 %f0 49
+	sw.s	%r0 %f0 548
+addi %r0 %r1 0
+	lw	%r0 %r3 536
+	sw	%r26 %r8 -24
+	sw	%r26 %r5 -20
+	sw.s	%r26 %f2 -16
+	sw.s	%r26 %f3 -12
+	sw	%r26 %r2 -8
+	sw	%r26 %r7 -4
+	sw	%r26 %r6 0
+	mov	%r3 %r2
+	mov	%r6 %r3
+	sw	%r26 %r28 -28
+addi %r26 %r26 -32
+jal 4815
+addi %r26 %r26 32
+	lw	%r26 %r28 -28
+	lw	%r26 %r8 -24
+	lw	%r26 %r5 -20
+	lw.s	%r26 %f2 -16
+	lw.s	%r26 %f3 -12
+	lw	%r26 %r2 -8
+	lw	%r26 %r7 -4
+	lw	%r26 %r6 0
+	lw.s	%r0 %f1 548
+ilw.s %r0 %f0 32
+fbge %f0 %f1 3
+addi %r0 %r1 1
+j 6328
+addi %r0 %r1 0
+addi %r0 %r3 0
+beq %r1 %r3 7
+ilw.s %r0 %f0 31
+fbge %f1 %f0 3
+addi %r0 %r3 1
+j 6337
+addi %r0 %r3 0
+j 6337
+addi %r0 %r3 0
+addi %r0 %r1 0
+beq %r3 %r1 115
+	lw	%r0 %r10 564
+	slli	%r10 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r9 0
+	lw	%r9 %r3 8
+	lw	%r9 %r1 28
+	lw.s	%r1 %f0 0
+	mul.s	%f3 %f0 %f4
+	lw	%r9 %r4 4
+addi %r0 %r1 1
+beq %r4 %r1 88
+addi %r0 %r1 2
+beq %r4 %r1 71
+	lw.s	%r0 %f0 552
+	lw	%r9 %r1 20
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f0
+	lw.s	%r0 %f1 556
+	lw	%r9 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f5 0
+	sub.s	%f5 %f1 %f9
+	lw.s	%r0 %f1 560
+	lw	%r9 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f5 0
+	sub.s	%f5 %f1 %f8
+	lw	%r9 %r1 16
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f10
+	lw	%r9 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f9 %f7
+	lw	%r9 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f8 %f5
+	lw	%r9 %r1 12
+addi %r0 %r4 0
+beq %r1 %r4 39
+	lw	%r9 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f9 %f1
+	lw	%r9 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f6 0
+	mul.s	%f6 %f8 %f6
+	add.s	%f6 %f1 %f1
+ilw.s %r0 %f6 35
+	div.s	%f6 %f1 %f1
+	add.s	%f1 %f10 %f1
+	sw.s	%r0 %f1 568
+	lw	%r9 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f6
+	lw	%r9 %r1 36
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f8 %f1
+	add.s	%f1 %f6 %f6
+ilw.s %r0 %f1 35
+	div.s	%f1 %f6 %f1
+	add.s	%f1 %f7 %f1
+	sw.s	%r0 %f1 572
+	lw	%r9 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	lw	%r9 %r1 36
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f9 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 35
+	div.s	%f0 %f1 %f0
+	add.s	%f0 %f5 %f0
+	sw.s	%r0 %f0 576
+j 7536
+	sw.s	%r0 %f10 568
+	sw.s	%r0 %f7 572
+	sw.s	%r0 %f5 576
+j 7536
+	lw	%r9 %r1 16
+	lw.s	%r1 %f0 0
+	neg.s	%f0 %f0
+	sw.s	%r0 %f0 568
+	lw	%r9 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	neg.s	%f0 %f0
+	sw.s	%r0 %f0 572
+	lw	%r9 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	neg.s	%f0 %f0
+	sw.s	%r0 %f0 576
+j 6516
+	lw	%r0 %r1 544
+ilw.s %r0 %f0 51
+	sw.s	%r0 %f0 568
+	sw.s	%r0 %f0 572
+	sw.s	%r0 %f0 576
+addi %r1 %r11 -1
+addi %r1 %r1 -1
+	slli	%r1 %r1 2
+	add	%r6 %r1 %r1
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f1 51
+fbne %f0 %f1 3
+addi %r0 %r4 1
+j 6498
+addi %r0 %r4 0
+j 6498
+addi %r0 %r1 -1
+	slli	%r2 %r3 2
+	add	%r8 %r3 %r3
+	sw	%r3 %r1 0
+addi %r0 %r1 0
+bne %r2 %r1 2
+j 7572
+	mov	%r6 %r1
+	lw.s	%r1 %f0 0
+	lw.s	%r0 %f1 312
+	mul.s	%f1 %f0 %f1
+addi %r6 %r1 4
+	lw.s	%r1 %f0 0
+	lw.s	%r0 %f2 316
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f2
+addi %r6 %r1 8
+	lw.s	%r1 %f0 0
+	lw.s	%r0 %f1 320
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f0
+	neg.s	%f0 %f1
+ilw.s %r0 %f0 51
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 6480
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 16
+	mul.s	%f1 %f1 %f0
+	mul.s	%f1 %f0 %f0
+	mul.s	%f3 %f0 %f1
+	lw.s	%r0 %f0 324
+	mul.s	%f0 %f1 %f1
+	lw.s	%r0 %f0 604
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 604
+	lw.s	%r0 %f0 608
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 608
+	lw.s	%r0 %f0 612
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 612
+j 7572
+j 7572
+addi %r0 %r1 0
+beq %r4 %r1 3
+ilw.s %r0 %f0 51
+j 6512
+ilw.s %r0 %f1 51
+fbge %f1 %f0 3
+addi %r0 %r4 1
+j 6507
+addi %r0 %r4 0
+addi %r0 %r1 0
+beq %r4 %r1 3
+ilw.s %r0 %f0 46
+j 6512
+ilw.s %r0 %f0 44
+	neg.s	%f0 %f0
+	slli	%r11 %r1 2
+addi %r1 %r1 568
+	sw.s	%r1 %f0 0
+	lw.s	%r0 %f0 552
+	sw.s	%r0 %f0 636
+	lw.s	%r0 %f0 556
+	sw.s	%r0 %f0 640
+	lw.s	%r0 %f0 560
+	sw.s	%r0 %f0 644
+	lw	%r9 %r4 0
+	lw	%r9 %r1 32
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 580
+	lw	%r9 %r1 32
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 584
+	lw	%r9 %r1 32
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 588
+addi %r0 %r1 1
+beq %r4 %r1 131
+addi %r0 %r1 2
+beq %r4 %r1 89
+addi %r0 %r1 3
+beq %r4 %r1 31
+addi %r0 %r1 4
+beq %r4 %r1 2
+j 7212
+	lw.s	%r0 %f1 552
+	lw	%r9 %r1 20
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f1
+	lw	%r9 %r1 16
+	lw.s	%r1 %f0 0
+	sqrt.s	%f0 %f0
+	mul.s	%f0 %f1 %f5
+	lw.s	%r0 %f0 560
+	lw	%r9 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f1
+	lw	%r9 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sqrt.s	%f0 %f0
+	mul.s	%f0 %f1 %f1
+	mul.s	%f5 %f5 %f6
+	mul.s	%f1 %f1 %f0
+	add.s	%f0 %f6 %f6
+ilw.s %r0 %f0 51
+fbge %f5 %f0 3
+	neg.s	%f5 %f7
+j 6712
+	mov.s	%f5 %f7
+j 6712
+	lw.s	%r0 %f1 552
+	lw	%r9 %r1 20
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f0
+	lw.s	%r0 %f5 560
+	lw	%r9 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f5 %f1
+	mul.s	%f0 %f0 %f5
+	mul.s	%f1 %f1 %f0
+	add.s	%f0 %f5 %f0
+	sqrt.s	%f0 %f0
+ilw.s %r0 %f1 28
+	div.s	%f1 %f0 %f0
+	floor.w.s	%f0 %f1
+	sub.s	%f1 %f0 %f1
+ilw.s %r0 %f0 26
+	mul.s	%f0 %f1 %f0
+	sw.s	%r26 %f4 -40
+	sw	%r26 %r3 -36
+	sw	%r26 %r9 -32
+	sw	%r26 %r10 -28
+	sw	%r26 %r8 -24
+	sw	%r26 %r5 -20
+	sw.s	%r26 %f2 -16
+	sw.s	%r26 %f3 -12
+	sw	%r26 %r2 -8
+	sw	%r26 %r7 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -44
+addi %r26 %r26 -48
+jal 1916
+addi %r26 %r26 48
+	lw	%r26 %r28 -44
+	lw.s	%r26 %f4 -40
+	lw	%r26 %r3 -36
+	lw	%r26 %r9 -32
+	lw	%r26 %r10 -28
+	lw	%r26 %r8 -24
+	lw	%r26 %r5 -20
+	lw.s	%r26 %f2 -16
+	lw.s	%r26 %f3 -12
+	lw	%r26 %r2 -8
+	lw	%r26 %r7 -4
+	lw	%r26 %r6 0
+	mul.s	%f0 %f0 %f0
+ilw.s %r0 %f1 50
+	mul.s	%f1 %f0 %f1
+	sw.s	%r0 %f1 584
+ilw.s %r0 %f1 46
+	sub.s	%f0 %f1 %f1
+ilw.s %r0 %f0 50
+	mul.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 588
+j 7212
+	lw.s	%r0 %f1 556
+ilw.s %r0 %f0 27
+	mul.s	%f0 %f1 %f0
+	sw.s	%r26 %f4 -40
+	sw	%r26 %r3 -36
+	sw	%r26 %r9 -32
+	sw	%r26 %r10 -28
+	sw	%r26 %r8 -24
+	sw	%r26 %r5 -20
+	sw.s	%r26 %f2 -16
+	sw.s	%r26 %f3 -12
+	sw	%r26 %r2 -8
+	sw	%r26 %r7 -4
+	sw	%r26 %r6 0
+	sw	%r26 %r28 -44
+addi %r26 %r26 -48
+jal 1748
+addi %r26 %r26 48
+	lw	%r26 %r28 -44
+	lw.s	%r26 %f4 -40
+	lw	%r26 %r3 -36
+	lw	%r26 %r9 -32
+	lw	%r26 %r10 -28
+	lw	%r26 %r8 -24
+	lw	%r26 %r5 -20
+	lw.s	%r26 %f2 -16
+	lw.s	%r26 %f3 -12
+	lw	%r26 %r2 -8
+	lw	%r26 %r7 -4
+	lw	%r26 %r6 0
+	mul.s	%f0 %f0 %f0
+ilw.s %r0 %f1 50
+	mul.s	%f0 %f1 %f1
+	sw.s	%r0 %f1 580
+ilw.s %r0 %f5 50
+ilw.s %r0 %f1 46
+	sub.s	%f0 %f1 %f0
+	mul.s	%f0 %f5 %f0
+	sw.s	%r0 %f0 584
+j 7212
+	lw.s	%r0 %f0 552
+	lw	%r9 %r1 20
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f5
+ilw.s %r0 %f0 30
+	mul.s	%f0 %f5 %f0
+	floor.w.s	%f0 %f1
+ilw.s %r0 %f0 29
+	mul.s	%f0 %f1 %f0
+	sub.s	%f0 %f5 %f1
+ilw.s %r0 %f0 28
+fbge %f1 %f0 3
+addi %r0 %r4 1
+j 6681
+addi %r0 %r4 0
+	lw.s	%r0 %f1 560
+	lw	%r9 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f0
+ilw.s %r0 %f1 30
+	mul.s	%f1 %f0 %f1
+	floor.w.s	%f1 %f5
+ilw.s %r0 %f1 29
+	mul.s	%f1 %f5 %f1
+	sub.s	%f1 %f0 %f0
+ilw.s %r0 %f1 28
+fbge %f0 %f1 3
+addi %r0 %r11 1
+j 6697
+addi %r0 %r11 0
+addi %r0 %r1 0
+beq %r4 %r1 7
+addi %r0 %r1 0
+beq %r11 %r1 3
+ilw.s %r0 %f0 50
+j 6710
+ilw.s %r0 %f0 51
+j 6710
+addi %r0 %r1 0
+beq %r11 %r1 3
+ilw.s %r0 %f0 51
+j 6710
+ilw.s %r0 %f0 50
+	sw.s	%r0 %f0 584
+j 7212
+ilw.s %r0 %f0 24
+fbge %f7 %f0 3
+addi %r0 %r4 1
+j 6717
+addi %r0 %r4 0
+addi %r0 %r1 0
+beq %r4 %r1 3
+ilw.s %r0 %f1 21
+j 6941
+	div.s	%f5 %f1 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+	neg.s	%f1 %f8
+j 6727
+	mov.s	%f1 %f8
+ilw.s %r0 %f0 51
+fbg %f0 %f8 105
+ilw.s %r0 %f0 20
+fbge %f8 %f0 32
+ilw.s %r0 %f1 46
+ilw.s %r0 %f9 51
+	neg.s	%f8 %f0
+	mul.s	%f8 %f0 %f7
+ilw.s %r0 %f0 18
+	mul.s	%f8 %f0 %f5
+ilw.s %r0 %f0 17
+	mul.s	%f8 %f0 %f0
+	mul.s	%f7 %f5 %f5
+	add.s	%f5 %f0 %f0
+ilw.s %r0 %f5 16
+	mul.s	%f8 %f5 %f5
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f5 %f5
+ilw.s %r0 %f0 15
+	mul.s	%f8 %f0 %f0
+	mul.s	%f7 %f5 %f5
+	add.s	%f5 %f0 %f10
+ilw.s %r0 %f0 14
+	mul.s	%f8 %f0 %f5
+	mul.s	%f7 %f10 %f0
+	add.s	%f0 %f5 %f0
+ilw.s %r0 %f5 13
+	mul.s	%f8 %f5 %f5
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f5 %f0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f8 %f0
+	add.s	%f0 %f9 %f0
+	mul.s	%f1 %f0 %f1
+j 6937
+ilw.s %r0 %f0 19
+fbge %f8 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f8 %f1
+ilw.s %r0 %f0 46
+	add.s	%f0 %f8 %f0
+	div.s	%f0 %f1 %f7
+ilw.s %r0 %f8 46
+ilw.s %r0 %f5 43
+	neg.s	%f7 %f0
+	mul.s	%f7 %f0 %f10
+ilw.s %r0 %f0 18
+	mul.s	%f7 %f0 %f1
+ilw.s %r0 %f0 17
+	mul.s	%f7 %f0 %f0
+	mul.s	%f10 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f7 %f0 %f0
+	mul.s	%f10 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 15
+	mul.s	%f7 %f0 %f9
+	mul.s	%f10 %f1 %f0
+	add.s	%f0 %f9 %f0
+ilw.s %r0 %f1 14
+	mul.s	%f7 %f1 %f1
+	mul.s	%f10 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 13
+	mul.s	%f7 %f1 %f1
+	mul.s	%f10 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f10 %f0 %f0
+	add.s	%f0 %f7 %f0
+	add.s	%f0 %f5 %f0
+	mul.s	%f8 %f0 %f1
+j 6937
+ilw.s %r0 %f0 46
+	div.s	%f8 %f0 %f5
+ilw.s %r0 %f1 44
+ilw.s %r0 %f9 11
+	neg.s	%f5 %f0
+	mul.s	%f5 %f0 %f8
+ilw.s %r0 %f0 18
+	mul.s	%f5 %f0 %f0
+ilw.s %r0 %f7 17
+	mul.s	%f5 %f7 %f7
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f7 %f0
+ilw.s %r0 %f7 16
+	mul.s	%f5 %f7 %f7
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f7 %f0
+ilw.s %r0 %f7 15
+	mul.s	%f5 %f7 %f7
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f7 %f7
+ilw.s %r0 %f0 14
+	mul.s	%f5 %f0 %f10
+	mul.s	%f8 %f7 %f0
+	add.s	%f0 %f10 %f0
+ilw.s %r0 %f7 13
+	mul.s	%f5 %f7 %f7
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f5 %f0
+	add.s	%f0 %f9 %f0
+	mul.s	%f1 %f0 %f1
+j 6937
+	neg.s	%f8 %f5
+ilw.s %r0 %f0 20
+fbge %f5 %f0 32
+ilw.s %r0 %f1 44
+ilw.s %r0 %f9 51
+	neg.s	%f5 %f0
+	mul.s	%f5 %f0 %f8
+ilw.s %r0 %f0 18
+	mul.s	%f5 %f0 %f7
+ilw.s %r0 %f0 17
+	mul.s	%f5 %f0 %f0
+	mul.s	%f8 %f7 %f7
+	add.s	%f7 %f0 %f0
+ilw.s %r0 %f7 16
+	mul.s	%f5 %f7 %f7
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f7 %f7
+ilw.s %r0 %f0 15
+	mul.s	%f5 %f0 %f10
+	mul.s	%f8 %f7 %f0
+	add.s	%f0 %f10 %f7
+ilw.s %r0 %f0 14
+	mul.s	%f5 %f0 %f0
+	mul.s	%f8 %f7 %f7
+	add.s	%f7 %f0 %f0
+ilw.s %r0 %f7 13
+	mul.s	%f5 %f7 %f7
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f5 %f0
+	add.s	%f0 %f9 %f0
+	mul.s	%f1 %f0 %f1
+j 6937
+ilw.s %r0 %f0 19
+fbge %f5 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f5 %f1
+ilw.s %r0 %f0 46
+	add.s	%f0 %f5 %f0
+	div.s	%f0 %f1 %f10
+ilw.s %r0 %f5 44
+ilw.s %r0 %f8 43
+	neg.s	%f10 %f0
+	mul.s	%f10 %f0 %f9
+ilw.s %r0 %f0 18
+	mul.s	%f10 %f0 %f0
+ilw.s %r0 %f1 17
+	mul.s	%f10 %f1 %f1
+	mul.s	%f9 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 16
+	mul.s	%f10 %f1 %f1
+	mul.s	%f9 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 15
+	mul.s	%f10 %f0 %f7
+	mul.s	%f9 %f1 %f0
+	add.s	%f0 %f7 %f7
+ilw.s %r0 %f0 14
+	mul.s	%f10 %f0 %f1
+	mul.s	%f9 %f7 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 13
+	mul.s	%f10 %f1 %f1
+	mul.s	%f9 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f9 %f0 %f0
+	add.s	%f0 %f10 %f0
+	add.s	%f0 %f8 %f0
+	mul.s	%f5 %f0 %f1
+j 6937
+ilw.s %r0 %f0 46
+	div.s	%f5 %f0 %f9
+ilw.s %r0 %f5 46
+ilw.s %r0 %f8 11
+	neg.s	%f9 %f0
+	mul.s	%f9 %f0 %f1
+ilw.s %r0 %f0 18
+	mul.s	%f9 %f0 %f7
+ilw.s %r0 %f0 17
+	mul.s	%f9 %f0 %f0
+	mul.s	%f1 %f7 %f7
+	add.s	%f7 %f0 %f7
+ilw.s %r0 %f0 16
+	mul.s	%f9 %f0 %f0
+	mul.s	%f1 %f7 %f7
+	add.s	%f7 %f0 %f7
+ilw.s %r0 %f0 15
+	mul.s	%f9 %f0 %f0
+	mul.s	%f1 %f7 %f7
+	add.s	%f7 %f0 %f7
+ilw.s %r0 %f0 14
+	mul.s	%f9 %f0 %f0
+	mul.s	%f1 %f7 %f7
+	add.s	%f7 %f0 %f7
+ilw.s %r0 %f0 13
+	mul.s	%f9 %f0 %f0
+	mul.s	%f1 %f7 %f7
+	add.s	%f7 %f0 %f0
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f9 %f0
+	add.s	%f0 %f8 %f0
+	mul.s	%f5 %f0 %f1
+ilw.s %r0 %f0 12
+	mul.s	%f0 %f1 %f0
+ilw.s %r0 %f1 26
+	div.s	%f1 %f0 %f1
+	floor.w.s	%f1 %f0
+	sub.s	%f0 %f1 %f5
+	lw.s	%r0 %f0 556
+	lw	%r9 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f1
+	lw	%r9 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	sqrt.s	%f0 %f0
+	mul.s	%f0 %f1 %f0
+ilw.s %r0 %f1 51
+fbge %f6 %f1 3
+	neg.s	%f6 %f7
+j 6958
+	mov.s	%f6 %f7
+ilw.s %r0 %f1 24
+fbge %f7 %f1 3
+addi %r0 %r4 1
+j 6963
+addi %r0 %r4 0
+addi %r0 %r1 0
+beq %r4 %r1 3
+ilw.s %r0 %f0 21
+j 7187
+	div.s	%f6 %f0 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+	neg.s	%f1 %f9
+j 6973
+	mov.s	%f1 %f9
+ilw.s %r0 %f0 51
+fbg %f0 %f9 105
+ilw.s %r0 %f0 20
+fbge %f9 %f0 32
+ilw.s %r0 %f8 46
+ilw.s %r0 %f1 51
+	neg.s	%f9 %f0
+	mul.s	%f9 %f0 %f6
+ilw.s %r0 %f0 18
+	mul.s	%f9 %f0 %f7
+ilw.s %r0 %f0 17
+	mul.s	%f9 %f0 %f0
+	mul.s	%f6 %f7 %f7
+	add.s	%f7 %f0 %f0
+ilw.s %r0 %f7 16
+	mul.s	%f9 %f7 %f7
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f7 %f0
+ilw.s %r0 %f7 15
+	mul.s	%f9 %f7 %f7
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f7 %f0
+ilw.s %r0 %f7 14
+	mul.s	%f9 %f7 %f7
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f7 %f10
+ilw.s %r0 %f0 13
+	mul.s	%f9 %f0 %f7
+	mul.s	%f6 %f10 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f9 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f8 %f0 %f0
+j 7183
+ilw.s %r0 %f0 19
+fbge %f9 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f9 %f0
+ilw.s %r0 %f1 46
+	add.s	%f1 %f9 %f1
+	div.s	%f1 %f0 %f10
+ilw.s %r0 %f9 46
+ilw.s %r0 %f6 43
+	neg.s	%f10 %f0
+	mul.s	%f10 %f0 %f7
+ilw.s %r0 %f0 18
+	mul.s	%f10 %f0 %f1
+ilw.s %r0 %f0 17
+	mul.s	%f10 %f0 %f0
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 16
+	mul.s	%f10 %f1 %f1
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 15
+	mul.s	%f10 %f0 %f0
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f0 %f8
+ilw.s %r0 %f0 14
+	mul.s	%f10 %f0 %f1
+	mul.s	%f7 %f8 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 13
+	mul.s	%f10 %f0 %f0
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f10 %f0
+	add.s	%f0 %f6 %f0
+	mul.s	%f9 %f0 %f0
+j 7183
+ilw.s %r0 %f0 46
+	div.s	%f9 %f0 %f9
+ilw.s %r0 %f7 44
+ilw.s %r0 %f6 11
+	neg.s	%f9 %f0
+	mul.s	%f9 %f0 %f8
+ilw.s %r0 %f0 18
+	mul.s	%f9 %f0 %f1
+ilw.s %r0 %f0 17
+	mul.s	%f9 %f0 %f10
+	mul.s	%f8 %f1 %f0
+	add.s	%f0 %f10 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f9 %f0 %f10
+	mul.s	%f8 %f1 %f0
+	add.s	%f0 %f10 %f1
+ilw.s %r0 %f0 15
+	mul.s	%f9 %f0 %f10
+	mul.s	%f8 %f1 %f0
+	add.s	%f0 %f10 %f1
+ilw.s %r0 %f0 14
+	mul.s	%f9 %f0 %f0
+	mul.s	%f8 %f1 %f1
+	add.s	%f1 %f0 %f10
+ilw.s %r0 %f0 13
+	mul.s	%f9 %f0 %f1
+	mul.s	%f8 %f10 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f9 %f0
+	add.s	%f0 %f6 %f0
+	mul.s	%f7 %f0 %f0
+j 7183
+	neg.s	%f9 %f10
+ilw.s %r0 %f0 20
+fbge %f10 %f0 32
+ilw.s %r0 %f1 44
+ilw.s %r0 %f9 51
+	neg.s	%f10 %f0
+	mul.s	%f10 %f0 %f7
+ilw.s %r0 %f0 18
+	mul.s	%f10 %f0 %f0
+ilw.s %r0 %f6 17
+	mul.s	%f10 %f6 %f6
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f6 %f8
+ilw.s %r0 %f0 16
+	mul.s	%f10 %f0 %f6
+	mul.s	%f7 %f8 %f0
+	add.s	%f0 %f6 %f0
+ilw.s %r0 %f6 15
+	mul.s	%f10 %f6 %f6
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f6 %f6
+ilw.s %r0 %f0 14
+	mul.s	%f10 %f0 %f8
+	mul.s	%f7 %f6 %f0
+	add.s	%f0 %f8 %f8
+ilw.s %r0 %f0 13
+	mul.s	%f10 %f0 %f6
+	mul.s	%f7 %f8 %f0
+	add.s	%f0 %f6 %f0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f10 %f0
+	add.s	%f0 %f9 %f0
+	mul.s	%f1 %f0 %f0
+j 7183
+ilw.s %r0 %f0 19
+fbge %f10 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f10 %f1
+ilw.s %r0 %f0 46
+	add.s	%f0 %f10 %f0
+	div.s	%f0 %f1 %f7
+ilw.s %r0 %f6 44
+ilw.s %r0 %f8 43
+	neg.s	%f7 %f0
+	mul.s	%f7 %f0 %f9
+ilw.s %r0 %f0 18
+	mul.s	%f7 %f0 %f10
+ilw.s %r0 %f0 17
+	mul.s	%f7 %f0 %f1
+	mul.s	%f9 %f10 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f7 %f0 %f0
+	mul.s	%f9 %f1 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 15
+	mul.s	%f7 %f1 %f1
+	mul.s	%f9 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 14
+	mul.s	%f7 %f0 %f0
+	mul.s	%f9 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 13
+	mul.s	%f7 %f0 %f10
+	mul.s	%f9 %f1 %f0
+	add.s	%f0 %f10 %f0
+	mul.s	%f9 %f0 %f0
+	add.s	%f0 %f7 %f0
+	add.s	%f0 %f8 %f0
+	mul.s	%f6 %f0 %f0
+j 7183
+ilw.s %r0 %f0 46
+	div.s	%f10 %f0 %f7
+ilw.s %r0 %f1 46
+ilw.s %r0 %f9 11
+	neg.s	%f7 %f0
+	mul.s	%f7 %f0 %f8
+ilw.s %r0 %f0 18
+	mul.s	%f7 %f0 %f6
+ilw.s %r0 %f0 17
+	mul.s	%f7 %f0 %f0
+	mul.s	%f8 %f6 %f6
+	add.s	%f6 %f0 %f6
+ilw.s %r0 %f0 16
+	mul.s	%f7 %f0 %f0
+	mul.s	%f8 %f6 %f6
+	add.s	%f6 %f0 %f0
+ilw.s %r0 %f6 15
+	mul.s	%f7 %f6 %f6
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f6 %f6
+ilw.s %r0 %f0 14
+	mul.s	%f7 %f0 %f0
+	mul.s	%f8 %f6 %f6
+	add.s	%f6 %f0 %f6
+ilw.s %r0 %f0 13
+	mul.s	%f7 %f0 %f0
+	mul.s	%f8 %f6 %f6
+	add.s	%f6 %f0 %f0
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f7 %f0
+	add.s	%f0 %f9 %f0
+	mul.s	%f1 %f0 %f0
+ilw.s %r0 %f1 12
+	mul.s	%f1 %f0 %f0
+ilw.s %r0 %f1 26
+	div.s	%f1 %f0 %f0
+	floor.w.s	%f0 %f1
+	sub.s	%f1 %f0 %f6
+ilw.s %r0 %f1 10
+ilw.s %r0 %f0 40
+	sub.s	%f5 %f0 %f0
+	mul.s	%f0 %f0 %f0
+	sub.s	%f0 %f1 %f1
+ilw.s %r0 %f0 40
+	sub.s	%f6 %f0 %f0
+	mul.s	%f0 %f0 %f0
+	sub.s	%f0 %f1 %f0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+addi %r0 %r1 1
+j 7203
+addi %r0 %r1 0
+addi %r0 %r4 0
+beq %r1 %r4 3
+ilw.s %r0 %f0 51
+j 7207
+ilw.s %r0 %f1 50
+	mul.s	%f0 %f1 %f0
+ilw.s %r0 %f1 9
+	div.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 588
+addi %r0 %r1 4
+	mul	%r10 %r1 %r4
+	lw	%r0 %r1 544
+	add	%r4 %r1 %r4
+	slli	%r2 %r1 2
+	add	%r8 %r1 %r1
+	sw	%r1 %r4 0
+	lw	%r7 %r4 4
+	slli	%r2 %r1 2
+	add	%r4 %r1 %r1
+	lw	%r1 %r4 0
+	lw.s	%r0 %f0 552
+	mov	%r4 %r1
+	sw.s	%r1 %f0 0
+	lw.s	%r0 %f0 556
+addi %r4 %r1 4
+	sw.s	%r1 %f0 0
+	lw.s	%r0 %f0 560
+addi %r4 %r1 8
+	sw.s	%r1 %f0 0
+	lw	%r7 %r4 12
+	lw	%r9 %r1 28
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f1 40
+fbge %f0 %f1 3
+addi %r0 %r1 1
+j 7240
+addi %r0 %r1 0
+addi %r0 %r10 0
+beq %r1 %r10 6
+addi %r0 %r10 0
+	slli	%r2 %r1 2
+	add	%r4 %r1 %r1
+	sw	%r1 %r10 0
+j 7297
+addi %r0 %r10 1
+	slli	%r2 %r1 2
+	add	%r4 %r1 %r1
+	sw	%r1 %r10 0
+	lw	%r7 %r10 16
+	slli	%r2 %r1 2
+	add	%r10 %r1 %r1
+	lw	%r1 %r4 0
+	lw.s	%r0 %f0 580
+	mov	%r4 %r1
+	sw.s	%r1 %f0 0
+	lw.s	%r0 %f0 584
+addi %r4 %r1 4
+	sw.s	%r1 %f0 0
+	lw.s	%r0 %f0 588
+addi %r4 %r1 8
+	sw.s	%r1 %f0 0
+	slli	%r2 %r1 2
+	add	%r10 %r1 %r1
+	lw	%r1 %r4 0
+ilw.s %r0 %f0 25
+	mul.s	%f4 %f0 %f0
+	mov	%r4 %r1
+	lw.s	%r1 %f1 0
+	mul.s	%f0 %f1 %f1
+	mov	%r4 %r1
+	sw.s	%r1 %f1 0
+addi %r4 %r1 4
+	lw.s	%r1 %f1 0
+	mul.s	%f0 %f1 %f1
+addi %r4 %r1 4
+	sw.s	%r1 %f1 0
+addi %r4 %r1 8
+	lw.s	%r1 %f1 0
+	mul.s	%f0 %f1 %f0
+addi %r4 %r1 8
+	sw.s	%r1 %f0 0
+	lw	%r7 %r4 28
+	slli	%r2 %r1 2
+	add	%r4 %r1 %r1
+	lw	%r1 %r1 0
+	lw.s	%r0 %f0 568
+	mov	%r1 %r4
+	sw.s	%r4 %f0 0
+	lw.s	%r0 %f0 572
+addi %r1 %r4 4
+	sw.s	%r4 %f0 0
+	lw.s	%r0 %f0 576
+addi %r1 %r1 8
+	sw.s	%r1 %f0 0
+ilw.s %r0 %f6 23
+	mov	%r6 %r1
+	lw.s	%r1 %f0 0
+	lw.s	%r0 %f1 568
+	mul.s	%f1 %f0 %f5
+addi %r6 %r1 4
+	lw.s	%r1 %f0 0
+	lw.s	%r0 %f1 572
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f5 %f0
+addi %r6 %r1 8
+	lw.s	%r1 %f5 0
+	lw.s	%r0 %f1 576
+	mul.s	%f1 %f5 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f0 %f6 %f1
+	mov	%r6 %r1
+	lw.s	%r1 %f5 0
+	lw.s	%r0 %f0 568
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f5 %f0
+	mov	%r6 %r1
+	sw.s	%r1 %f0 0
+addi %r6 %r1 4
+	lw.s	%r1 %f5 0
+	lw.s	%r0 %f0 572
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f5 %f0
+addi %r6 %r1 4
+	sw.s	%r1 %f0 0
+addi %r6 %r1 8
+	lw.s	%r1 %f0 0
+	lw.s	%r0 %f5 576
+	mul.s	%f5 %f1 %f1
+	add.s	%f1 %f0 %f0
+addi %r6 %r1 8
+	sw.s	%r1 %f0 0
+	lw	%r9 %r1 28
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f3 %f7
+addi %r0 %r1 0
+	lw	%r0 %r4 536
+	sw.s	%r26 %f7 -40
+	sw.s	%r26 %f4 -36
+	sw	%r26 %r3 -32
+	sw	%r26 %r9 -28
+	sw	%r26 %r8 -24
+	sw	%r26 %r5 -20
+	sw.s	%r26 %f2 -16
+	sw.s	%r26 %f3 -12
+	sw	%r26 %r2 -8
+	sw	%r26 %r7 -4
+	sw	%r26 %r6 0
+	mov	%r4 %r2
+	sw	%r26 %r28 -44
+addi %r26 %r26 -48
+jal 3796
+addi %r26 %r26 48
+	lw	%r26 %r28 -44
+	mov	%r1 %r4
+	lw.s	%r26 %f7 -40
+	lw.s	%r26 %f4 -36
+	lw	%r26 %r3 -32
+	lw	%r26 %r9 -28
+	lw	%r26 %r8 -24
+	lw	%r26 %r5 -20
+	lw.s	%r26 %f2 -16
+	lw.s	%r26 %f3 -12
+	lw	%r26 %r2 -8
+	lw	%r26 %r7 -4
+	lw	%r26 %r6 0
+addi %r0 %r1 0
+beq %r4 %r1 2
+j 7443
+	lw.s	%r0 %f0 568
+	lw.s	%r0 %f1 312
+	mul.s	%f1 %f0 %f0
+	lw.s	%r0 %f5 572
+	lw.s	%r0 %f1 316
+	mul.s	%f1 %f5 %f1
+	add.s	%f1 %f0 %f0
+	lw.s	%r0 %f1 576
+	lw.s	%r0 %f5 320
+	mul.s	%f5 %f1 %f1
+	add.s	%f1 %f0 %f0
+	neg.s	%f0 %f0
+	mul.s	%f4 %f0 %f5
+	mov	%r6 %r1
+	lw.s	%r1 %f1 0
+	lw.s	%r0 %f0 312
+	mul.s	%f0 %f1 %f0
+addi %r6 %r1 4
+	lw.s	%r1 %f6 0
+	lw.s	%r0 %f1 316
+	mul.s	%f1 %f6 %f1
+	add.s	%f1 %f0 %f1
+addi %r6 %r1 8
+	lw.s	%r1 %f6 0
+	lw.s	%r0 %f0 320
+	mul.s	%f0 %f6 %f0
+	add.s	%f0 %f1 %f0
+	neg.s	%f0 %f6
+ilw.s %r0 %f0 51
+fbge %f0 %f5 3
+addi %r0 %r4 1
+j 7405
+addi %r0 %r4 0
+addi %r0 %r1 0
+beq %r4 %r1 17
+	lw.s	%r0 %f0 604
+	lw.s	%r0 %f1 580
+	mul.s	%f1 %f5 %f1
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 604
+	lw.s	%r0 %f0 608
+	lw.s	%r0 %f1 584
+	mul.s	%f1 %f5 %f1
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 608
+	lw.s	%r0 %f1 612
+	lw.s	%r0 %f0 588
+	mul.s	%f0 %f5 %f0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 612
+j 7423
+ilw.s %r0 %f0 51
+fbge %f0 %f6 3
+addi %r0 %r1 1
+j 7428
+addi %r0 %r1 0
+addi %r0 %r4 0
+beq %r1 %r4 14
+	mul.s	%f6 %f6 %f0
+	mul.s	%f0 %f0 %f0
+	mul.s	%f7 %f0 %f1
+	lw.s	%r0 %f0 604
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 604
+	lw.s	%r0 %f0 608
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 608
+	lw.s	%r0 %f0 612
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 612
+j 7443
+	lw.s	%r0 %f0 552
+	sw.s	%r0 %f0 648
+	lw.s	%r0 %f0 556
+	sw.s	%r0 %f0 652
+	lw.s	%r0 %f0 560
+	sw.s	%r0 %f0 656
+	lw	%r0 %r1 0
+addi %r1 %r1 -1
+	sw.s	%r26 %f7 -36
+	sw.s	%r26 %f4 -32
+	sw	%r26 %r3 -28
+	sw	%r26 %r9 -24
+	sw	%r26 %r8 -20
+	sw.s	%r26 %f2 -16
+	sw.s	%r26 %f3 -12
+	sw	%r26 %r2 -8
+	sw	%r26 %r7 -4
+	sw	%r26 %r6 0
+	mov	%r1 %r2
+	mov	%r5 %r1
+	sw	%r26 %r28 -40
+addi %r26 %r26 -44
+jal 3057
+addi %r26 %r26 44
+	lw	%r26 %r28 -40
+	lw.s	%r26 %f7 -36
+	lw.s	%r26 %f4 -32
+	lw	%r26 %r3 -28
+	lw	%r26 %r9 -24
+	lw	%r26 %r8 -20
+	lw.s	%r26 %f2 -16
+	lw.s	%r26 %f3 -12
+	lw	%r26 %r2 -8
+	lw	%r26 %r7 -4
+	lw	%r26 %r6 0
+	lw	%r0 %r1 1736
+addi %r1 %r1 -1
+	sw	%r26 %r3 -28
+	sw	%r26 %r9 -24
+	sw	%r26 %r8 -20
+	sw.s	%r26 %f2 -16
+	sw.s	%r26 %f3 -12
+	sw	%r26 %r2 -8
+	sw	%r26 %r7 -4
+	sw	%r26 %r6 0
+	mov	%r6 %r2
+	mov.s	%f7 %f1
+	mov.s	%f4 %f0
+	sw	%r26 %r28 -32
+addi %r26 %r26 -36
+jal 6121
+addi %r26 %r26 36
+	lw	%r26 %r28 -32
+	lw	%r26 %r3 -28
+	lw	%r26 %r9 -24
+	lw	%r26 %r8 -20
+	lw.s	%r26 %f2 -16
+	lw.s	%r26 %f3 -12
+	lw	%r26 %r2 -8
+	lw	%r26 %r7 -4
+	lw	%r26 %r6 0
+ilw.s %r0 %f0 22
+fbge %f0 %f3 3
+addi %r0 %r1 1
+j 7509
+addi %r0 %r1 0
+addi %r0 %r4 0
+beq %r1 %r4 10
+addi %r0 %r1 4
+bl %r2 %r1 2
+j 7521
+addi %r2 %r1 1
+addi %r0 %r4 -1
+	slli	%r1 %r1 2
+	add	%r8 %r1 %r1
+	sw	%r1 %r4 0
+j 7521
+j 7572
+addi %r0 %r1 2
+beq %r3 %r1 2
+j 7572
+ilw.s %r0 %f0 46
+	lw	%r9 %r1 28
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f0
+	mul.s	%f0 %f3 %f0
+addi %r2 %r1 1
+	lw.s	%r0 %f1 548
+	add.s	%f1 %f2 %f1
+	mov	%r1 %r2
+	mov.s	%f0 %f3
+	mov.s	%f1 %f2
+j 6292
+	lw	%r9 %r4 24
+	lw.s	%r0 %f0 568
+	mul.s	%f0 %f0 %f0
+	lw.s	%r0 %f1 572
+	mul.s	%f1 %f1 %f1
+	add.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 576
+	mul.s	%f0 %f0 %f0
+	add.s	%f0 %f1 %f0
+	sqrt.s	%f0 %f1
+ilw.s %r0 %f0 51
+fbne %f1 %f0 3
+addi %r0 %r1 1
+j 7551
+addi %r0 %r1 0
+addi %r0 %r11 0
+beq %r1 %r11 3
+ilw.s %r0 %f1 46
+j 7562
+addi %r0 %r1 0
+beq %r4 %r1 4
+ilw.s %r0 %f0 44
+	div.s	%f1 %f0 %f1
+j 7562
+ilw.s %r0 %f0 46
+	div.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 568
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 568
+	lw.s	%r0 %f0 572
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 572
+	lw.s	%r0 %f0 576
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 576
+j 6516
+	retl
+	mov	%r4 %r6
+	mov	%r1 %r5
+	mov	%r2 %r4
+addi %r0 %r1 0
+ble %r1 %r6 2
+j 9483
+	slli	%r6 %r1 2
+	add	%r5 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r2 0
+	mov	%r2 %r1
+	lw.s	%r1 %f1 0
+	mov	%r4 %r1
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f2
+addi %r2 %r1 4
+	lw.s	%r1 %f0 0
+addi %r4 %r1 4
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f1
+addi %r2 %r1 8
+	lw.s	%r1 %f2 0
+addi %r4 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+addi %r0 %r2 1
+j 7605
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 33
+addi %r6 %r1 1
+	slli	%r1 %r1 2
+	add	%r5 %r1 %r1
+	lw	%r1 %r3 0
+ilw.s %r0 %f0 8
+	div.s	%f0 %f1 %f3
+ilw.s %r0 %f0 49
+	sw.s	%r0 %f0 548
+addi %r0 %r1 0
+	lw	%r0 %r2 536
+	sw.s	%r26 %f3 -16
+	sw	%r26 %r3 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r5 0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 5774
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw.s	%r26 %f3 -16
+	lw	%r26 %r3 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r5 0
+	lw.s	%r0 %f0 548
+ilw.s %r0 %f1 32
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 8576
+addi %r0 %r1 0
+j 8576
+	slli	%r6 %r1 2
+	add	%r5 %r1 %r1
+	lw	%r1 %r3 0
+ilw.s %r0 %f0 7
+	div.s	%f0 %f1 %f2
+ilw.s %r0 %f0 49
+	sw.s	%r0 %f0 548
+addi %r0 %r1 0
+	lw	%r0 %r2 536
+	sw.s	%r26 %f2 -16
+	sw	%r26 %r3 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r5 0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 5774
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw.s	%r26 %f2 -16
+	lw	%r26 %r3 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r5 0
+	lw.s	%r0 %f1 548
+ilw.s %r0 %f0 32
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 7669
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 7
+ilw.s %r0 %f0 31
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 7678
+addi %r0 %r1 0
+j 7678
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 112
+	lw	%r0 %r1 564
+	slli	%r1 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r7 0
+	lw	%r3 %r2 0
+	lw	%r7 %r1 4
+addi %r0 %r3 1
+beq %r1 %r3 88
+addi %r0 %r2 2
+beq %r1 %r2 71
+	lw.s	%r0 %f1 552
+	lw	%r7 %r1 20
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f5
+	lw.s	%r0 %f0 556
+	lw	%r7 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f6
+	lw.s	%r0 %f1 560
+	lw	%r7 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f8
+	lw	%r7 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f7
+	lw	%r7 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f6 %f3
+	lw	%r7 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f8 %f4
+	lw	%r7 %r2 12
+addi %r0 %r1 0
+beq %r2 %r1 39
+	lw	%r7 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f6 %f1
+	lw	%r7 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f8 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 35
+	div.s	%f1 %f0 %f0
+	add.s	%f0 %f7 %f0
+	sw.s	%r0 %f0 568
+	lw	%r7 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f1
+	lw	%r7 %r1 36
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f8 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 35
+	div.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f0
+	sw.s	%r0 %f0 572
+	lw	%r7 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f5 %f0
+	lw	%r7 %r1 36
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f6 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 35
+	div.s	%f1 %f0 %f0
+	add.s	%f0 %f4 %f0
+	sw.s	%r0 %f0 576
+j 8540
+	sw.s	%r0 %f7 568
+	sw.s	%r0 %f3 572
+	sw.s	%r0 %f4 576
+j 8540
+	lw	%r7 %r1 16
+	lw.s	%r1 %f0 0
+	neg.s	%f0 %f0
+	sw.s	%r0 %f0 568
+	lw	%r7 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	neg.s	%f0 %f0
+	sw.s	%r0 %f0 572
+	lw	%r7 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	neg.s	%f0 %f0
+	sw.s	%r0 %f0 576
+j 7812
+	lw	%r0 %r1 544
+ilw.s %r0 %f0 51
+	sw.s	%r0 %f0 568
+	sw.s	%r0 %f0 572
+	sw.s	%r0 %f0 576
+addi %r1 %r3 -1
+addi %r1 %r1 -1
+	slli	%r1 %r1 2
+	add	%r2 %r1 %r1
+	lw.s	%r1 %f1 0
+ilw.s %r0 %f0 51
+fbne %f1 %f0 3
+addi %r0 %r2 1
+j 7794
+addi %r0 %r2 0
+j 7794
+addi %r6 %r1 -2
+	mov	%r1 %r6
+j 7576
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f0 51
+j 7808
+ilw.s %r0 %f0 51
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 7803
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f0 46
+j 7808
+ilw.s %r0 %f0 44
+	neg.s	%f0 %f0
+	slli	%r3 %r1 2
+addi %r1 %r1 568
+	sw.s	%r1 %f0 0
+	lw	%r7 %r2 0
+	lw	%r7 %r1 32
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 580
+	lw	%r7 %r1 32
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 584
+	lw	%r7 %r1 32
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 588
+addi %r0 %r1 1
+beq %r2 %r1 107
+addi %r0 %r1 2
+beq %r2 %r1 77
+addi %r0 %r1 3
+beq %r2 %r1 31
+addi %r0 %r1 4
+beq %r2 %r1 2
+j 8479
+	lw.s	%r0 %f1 552
+	lw	%r7 %r1 20
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f1
+	lw	%r7 %r1 16
+	lw.s	%r1 %f0 0
+	sqrt.s	%f0 %f0
+	mul.s	%f0 %f1 %f4
+	lw.s	%r0 %f1 560
+	lw	%r7 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f0
+	lw	%r7 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	sqrt.s	%f1 %f1
+	mul.s	%f1 %f0 %f0
+	mul.s	%f4 %f4 %f3
+	mul.s	%f0 %f0 %f1
+	add.s	%f1 %f3 %f3
+ilw.s %r0 %f1 51
+fbge %f4 %f1 3
+	neg.s	%f4 %f1
+j 7978
+	mov.s	%f4 %f1
+j 7978
+	lw.s	%r0 %f1 552
+	lw	%r7 %r1 20
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f1
+	lw.s	%r0 %f0 560
+	lw	%r7 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f3 0
+	sub.s	%f3 %f0 %f0
+	mul.s	%f1 %f1 %f1
+	mul.s	%f0 %f0 %f0
+	add.s	%f0 %f1 %f0
+	sqrt.s	%f0 %f1
+ilw.s %r0 %f0 28
+	div.s	%f0 %f1 %f0
+	floor.w.s	%f0 %f1
+	sub.s	%f1 %f0 %f0
+ilw.s %r0 %f1 26
+	mul.s	%f1 %f0 %f0
+	sw	%r26 %r7 -16
+	sw.s	%r26 %f2 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r5 0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 1916
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw	%r26 %r7 -16
+	lw.s	%r26 %f2 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r5 0
+	mul.s	%f0 %f0 %f1
+ilw.s %r0 %f0 50
+	mul.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 584
+ilw.s %r0 %f0 46
+	sub.s	%f1 %f0 %f0
+ilw.s %r0 %f1 50
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 588
+j 8479
+	lw.s	%r0 %f0 556
+ilw.s %r0 %f1 27
+	mul.s	%f1 %f0 %f0
+	sw	%r26 %r7 -16
+	sw.s	%r26 %f2 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r5 0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 1748
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw	%r26 %r7 -16
+	lw.s	%r26 %f2 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r5 0
+	mul.s	%f0 %f0 %f0
+ilw.s %r0 %f1 50
+	mul.s	%f0 %f1 %f1
+	sw.s	%r0 %f1 580
+ilw.s %r0 %f3 50
+ilw.s %r0 %f1 46
+	sub.s	%f0 %f1 %f0
+	mul.s	%f0 %f3 %f0
+	sw.s	%r0 %f0 584
+j 8479
+	lw.s	%r0 %f1 552
+	lw	%r7 %r1 20
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f3
+ilw.s %r0 %f0 30
+	mul.s	%f0 %f3 %f0
+	floor.w.s	%f0 %f1
+ilw.s %r0 %f0 29
+	mul.s	%f0 %f1 %f0
+	sub.s	%f0 %f3 %f1
+ilw.s %r0 %f0 28
+fbge %f1 %f0 3
+addi %r0 %r3 1
+j 7947
+addi %r0 %r3 0
+	lw.s	%r0 %f0 560
+	lw	%r7 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f3
+ilw.s %r0 %f0 30
+	mul.s	%f0 %f3 %f0
+	floor.w.s	%f0 %f0
+ilw.s %r0 %f1 29
+	mul.s	%f1 %f0 %f0
+	sub.s	%f0 %f3 %f0
+ilw.s %r0 %f1 28
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 7963
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r3 %r1 7
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f0 50
+j 7976
+ilw.s %r0 %f0 51
+j 7976
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f0 51
+j 7976
+ilw.s %r0 %f0 50
+	sw.s	%r0 %f0 584
+j 8479
+ilw.s %r0 %f5 24
+fbge %f1 %f5 3
+addi %r0 %r2 1
+j 7983
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f0 21
+j 8207
+	div.s	%f4 %f0 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+	neg.s	%f1 %f7
+j 7993
+	mov.s	%f1 %f7
+ilw.s %r0 %f0 51
+fbg %f0 %f7 105
+ilw.s %r0 %f0 20
+fbge %f7 %f0 32
+ilw.s %r0 %f1 46
+ilw.s %r0 %f6 51
+	neg.s	%f7 %f0
+	mul.s	%f7 %f0 %f8
+ilw.s %r0 %f0 18
+	mul.s	%f7 %f0 %f4
+ilw.s %r0 %f0 17
+	mul.s	%f7 %f0 %f5
+	mul.s	%f8 %f4 %f0
+	add.s	%f0 %f5 %f4
+ilw.s %r0 %f0 16
+	mul.s	%f7 %f0 %f0
+	mul.s	%f8 %f4 %f4
+	add.s	%f4 %f0 %f0
+ilw.s %r0 %f4 15
+	mul.s	%f7 %f4 %f4
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f4 %f4
+ilw.s %r0 %f0 14
+	mul.s	%f7 %f0 %f0
+	mul.s	%f8 %f4 %f4
+	add.s	%f4 %f0 %f4
+ilw.s %r0 %f0 13
+	mul.s	%f7 %f0 %f0
+	mul.s	%f8 %f4 %f4
+	add.s	%f4 %f0 %f0
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f7 %f0
+	add.s	%f0 %f6 %f0
+	mul.s	%f1 %f0 %f0
+j 8203
+ilw.s %r0 %f0 19
+fbge %f7 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f7 %f0
+ilw.s %r0 %f1 46
+	add.s	%f1 %f7 %f1
+	div.s	%f1 %f0 %f8
+ilw.s %r0 %f6 46
+ilw.s %r0 %f5 43
+	neg.s	%f8 %f0
+	mul.s	%f8 %f0 %f4
+ilw.s %r0 %f0 18
+	mul.s	%f8 %f0 %f1
+ilw.s %r0 %f0 17
+	mul.s	%f8 %f0 %f0
+	mul.s	%f4 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f8 %f0 %f0
+	mul.s	%f4 %f1 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 15
+	mul.s	%f8 %f1 %f1
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 14
+	mul.s	%f8 %f1 %f1
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 13
+	mul.s	%f8 %f0 %f7
+	mul.s	%f4 %f1 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f8 %f0
+	add.s	%f0 %f5 %f0
+	mul.s	%f6 %f0 %f0
+j 8203
+ilw.s %r0 %f0 46
+	div.s	%f7 %f0 %f5
+ilw.s %r0 %f7 44
+ilw.s %r0 %f8 11
+	neg.s	%f5 %f0
+	mul.s	%f5 %f0 %f6
+ilw.s %r0 %f0 18
+	mul.s	%f5 %f0 %f0
+ilw.s %r0 %f1 17
+	mul.s	%f5 %f1 %f1
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f5 %f0 %f0
+	mul.s	%f6 %f1 %f1
+	add.s	%f1 %f0 %f4
+ilw.s %r0 %f0 15
+	mul.s	%f5 %f0 %f1
+	mul.s	%f6 %f4 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 14
+	mul.s	%f5 %f1 %f1
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 13
+	mul.s	%f5 %f1 %f1
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f5 %f0
+	add.s	%f0 %f8 %f0
+	mul.s	%f7 %f0 %f0
+j 8203
+	neg.s	%f7 %f5
+ilw.s %r0 %f0 20
+fbge %f5 %f0 32
+ilw.s %r0 %f7 44
+ilw.s %r0 %f6 51
+	neg.s	%f5 %f0
+	mul.s	%f5 %f0 %f4
+ilw.s %r0 %f0 18
+	mul.s	%f5 %f0 %f0
+ilw.s %r0 %f1 17
+	mul.s	%f5 %f1 %f1
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f5 %f0 %f0
+	mul.s	%f4 %f1 %f1
+	add.s	%f1 %f0 %f8
+ilw.s %r0 %f0 15
+	mul.s	%f5 %f0 %f1
+	mul.s	%f4 %f8 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 14
+	mul.s	%f5 %f0 %f0
+	mul.s	%f4 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 13
+	mul.s	%f5 %f0 %f0
+	mul.s	%f4 %f1 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f5 %f0
+	add.s	%f0 %f6 %f0
+	mul.s	%f7 %f0 %f0
+j 8203
+ilw.s %r0 %f0 19
+fbge %f5 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f5 %f1
+ilw.s %r0 %f0 46
+	add.s	%f0 %f5 %f0
+	div.s	%f0 %f1 %f8
+ilw.s %r0 %f5 44
+ilw.s %r0 %f7 43
+	neg.s	%f8 %f0
+	mul.s	%f8 %f0 %f1
+ilw.s %r0 %f0 18
+	mul.s	%f8 %f0 %f6
+ilw.s %r0 %f0 17
+	mul.s	%f8 %f0 %f4
+	mul.s	%f1 %f6 %f0
+	add.s	%f0 %f4 %f4
+ilw.s %r0 %f0 16
+	mul.s	%f8 %f0 %f6
+	mul.s	%f1 %f4 %f0
+	add.s	%f0 %f6 %f4
+ilw.s %r0 %f0 15
+	mul.s	%f8 %f0 %f0
+	mul.s	%f1 %f4 %f4
+	add.s	%f4 %f0 %f4
+ilw.s %r0 %f0 14
+	mul.s	%f8 %f0 %f0
+	mul.s	%f1 %f4 %f4
+	add.s	%f4 %f0 %f6
+ilw.s %r0 %f0 13
+	mul.s	%f8 %f0 %f4
+	mul.s	%f1 %f6 %f0
+	add.s	%f0 %f4 %f0
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f8 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f5 %f0 %f0
+j 8203
+ilw.s %r0 %f0 46
+	div.s	%f5 %f0 %f6
+ilw.s %r0 %f4 46
+ilw.s %r0 %f8 11
+	neg.s	%f6 %f0
+	mul.s	%f6 %f0 %f7
+ilw.s %r0 %f0 18
+	mul.s	%f6 %f0 %f5
+ilw.s %r0 %f0 17
+	mul.s	%f6 %f0 %f1
+	mul.s	%f7 %f5 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 16
+	mul.s	%f6 %f1 %f1
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f1 %f5
+ilw.s %r0 %f0 15
+	mul.s	%f6 %f0 %f1
+	mul.s	%f7 %f5 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 14
+	mul.s	%f6 %f1 %f1
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f1 %f5
+ilw.s %r0 %f0 13
+	mul.s	%f6 %f0 %f1
+	mul.s	%f7 %f5 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f6 %f0
+	add.s	%f0 %f8 %f0
+	mul.s	%f4 %f0 %f0
+ilw.s %r0 %f1 12
+	mul.s	%f1 %f0 %f0
+ilw.s %r0 %f1 26
+	div.s	%f1 %f0 %f0
+	floor.w.s	%f0 %f1
+	sub.s	%f1 %f0 %f5
+	lw.s	%r0 %f0 556
+	lw	%r7 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f1
+	lw	%r7 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	sqrt.s	%f0 %f0
+	mul.s	%f0 %f1 %f4
+ilw.s %r0 %f0 51
+fbge %f3 %f0 3
+	neg.s	%f3 %f1
+j 8224
+	mov.s	%f3 %f1
+ilw.s %r0 %f0 24
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 8229
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 3
+ilw.s %r0 %f0 21
+j 8453
+	div.s	%f3 %f4 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+	neg.s	%f1 %f6
+j 8239
+	mov.s	%f1 %f6
+ilw.s %r0 %f0 51
+fbg %f0 %f6 105
+ilw.s %r0 %f0 20
+fbge %f6 %f0 32
+ilw.s %r0 %f4 46
+ilw.s %r0 %f8 51
+	neg.s	%f6 %f0
+	mul.s	%f6 %f0 %f3
+ilw.s %r0 %f0 18
+	mul.s	%f6 %f0 %f7
+ilw.s %r0 %f0 17
+	mul.s	%f6 %f0 %f1
+	mul.s	%f3 %f7 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f6 %f0 %f7
+	mul.s	%f3 %f1 %f0
+	add.s	%f0 %f7 %f1
+ilw.s %r0 %f0 15
+	mul.s	%f6 %f0 %f7
+	mul.s	%f3 %f1 %f0
+	add.s	%f0 %f7 %f1
+ilw.s %r0 %f0 14
+	mul.s	%f6 %f0 %f0
+	mul.s	%f3 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 13
+	mul.s	%f6 %f0 %f0
+	mul.s	%f3 %f1 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f6 %f0
+	add.s	%f0 %f8 %f0
+	mul.s	%f4 %f0 %f1
+j 8449
+ilw.s %r0 %f0 19
+fbge %f6 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f6 %f1
+ilw.s %r0 %f0 46
+	add.s	%f0 %f6 %f0
+	div.s	%f0 %f1 %f1
+ilw.s %r0 %f3 46
+ilw.s %r0 %f4 43
+	neg.s	%f1 %f0
+	mul.s	%f1 %f0 %f6
+ilw.s %r0 %f0 18
+	mul.s	%f1 %f0 %f0
+ilw.s %r0 %f7 17
+	mul.s	%f1 %f7 %f7
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f7 %f7
+ilw.s %r0 %f0 16
+	mul.s	%f1 %f0 %f8
+	mul.s	%f6 %f7 %f0
+	add.s	%f0 %f8 %f0
+ilw.s %r0 %f7 15
+	mul.s	%f1 %f7 %f7
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f7 %f0
+ilw.s %r0 %f7 14
+	mul.s	%f1 %f7 %f7
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f7 %f8
+ilw.s %r0 %f0 13
+	mul.s	%f1 %f0 %f7
+	mul.s	%f6 %f8 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f1 %f0
+	add.s	%f0 %f4 %f0
+	mul.s	%f3 %f0 %f1
+j 8449
+ilw.s %r0 %f0 46
+	div.s	%f6 %f0 %f4
+ilw.s %r0 %f7 44
+ilw.s %r0 %f6 11
+	neg.s	%f4 %f0
+	mul.s	%f4 %f0 %f1
+ilw.s %r0 %f0 18
+	mul.s	%f4 %f0 %f0
+ilw.s %r0 %f3 17
+	mul.s	%f4 %f3 %f3
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f0
+ilw.s %r0 %f3 16
+	mul.s	%f4 %f3 %f3
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f0
+ilw.s %r0 %f3 15
+	mul.s	%f4 %f3 %f3
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f0
+ilw.s %r0 %f3 14
+	mul.s	%f4 %f3 %f3
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f0
+ilw.s %r0 %f3 13
+	mul.s	%f4 %f3 %f3
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f0
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f4 %f0
+	add.s	%f0 %f6 %f0
+	mul.s	%f7 %f0 %f1
+j 8449
+	neg.s	%f6 %f8
+ilw.s %r0 %f0 20
+fbge %f8 %f0 32
+ilw.s %r0 %f6 44
+ilw.s %r0 %f1 51
+	neg.s	%f8 %f0
+	mul.s	%f8 %f0 %f4
+ilw.s %r0 %f0 18
+	mul.s	%f8 %f0 %f0
+ilw.s %r0 %f3 17
+	mul.s	%f8 %f3 %f3
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f3 %f3
+ilw.s %r0 %f0 16
+	mul.s	%f8 %f0 %f7
+	mul.s	%f4 %f3 %f0
+	add.s	%f0 %f7 %f3
+ilw.s %r0 %f0 15
+	mul.s	%f8 %f0 %f0
+	mul.s	%f4 %f3 %f3
+	add.s	%f3 %f0 %f3
+ilw.s %r0 %f0 14
+	mul.s	%f8 %f0 %f0
+	mul.s	%f4 %f3 %f3
+	add.s	%f3 %f0 %f3
+ilw.s %r0 %f0 13
+	mul.s	%f8 %f0 %f7
+	mul.s	%f4 %f3 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f8 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f6 %f0 %f1
+j 8449
+ilw.s %r0 %f0 19
+fbge %f8 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f8 %f0
+ilw.s %r0 %f1 46
+	add.s	%f1 %f8 %f1
+	div.s	%f1 %f0 %f8
+ilw.s %r0 %f6 44
+ilw.s %r0 %f1 43
+	neg.s	%f8 %f0
+	mul.s	%f8 %f0 %f7
+ilw.s %r0 %f0 18
+	mul.s	%f8 %f0 %f0
+ilw.s %r0 %f3 17
+	mul.s	%f8 %f3 %f3
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f3 %f3
+ilw.s %r0 %f0 16
+	mul.s	%f8 %f0 %f0
+	mul.s	%f7 %f3 %f3
+	add.s	%f3 %f0 %f3
+ilw.s %r0 %f0 15
+	mul.s	%f8 %f0 %f4
+	mul.s	%f7 %f3 %f0
+	add.s	%f0 %f4 %f3
+ilw.s %r0 %f0 14
+	mul.s	%f8 %f0 %f4
+	mul.s	%f7 %f3 %f0
+	add.s	%f0 %f4 %f3
+ilw.s %r0 %f0 13
+	mul.s	%f8 %f0 %f0
+	mul.s	%f7 %f3 %f3
+	add.s	%f3 %f0 %f0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f8 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f6 %f0 %f1
+j 8449
+ilw.s %r0 %f0 46
+	div.s	%f8 %f0 %f4
+ilw.s %r0 %f6 46
+ilw.s %r0 %f7 11
+	neg.s	%f4 %f0
+	mul.s	%f4 %f0 %f1
+ilw.s %r0 %f0 18
+	mul.s	%f4 %f0 %f0
+ilw.s %r0 %f3 17
+	mul.s	%f4 %f3 %f3
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f0
+ilw.s %r0 %f3 16
+	mul.s	%f4 %f3 %f3
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f3
+ilw.s %r0 %f0 15
+	mul.s	%f4 %f0 %f0
+	mul.s	%f1 %f3 %f3
+	add.s	%f3 %f0 %f0
+ilw.s %r0 %f3 14
+	mul.s	%f4 %f3 %f3
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f3
+ilw.s %r0 %f0 13
+	mul.s	%f4 %f0 %f0
+	mul.s	%f1 %f3 %f3
+	add.s	%f3 %f0 %f0
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f4 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f6 %f0 %f1
+ilw.s %r0 %f0 12
+	mul.s	%f0 %f1 %f1
+ilw.s %r0 %f0 26
+	div.s	%f0 %f1 %f0
+	floor.w.s	%f0 %f1
+	sub.s	%f1 %f0 %f3
+ilw.s %r0 %f0 10
+ilw.s %r0 %f1 40
+	sub.s	%f5 %f1 %f1
+	mul.s	%f1 %f1 %f1
+	sub.s	%f1 %f0 %f0
+ilw.s %r0 %f1 40
+	sub.s	%f3 %f1 %f1
+	mul.s	%f1 %f1 %f1
+	sub.s	%f1 %f0 %f0
+ilw.s %r0 %f1 51
+fbge %f0 %f1 3
+addi %r0 %r2 1
+j 8469
+addi %r0 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 3
+ilw.s %r0 %f1 51
+j 8474
+	mov.s	%f0 %f1
+ilw.s %r0 %f0 50
+	mul.s	%f1 %f0 %f0
+ilw.s %r0 %f1 9
+	div.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 588
+addi %r0 %r1 0
+	lw	%r0 %r2 536
+	sw	%r26 %r7 -16
+	sw.s	%r26 %f2 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r5 0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 3796
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw	%r26 %r7 -16
+	lw.s	%r26 %f2 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r5 0
+addi %r0 %r2 0
+beq %r1 %r2 2
+j 7791
+	lw.s	%r0 %f0 568
+	lw.s	%r0 %f1 312
+	mul.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 572
+	lw.s	%r0 %f3 316
+	mul.s	%f3 %f0 %f0
+	add.s	%f0 %f1 %f3
+	lw.s	%r0 %f0 576
+	lw.s	%r0 %f1 320
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f3 %f0
+	neg.s	%f0 %f0
+ilw.s %r0 %f1 51
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 8516
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 2
+j 8520
+ilw.s %r0 %f0 51
+	mul.s	%f0 %f2 %f1
+	lw	%r7 %r1 28
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f2
+	lw.s	%r0 %f1 592
+	lw.s	%r0 %f0 580
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 592
+	lw.s	%r0 %f1 596
+	lw.s	%r0 %f0 584
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 596
+	lw.s	%r0 %f1 600
+	lw.s	%r0 %f0 588
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 600
+j 7791
+	lw	%r7 %r1 24
+	lw.s	%r0 %f0 568
+	mul.s	%f0 %f0 %f0
+	lw.s	%r0 %f1 572
+	mul.s	%f1 %f1 %f1
+	add.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 576
+	mul.s	%f0 %f0 %f0
+	add.s	%f0 %f1 %f0
+	sqrt.s	%f0 %f1
+ilw.s %r0 %f0 51
+fbne %f1 %f0 3
+addi %r0 %r3 1
+j 8555
+addi %r0 %r3 0
+addi %r0 %r2 0
+beq %r3 %r2 3
+ilw.s %r0 %f1 46
+j 8566
+addi %r0 %r2 0
+beq %r1 %r2 4
+ilw.s %r0 %f0 44
+	div.s	%f1 %f0 %f1
+j 8566
+ilw.s %r0 %f0 46
+	div.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 568
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 568
+	lw.s	%r0 %f0 572
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 572
+	lw.s	%r0 %f0 576
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 576
+j 7812
+addi %r0 %r2 0
+beq %r1 %r2 7
+ilw.s %r0 %f1 31
+fbge %f0 %f1 3
+addi %r0 %r1 1
+j 8585
+addi %r0 %r1 0
+j 8585
+addi %r0 %r1 0
+addi %r0 %r2 0
+beq %r1 %r2 112
+	lw	%r0 %r1 564
+	slli	%r1 %r1 2
+addi %r1 %r1 48
+	lw	%r1 %r2 0
+	lw	%r3 %r1 0
+	lw	%r2 %r7 4
+addi %r0 %r3 1
+beq %r7 %r3 88
+addi %r0 %r1 2
+beq %r7 %r1 71
+	lw.s	%r0 %f1 552
+	lw	%r2 %r1 20
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f2
+	lw.s	%r0 %f1 556
+	lw	%r2 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f6
+	lw.s	%r0 %f0 560
+	lw	%r2 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f1
+	lw	%r2 %r1 16
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f0
+	lw	%r2 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f4 0
+	mul.s	%f4 %f6 %f7
+	lw	%r2 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f4 0
+	mul.s	%f4 %f1 %f8
+	lw	%r2 %r1 12
+addi %r0 %r3 0
+beq %r1 %r3 39
+	lw	%r2 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f4 0
+	mul.s	%f4 %f6 %f4
+	lw	%r2 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f5 0
+	mul.s	%f5 %f1 %f5
+	add.s	%f5 %f4 %f4
+ilw.s %r0 %f5 35
+	div.s	%f5 %f4 %f4
+	add.s	%f4 %f0 %f0
+	sw.s	%r0 %f0 568
+	lw	%r2 %r1 36
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f4
+	lw	%r2 %r1 36
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f4 %f1
+ilw.s %r0 %f0 35
+	div.s	%f0 %f1 %f0
+	add.s	%f0 %f7 %f0
+	sw.s	%r0 %f0 572
+	lw	%r2 %r1 36
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f2 %f1
+	lw	%r2 %r1 36
+	lw.s	%r1 %f0 0
+	mul.s	%f0 %f6 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 35
+	div.s	%f1 %f0 %f0
+	add.s	%f0 %f8 %f0
+	sw.s	%r0 %f0 576
+j 9447
+	sw.s	%r0 %f0 568
+	sw.s	%r0 %f7 572
+	sw.s	%r0 %f8 576
+j 9447
+	lw	%r2 %r1 16
+	lw.s	%r1 %f0 0
+	neg.s	%f0 %f0
+	sw.s	%r0 %f0 568
+	lw	%r2 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	neg.s	%f0 %f0
+	sw.s	%r0 %f0 572
+	lw	%r2 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	neg.s	%f0 %f0
+	sw.s	%r0 %f0 576
+j 8717
+	lw	%r0 %r3 544
+ilw.s %r0 %f0 51
+	sw.s	%r0 %f0 568
+	sw.s	%r0 %f0 572
+	sw.s	%r0 %f0 576
+addi %r3 %r7 -1
+addi %r3 %r3 -1
+	slli	%r3 %r3 2
+	add	%r1 %r3 %r1
+	lw.s	%r1 %f0 0
+ilw.s %r0 %f1 51
+fbne %f0 %f1 3
+addi %r0 %r3 1
+j 8699
+addi %r0 %r3 0
+j 8699
+j 7791
+addi %r0 %r1 0
+beq %r3 %r1 3
+ilw.s %r0 %f0 51
+j 8713
+ilw.s %r0 %f1 51
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 8708
+addi %r0 %r1 0
+addi %r0 %r3 0
+beq %r1 %r3 3
+ilw.s %r0 %f0 46
+j 8713
+ilw.s %r0 %f0 44
+	neg.s	%f0 %f0
+	slli	%r7 %r1 2
+addi %r1 %r1 568
+	sw.s	%r1 %f0 0
+	lw	%r2 %r3 0
+	lw	%r2 %r1 32
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 580
+	lw	%r2 %r1 32
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 584
+	lw	%r2 %r1 32
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 588
+addi %r0 %r1 1
+beq %r3 %r1 107
+addi %r0 %r1 2
+beq %r3 %r1 77
+addi %r0 %r1 3
+beq %r3 %r1 31
+addi %r0 %r1 4
+beq %r3 %r1 2
+j 9384
+	lw.s	%r0 %f0 552
+	lw	%r2 %r1 20
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f1
+	lw	%r2 %r1 16
+	lw.s	%r1 %f0 0
+	sqrt.s	%f0 %f0
+	mul.s	%f0 %f1 %f4
+	lw.s	%r0 %f1 560
+	lw	%r2 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f0
+	lw	%r2 %r1 16
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	sqrt.s	%f1 %f1
+	mul.s	%f1 %f0 %f5
+	mul.s	%f4 %f4 %f0
+	mul.s	%f5 %f5 %f1
+	add.s	%f1 %f0 %f2
+ilw.s %r0 %f0 51
+fbge %f4 %f0 3
+	neg.s	%f4 %f0
+j 8883
+	mov.s	%f4 %f0
+j 8883
+	lw.s	%r0 %f0 552
+	lw	%r2 %r1 20
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f0
+	lw.s	%r0 %f2 560
+	lw	%r2 %r1 20
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f2 %f2
+	mul.s	%f0 %f0 %f1
+	mul.s	%f2 %f2 %f0
+	add.s	%f0 %f1 %f0
+	sqrt.s	%f0 %f1
+ilw.s %r0 %f0 28
+	div.s	%f0 %f1 %f0
+	floor.w.s	%f0 %f1
+	sub.s	%f1 %f0 %f1
+ilw.s %r0 %f0 26
+	mul.s	%f0 %f1 %f0
+	sw	%r26 %r2 -16
+	sw.s	%r26 %f3 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r5 0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 1916
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw	%r26 %r2 -16
+	lw.s	%r26 %f3 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r5 0
+	mul.s	%f0 %f0 %f1
+ilw.s %r0 %f0 50
+	mul.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 584
+ilw.s %r0 %f0 46
+	sub.s	%f1 %f0 %f0
+ilw.s %r0 %f1 50
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 588
+j 9384
+	lw.s	%r0 %f0 556
+ilw.s %r0 %f1 27
+	mul.s	%f1 %f0 %f0
+	sw	%r26 %r2 -16
+	sw.s	%r26 %f3 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r5 0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 1748
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw	%r26 %r2 -16
+	lw.s	%r26 %f3 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r5 0
+	mul.s	%f0 %f0 %f2
+ilw.s %r0 %f0 50
+	mul.s	%f2 %f0 %f0
+	sw.s	%r0 %f0 580
+ilw.s %r0 %f0 50
+ilw.s %r0 %f1 46
+	sub.s	%f2 %f1 %f1
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 584
+j 9384
+	lw.s	%r0 %f0 552
+	lw	%r2 %r1 20
+	lw.s	%r1 %f1 0
+	sub.s	%f1 %f0 %f1
+ilw.s %r0 %f0 30
+	mul.s	%f0 %f1 %f0
+	floor.w.s	%f0 %f2
+ilw.s %r0 %f0 29
+	mul.s	%f0 %f2 %f0
+	sub.s	%f0 %f1 %f1
+ilw.s %r0 %f0 28
+fbge %f1 %f0 3
+addi %r0 %r1 1
+j 8852
+addi %r0 %r1 0
+	lw.s	%r0 %f1 560
+	lw	%r2 %r3 20
+addi %r3 %r3 8
+	lw.s	%r3 %f0 0
+	sub.s	%f0 %f1 %f2
+ilw.s %r0 %f0 30
+	mul.s	%f0 %f2 %f0
+	floor.w.s	%f0 %f0
+ilw.s %r0 %f1 29
+	mul.s	%f1 %f0 %f0
+	sub.s	%f0 %f2 %f0
+ilw.s %r0 %f1 28
+fbge %f0 %f1 3
+addi %r0 %r7 1
+j 8868
+addi %r0 %r7 0
+addi %r0 %r3 0
+beq %r1 %r3 7
+addi %r0 %r1 0
+beq %r7 %r1 3
+ilw.s %r0 %f0 50
+j 8881
+ilw.s %r0 %f0 51
+j 8881
+addi %r0 %r1 0
+beq %r7 %r1 3
+ilw.s %r0 %f0 51
+j 8881
+ilw.s %r0 %f0 50
+	sw.s	%r0 %f0 584
+j 9384
+ilw.s %r0 %f1 24
+fbge %f0 %f1 3
+addi %r0 %r1 1
+j 8888
+addi %r0 %r1 0
+addi %r0 %r3 0
+beq %r1 %r3 3
+ilw.s %r0 %f0 21
+j 9112
+	div.s	%f4 %f5 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+	neg.s	%f1 %f6
+j 8898
+	mov.s	%f1 %f6
+ilw.s %r0 %f0 51
+fbg %f0 %f6 105
+ilw.s %r0 %f0 20
+fbge %f6 %f0 32
+ilw.s %r0 %f4 46
+ilw.s %r0 %f5 51
+	neg.s	%f6 %f0
+	mul.s	%f6 %f0 %f7
+ilw.s %r0 %f0 18
+	mul.s	%f6 %f0 %f0
+ilw.s %r0 %f1 17
+	mul.s	%f6 %f1 %f1
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f6 %f0 %f0
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 15
+	mul.s	%f6 %f1 %f1
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 14
+	mul.s	%f6 %f1 %f1
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 13
+	mul.s	%f6 %f1 %f1
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f6 %f0
+	add.s	%f0 %f5 %f0
+	mul.s	%f4 %f0 %f1
+j 9108
+ilw.s %r0 %f0 19
+fbge %f6 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f6 %f1
+ilw.s %r0 %f0 46
+	add.s	%f0 %f6 %f0
+	div.s	%f0 %f1 %f5
+ilw.s %r0 %f6 46
+ilw.s %r0 %f4 43
+	neg.s	%f5 %f0
+	mul.s	%f5 %f0 %f7
+ilw.s %r0 %f0 18
+	mul.s	%f5 %f0 %f0
+ilw.s %r0 %f1 17
+	mul.s	%f5 %f1 %f1
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f5 %f0 %f0
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 15
+	mul.s	%f5 %f0 %f0
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 14
+	mul.s	%f5 %f1 %f1
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 13
+	mul.s	%f5 %f1 %f1
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f5 %f0
+	add.s	%f0 %f4 %f0
+	mul.s	%f6 %f0 %f1
+j 9108
+ilw.s %r0 %f0 46
+	div.s	%f6 %f0 %f1
+ilw.s %r0 %f5 44
+ilw.s %r0 %f7 11
+	neg.s	%f1 %f0
+	mul.s	%f1 %f0 %f6
+ilw.s %r0 %f0 18
+	mul.s	%f1 %f0 %f4
+ilw.s %r0 %f0 17
+	mul.s	%f1 %f0 %f0
+	mul.s	%f6 %f4 %f4
+	add.s	%f4 %f0 %f0
+ilw.s %r0 %f4 16
+	mul.s	%f1 %f4 %f4
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f4 %f0
+ilw.s %r0 %f4 15
+	mul.s	%f1 %f4 %f4
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f4 %f4
+ilw.s %r0 %f0 14
+	mul.s	%f1 %f0 %f0
+	mul.s	%f6 %f4 %f4
+	add.s	%f4 %f0 %f0
+ilw.s %r0 %f4 13
+	mul.s	%f1 %f4 %f4
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f4 %f0
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f1 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f5 %f0 %f1
+j 9108
+	neg.s	%f6 %f6
+ilw.s %r0 %f0 20
+fbge %f6 %f0 32
+ilw.s %r0 %f4 44
+ilw.s %r0 %f7 51
+	neg.s	%f6 %f0
+	mul.s	%f6 %f0 %f5
+ilw.s %r0 %f0 18
+	mul.s	%f6 %f0 %f0
+ilw.s %r0 %f1 17
+	mul.s	%f6 %f1 %f1
+	mul.s	%f5 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f6 %f0 %f0
+	mul.s	%f5 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 15
+	mul.s	%f6 %f0 %f0
+	mul.s	%f5 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 14
+	mul.s	%f6 %f0 %f0
+	mul.s	%f5 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 13
+	mul.s	%f6 %f0 %f0
+	mul.s	%f5 %f1 %f1
+	add.s	%f1 %f0 %f0
+	mul.s	%f5 %f0 %f0
+	add.s	%f0 %f6 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f4 %f0 %f1
+j 9108
+ilw.s %r0 %f0 19
+fbge %f6 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f6 %f0
+ilw.s %r0 %f1 46
+	add.s	%f1 %f6 %f1
+	div.s	%f1 %f0 %f7
+ilw.s %r0 %f5 44
+ilw.s %r0 %f4 43
+	neg.s	%f7 %f0
+	mul.s	%f7 %f0 %f6
+ilw.s %r0 %f0 18
+	mul.s	%f7 %f0 %f1
+ilw.s %r0 %f0 17
+	mul.s	%f7 %f0 %f0
+	mul.s	%f6 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f7 %f0 %f0
+	mul.s	%f6 %f1 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 15
+	mul.s	%f7 %f1 %f1
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 14
+	mul.s	%f7 %f0 %f8
+	mul.s	%f6 %f1 %f0
+	add.s	%f0 %f8 %f1
+ilw.s %r0 %f0 13
+	mul.s	%f7 %f0 %f8
+	mul.s	%f6 %f1 %f0
+	add.s	%f0 %f8 %f0
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f7 %f0
+	add.s	%f0 %f4 %f0
+	mul.s	%f5 %f0 %f1
+j 9108
+ilw.s %r0 %f0 46
+	div.s	%f6 %f0 %f8
+ilw.s %r0 %f1 46
+ilw.s %r0 %f5 11
+	neg.s	%f8 %f0
+	mul.s	%f8 %f0 %f7
+ilw.s %r0 %f0 18
+	mul.s	%f8 %f0 %f0
+ilw.s %r0 %f4 17
+	mul.s	%f8 %f4 %f4
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f4 %f4
+ilw.s %r0 %f0 16
+	mul.s	%f8 %f0 %f6
+	mul.s	%f7 %f4 %f0
+	add.s	%f0 %f6 %f6
+ilw.s %r0 %f0 15
+	mul.s	%f8 %f0 %f4
+	mul.s	%f7 %f6 %f0
+	add.s	%f0 %f4 %f4
+ilw.s %r0 %f0 14
+	mul.s	%f8 %f0 %f0
+	mul.s	%f7 %f4 %f4
+	add.s	%f4 %f0 %f4
+ilw.s %r0 %f0 13
+	mul.s	%f8 %f0 %f0
+	mul.s	%f7 %f4 %f4
+	add.s	%f4 %f0 %f0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f8 %f0
+	add.s	%f0 %f5 %f0
+	mul.s	%f1 %f0 %f1
+ilw.s %r0 %f0 12
+	mul.s	%f0 %f1 %f0
+ilw.s %r0 %f1 26
+	div.s	%f1 %f0 %f0
+	floor.w.s	%f0 %f1
+	sub.s	%f1 %f0 %f5
+	lw.s	%r0 %f1 556
+	lw	%r2 %r1 20
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	sub.s	%f0 %f1 %f1
+	lw	%r2 %r1 16
+addi %r1 %r1 4
+	lw.s	%r1 %f0 0
+	sqrt.s	%f0 %f0
+	mul.s	%f0 %f1 %f0
+ilw.s %r0 %f1 51
+fbge %f2 %f1 3
+	neg.s	%f2 %f4
+j 9129
+	mov.s	%f2 %f4
+ilw.s %r0 %f1 24
+fbge %f4 %f1 3
+addi %r0 %r1 1
+j 9134
+addi %r0 %r1 0
+addi %r0 %r3 0
+beq %r1 %r3 3
+ilw.s %r0 %f0 21
+j 9358
+	div.s	%f2 %f0 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+	neg.s	%f1 %f6
+j 9144
+	mov.s	%f1 %f6
+ilw.s %r0 %f0 51
+fbg %f0 %f6 105
+ilw.s %r0 %f0 20
+fbge %f6 %f0 32
+ilw.s %r0 %f8 46
+ilw.s %r0 %f4 51
+	neg.s	%f6 %f0
+	mul.s	%f6 %f0 %f2
+ilw.s %r0 %f0 18
+	mul.s	%f6 %f0 %f7
+ilw.s %r0 %f0 17
+	mul.s	%f6 %f0 %f1
+	mul.s	%f2 %f7 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f6 %f0 %f7
+	mul.s	%f2 %f1 %f0
+	add.s	%f0 %f7 %f7
+ilw.s %r0 %f0 15
+	mul.s	%f6 %f0 %f1
+	mul.s	%f2 %f7 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 14
+	mul.s	%f6 %f0 %f0
+	mul.s	%f2 %f1 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 13
+	mul.s	%f6 %f1 %f1
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f6 %f0
+	add.s	%f0 %f4 %f0
+	mul.s	%f8 %f0 %f0
+j 9354
+ilw.s %r0 %f0 19
+fbge %f6 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f6 %f0
+ilw.s %r0 %f1 46
+	add.s	%f1 %f6 %f1
+	div.s	%f1 %f0 %f7
+ilw.s %r0 %f4 46
+ilw.s %r0 %f6 43
+	neg.s	%f7 %f0
+	mul.s	%f7 %f0 %f1
+ilw.s %r0 %f0 18
+	mul.s	%f7 %f0 %f8
+ilw.s %r0 %f0 17
+	mul.s	%f7 %f0 %f2
+	mul.s	%f1 %f8 %f0
+	add.s	%f0 %f2 %f0
+ilw.s %r0 %f2 16
+	mul.s	%f7 %f2 %f2
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f0
+ilw.s %r0 %f2 15
+	mul.s	%f7 %f2 %f2
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f0
+ilw.s %r0 %f2 14
+	mul.s	%f7 %f2 %f2
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f2
+ilw.s %r0 %f0 13
+	mul.s	%f7 %f0 %f0
+	mul.s	%f1 %f2 %f2
+	add.s	%f2 %f0 %f0
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f7 %f0
+	add.s	%f0 %f6 %f0
+	mul.s	%f4 %f0 %f0
+j 9354
+ilw.s %r0 %f0 46
+	div.s	%f6 %f0 %f1
+ilw.s %r0 %f7 44
+ilw.s %r0 %f6 11
+	neg.s	%f1 %f0
+	mul.s	%f1 %f0 %f4
+ilw.s %r0 %f0 18
+	mul.s	%f1 %f0 %f2
+ilw.s %r0 %f0 17
+	mul.s	%f1 %f0 %f0
+	mul.s	%f4 %f2 %f2
+	add.s	%f2 %f0 %f2
+ilw.s %r0 %f0 16
+	mul.s	%f1 %f0 %f0
+	mul.s	%f4 %f2 %f2
+	add.s	%f2 %f0 %f2
+ilw.s %r0 %f0 15
+	mul.s	%f1 %f0 %f0
+	mul.s	%f4 %f2 %f2
+	add.s	%f2 %f0 %f0
+ilw.s %r0 %f2 14
+	mul.s	%f1 %f2 %f2
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f2 %f2
+ilw.s %r0 %f0 13
+	mul.s	%f1 %f0 %f0
+	mul.s	%f4 %f2 %f2
+	add.s	%f2 %f0 %f0
+	mul.s	%f4 %f0 %f0
+	add.s	%f0 %f1 %f0
+	add.s	%f0 %f6 %f0
+	mul.s	%f7 %f0 %f0
+j 9354
+	neg.s	%f6 %f6
+ilw.s %r0 %f0 20
+fbge %f6 %f0 32
+ilw.s %r0 %f1 44
+ilw.s %r0 %f2 51
+	neg.s	%f6 %f0
+	mul.s	%f6 %f0 %f8
+ilw.s %r0 %f0 18
+	mul.s	%f6 %f0 %f4
+ilw.s %r0 %f0 17
+	mul.s	%f6 %f0 %f0
+	mul.s	%f8 %f4 %f4
+	add.s	%f4 %f0 %f4
+ilw.s %r0 %f0 16
+	mul.s	%f6 %f0 %f7
+	mul.s	%f8 %f4 %f0
+	add.s	%f0 %f7 %f0
+ilw.s %r0 %f4 15
+	mul.s	%f6 %f4 %f4
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f4 %f4
+ilw.s %r0 %f0 14
+	mul.s	%f6 %f0 %f0
+	mul.s	%f8 %f4 %f4
+	add.s	%f4 %f0 %f0
+ilw.s %r0 %f4 13
+	mul.s	%f6 %f4 %f4
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f4 %f0
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f6 %f0
+	add.s	%f0 %f2 %f0
+	mul.s	%f1 %f0 %f0
+j 9354
+ilw.s %r0 %f0 19
+fbge %f6 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f6 %f1
+ilw.s %r0 %f0 46
+	add.s	%f0 %f6 %f0
+	div.s	%f0 %f1 %f6
+ilw.s %r0 %f4 44
+ilw.s %r0 %f1 43
+	neg.s	%f6 %f0
+	mul.s	%f6 %f0 %f7
+ilw.s %r0 %f0 18
+	mul.s	%f6 %f0 %f2
+ilw.s %r0 %f0 17
+	mul.s	%f6 %f0 %f0
+	mul.s	%f7 %f2 %f2
+	add.s	%f2 %f0 %f2
+ilw.s %r0 %f0 16
+	mul.s	%f6 %f0 %f0
+	mul.s	%f7 %f2 %f2
+	add.s	%f2 %f0 %f2
+ilw.s %r0 %f0 15
+	mul.s	%f6 %f0 %f0
+	mul.s	%f7 %f2 %f2
+	add.s	%f2 %f0 %f0
+ilw.s %r0 %f2 14
+	mul.s	%f6 %f2 %f2
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f2 %f2
+ilw.s %r0 %f0 13
+	mul.s	%f6 %f0 %f0
+	mul.s	%f7 %f2 %f2
+	add.s	%f2 %f0 %f0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f6 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f4 %f0 %f0
+j 9354
+ilw.s %r0 %f0 46
+	div.s	%f6 %f0 %f0
+ilw.s %r0 %f2 46
+ilw.s %r0 %f7 11
+	neg.s	%f0 %f1
+	mul.s	%f0 %f1 %f6
+ilw.s %r0 %f1 18
+	mul.s	%f0 %f1 %f1
+ilw.s %r0 %f4 17
+	mul.s	%f0 %f4 %f4
+	mul.s	%f6 %f1 %f1
+	add.s	%f1 %f4 %f4
+ilw.s %r0 %f1 16
+	mul.s	%f0 %f1 %f1
+	mul.s	%f6 %f4 %f4
+	add.s	%f4 %f1 %f4
+ilw.s %r0 %f1 15
+	mul.s	%f0 %f1 %f1
+	mul.s	%f6 %f4 %f4
+	add.s	%f4 %f1 %f4
+ilw.s %r0 %f1 14
+	mul.s	%f0 %f1 %f1
+	mul.s	%f6 %f4 %f4
+	add.s	%f4 %f1 %f1
+ilw.s %r0 %f4 13
+	mul.s	%f0 %f4 %f4
+	mul.s	%f6 %f1 %f1
+	add.s	%f1 %f4 %f1
+	mul.s	%f6 %f1 %f1
+	add.s	%f1 %f0 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f2 %f0 %f0
+ilw.s %r0 %f1 12
+	mul.s	%f1 %f0 %f1
+ilw.s %r0 %f0 26
+	div.s	%f0 %f1 %f0
+	floor.w.s	%f0 %f1
+	sub.s	%f1 %f0 %f2
+ilw.s %r0 %f0 10
+ilw.s %r0 %f1 40
+	sub.s	%f5 %f1 %f1
+	mul.s	%f1 %f1 %f1
+	sub.s	%f1 %f0 %f1
+ilw.s %r0 %f0 40
+	sub.s	%f2 %f0 %f0
+	mul.s	%f0 %f0 %f0
+	sub.s	%f0 %f1 %f1
+ilw.s %r0 %f0 51
+fbge %f1 %f0 3
+addi %r0 %r3 1
+j 9374
+addi %r0 %r3 0
+addi %r0 %r1 0
+beq %r3 %r1 3
+ilw.s %r0 %f0 51
+j 9379
+	mov.s	%f1 %f0
+ilw.s %r0 %f1 50
+	mul.s	%f0 %f1 %f0
+ilw.s %r0 %f1 9
+	div.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 588
+addi %r0 %r1 0
+	lw	%r0 %r3 536
+	sw	%r26 %r2 -16
+	sw.s	%r26 %f3 -12
+	sw	%r26 %r6 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r5 0
+	mov	%r3 %r2
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 3796
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw	%r26 %r2 -16
+	lw.s	%r26 %f3 -12
+	lw	%r26 %r6 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r5 0
+addi %r0 %r3 0
+beq %r1 %r3 2
+j 7791
+	lw.s	%r0 %f0 568
+	lw.s	%r0 %f1 312
+	mul.s	%f1 %f0 %f2
+	lw.s	%r0 %f0 572
+	lw.s	%r0 %f1 316
+	mul.s	%f1 %f0 %f0
+	add.s	%f0 %f2 %f2
+	lw.s	%r0 %f1 576
+	lw.s	%r0 %f0 320
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f2 %f0
+	neg.s	%f0 %f1
+ilw.s %r0 %f0 51
+fbge %f0 %f1 3
+addi %r0 %r1 1
+j 9422
+addi %r0 %r1 0
+addi %r0 %r3 0
+beq %r1 %r3 3
+	mov.s	%f1 %f0
+j 9427
+ilw.s %r0 %f0 51
+	mul.s	%f0 %f3 %f0
+	lw	%r2 %r1 28
+	lw.s	%r1 %f1 0
+	mul.s	%f1 %f0 %f2
+	lw.s	%r0 %f0 592
+	lw.s	%r0 %f1 580
+	mul.s	%f1 %f2 %f1
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 592
+	lw.s	%r0 %f1 596
+	lw.s	%r0 %f0 584
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 596
+	lw.s	%r0 %f1 600
+	lw.s	%r0 %f0 588
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 600
+j 7791
+	lw	%r2 %r1 24
+	lw.s	%r0 %f0 568
+	mul.s	%f0 %f0 %f1
+	lw.s	%r0 %f0 572
+	mul.s	%f0 %f0 %f0
+	add.s	%f0 %f1 %f1
+	lw.s	%r0 %f0 576
+	mul.s	%f0 %f0 %f0
+	add.s	%f0 %f1 %f0
+	sqrt.s	%f0 %f1
+ilw.s %r0 %f0 51
+fbne %f1 %f0 3
+addi %r0 %r3 1
+j 9462
+addi %r0 %r3 0
+addi %r0 %r7 0
+beq %r3 %r7 3
+ilw.s %r0 %f1 46
+j 9473
+addi %r0 %r3 0
+beq %r1 %r3 4
+ilw.s %r0 %f0 44
+	div.s	%f1 %f0 %f1
+j 9473
+ilw.s %r0 %f0 46
+	div.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 568
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 568
+	lw.s	%r0 %f0 572
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 572
+	lw.s	%r0 %f0 576
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 576
+j 8717
+	retl
+	mov	%r2 %r5
+	mov	%r1 %r6
+addi %r0 %r1 4
+ble %r5 %r1 2
+j 9831
+	lw	%r6 %r3 8
+addi %r0 %r2 0
+	slli	%r5 %r1 2
+	add	%r3 %r1 %r1
+	lw	%r1 %r1 0
+ble %r2 %r1 2
+j 9831
+	lw	%r6 %r2 12
+	slli	%r5 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 82
+	lw	%r6 %r1 20
+	lw	%r6 %r2 28
+	lw	%r6 %r4 4
+	lw	%r6 %r7 16
+	slli	%r5 %r3 2
+	add	%r1 %r3 %r1
+	lw	%r1 %r3 0
+	mov	%r3 %r1
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 592
+addi %r3 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 596
+addi %r3 %r1 8
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 600
+	lw	%r6 %r1 24
+	lw	%r1 %r9 0
+	slli	%r5 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r3 0
+	slli	%r5 %r1 2
+	add	%r4 %r1 %r1
+	lw	%r1 %r8 0
+addi %r0 %r1 0
+bne %r9 %r1 2
+j 9586
+	lw	%r0 %r10 716
+	mov	%r8 %r1
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 648
+addi %r8 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 652
+addi %r8 %r1 8
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 656
+	lw	%r0 %r1 0
+addi %r1 %r2 -1
+	sw	%r26 %r10 -24
+	sw	%r26 %r8 -20
+	sw	%r26 %r3 -16
+	sw	%r26 %r9 -12
+	sw	%r26 %r7 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r6 0
+	mov	%r8 %r1
+	sw	%r26 %r28 -28
+addi %r26 %r26 -32
+jal 3057
+addi %r26 %r26 32
+	lw	%r26 %r28 -28
+	lw	%r26 %r10 -24
+	lw	%r26 %r8 -20
+	lw	%r26 %r3 -16
+	lw	%r26 %r9 -12
+	lw	%r26 %r7 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r6 0
+addi %r0 %r4 118
+	sw	%r26 %r8 -20
+	sw	%r26 %r3 -16
+	sw	%r26 %r9 -12
+	sw	%r26 %r7 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r6 0
+	mov	%r3 %r2
+	mov	%r10 %r1
+	mov	%r8 %r3
+	sw	%r26 %r28 -24
+addi %r26 %r26 -28
+jal 7573
+addi %r26 %r26 28
+	lw	%r26 %r28 -24
+	lw	%r26 %r8 -20
+	lw	%r26 %r3 -16
+	lw	%r26 %r9 -12
+	lw	%r26 %r7 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r6 0
+j 9586
+addi %r5 %r1 1
+	mov	%r1 %r5
+j 9486
+addi %r0 %r1 1
+bne %r9 %r1 2
+j 9643
+	lw	%r0 %r2 720
+	mov	%r8 %r1
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 648
+addi %r8 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 652
+addi %r8 %r1 8
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 656
+	lw	%r0 %r1 0
+addi %r1 %r1 -1
+	sw	%r26 %r2 -24
+	sw	%r26 %r8 -20
+	sw	%r26 %r3 -16
+	sw	%r26 %r9 -12
+	sw	%r26 %r7 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r6 0
+	mov	%r1 %r2
+	mov	%r8 %r1
+	sw	%r26 %r28 -28
+addi %r26 %r26 -32
+jal 3057
+addi %r26 %r26 32
+	lw	%r26 %r28 -28
+	lw	%r26 %r2 -24
+	lw	%r26 %r8 -20
+	lw	%r26 %r3 -16
+	lw	%r26 %r9 -12
+	lw	%r26 %r7 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r6 0
+addi %r0 %r4 118
+	sw	%r26 %r8 -20
+	sw	%r26 %r3 -16
+	sw	%r26 %r9 -12
+	sw	%r26 %r7 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r6 0
+	mov	%r2 %r1
+	mov	%r3 %r2
+	mov	%r8 %r3
+	sw	%r26 %r28 -24
+addi %r26 %r26 -28
+jal 7573
+addi %r26 %r26 28
+	lw	%r26 %r28 -24
+	lw	%r26 %r8 -20
+	lw	%r26 %r3 -16
+	lw	%r26 %r9 -12
+	lw	%r26 %r7 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r6 0
+addi %r0 %r1 2
+bne %r9 %r1 2
+j 9700
+	lw	%r0 %r2 724
+	mov	%r8 %r1
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 648
+addi %r8 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 652
+addi %r8 %r1 8
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 656
+	lw	%r0 %r1 0
+addi %r1 %r1 -1
+	sw	%r26 %r2 -24
+	sw	%r26 %r8 -20
+	sw	%r26 %r3 -16
+	sw	%r26 %r9 -12
+	sw	%r26 %r7 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r6 0
+	mov	%r1 %r2
+	mov	%r8 %r1
+	sw	%r26 %r28 -28
+addi %r26 %r26 -32
+jal 3057
+addi %r26 %r26 32
+	lw	%r26 %r28 -28
+	lw	%r26 %r2 -24
+	lw	%r26 %r8 -20
+	lw	%r26 %r3 -16
+	lw	%r26 %r9 -12
+	lw	%r26 %r7 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r6 0
+addi %r0 %r4 118
+	sw	%r26 %r8 -20
+	sw	%r26 %r3 -16
+	sw	%r26 %r9 -12
+	sw	%r26 %r7 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r6 0
+	mov	%r2 %r1
+	mov	%r3 %r2
+	mov	%r8 %r3
+	sw	%r26 %r28 -24
+addi %r26 %r26 -28
+jal 7573
+addi %r26 %r26 28
+	lw	%r26 %r28 -24
+	lw	%r26 %r8 -20
+	lw	%r26 %r3 -16
+	lw	%r26 %r9 -12
+	lw	%r26 %r7 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r6 0
+addi %r0 %r1 3
+bne %r9 %r1 2
+j 9757
+	lw	%r0 %r2 728
+	mov	%r8 %r1
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 648
+addi %r8 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 652
+addi %r8 %r1 8
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 656
+	lw	%r0 %r1 0
+addi %r1 %r1 -1
+	sw	%r26 %r2 -24
+	sw	%r26 %r8 -20
+	sw	%r26 %r3 -16
+	sw	%r26 %r9 -12
+	sw	%r26 %r7 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r6 0
+	mov	%r1 %r2
+	mov	%r8 %r1
+	sw	%r26 %r28 -28
+addi %r26 %r26 -32
+jal 3057
+addi %r26 %r26 32
+	lw	%r26 %r28 -28
+	lw	%r26 %r2 -24
+	lw	%r26 %r8 -20
+	lw	%r26 %r3 -16
+	lw	%r26 %r9 -12
+	lw	%r26 %r7 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r6 0
+addi %r0 %r4 118
+	sw	%r26 %r8 -20
+	sw	%r26 %r3 -16
+	sw	%r26 %r9 -12
+	sw	%r26 %r7 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r6 0
+	mov	%r2 %r1
+	mov	%r3 %r2
+	mov	%r8 %r3
+	sw	%r26 %r28 -24
+addi %r26 %r26 -28
+jal 7573
+addi %r26 %r26 28
+	lw	%r26 %r28 -24
+	lw	%r26 %r8 -20
+	lw	%r26 %r3 -16
+	lw	%r26 %r9 -12
+	lw	%r26 %r7 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r6 0
+addi %r0 %r1 4
+bne %r9 %r1 2
+j 9806
+	lw	%r0 %r2 732
+	mov	%r8 %r1
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 648
+addi %r8 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 652
+addi %r8 %r1 8
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 656
+	lw	%r0 %r1 0
+addi %r1 %r1 -1
+	sw	%r26 %r2 -20
+	sw	%r26 %r8 -16
+	sw	%r26 %r3 -12
+	sw	%r26 %r7 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r6 0
+	mov	%r1 %r2
+	mov	%r8 %r1
+	sw	%r26 %r28 -24
+addi %r26 %r26 -28
+jal 3057
+addi %r26 %r26 28
+	lw	%r26 %r28 -24
+	lw	%r26 %r2 -20
+	lw	%r26 %r8 -16
+	lw	%r26 %r3 -12
+	lw	%r26 %r7 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r6 0
+addi %r0 %r4 118
+	sw	%r26 %r7 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r6 0
+	mov	%r2 %r1
+	mov	%r3 %r2
+	mov	%r8 %r3
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 7573
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	lw	%r26 %r7 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r6 0
+	slli	%r5 %r1 2
+	add	%r7 %r1 %r1
+	lw	%r1 %r2 0
+	lw.s	%r0 %f1 604
+	mov	%r2 %r1
+	lw.s	%r1 %f0 0
+	lw.s	%r0 %f2 592
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 604
+	lw.s	%r0 %f1 608
+addi %r2 %r1 4
+	lw.s	%r1 %f2 0
+	lw.s	%r0 %f0 596
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 608
+	lw.s	%r0 %f2 612
+addi %r2 %r1 8
+	lw.s	%r1 %f1 0
+	lw.s	%r0 %f0 600
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f2 %f0
+	sw.s	%r0 %f0 612
+j 9583
+	retl
+	mov	%r6 %r7
+	mov	%r5 %r8
+	mov	%r4 %r6
+	mov	%r1 %r5
+	mov	%r3 %r4
+	slli	%r5 %r1 2
+	add	%r6 %r1 %r1
+	lw	%r1 %r3 0
+addi %r0 %r1 4
+ble %r7 %r1 2
+j 10057
+addi %r0 %r1 0
+	lw	%r3 %r2 8
+	slli	%r7 %r9 2
+	add	%r2 %r9 %r2
+	lw	%r2 %r2 0
+ble %r1 %r2 2
+j 10057
+	slli	%r5 %r1 2
+	add	%r6 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r1 8
+	slli	%r7 %r2 2
+	add	%r1 %r2 %r1
+	lw	%r1 %r2 0
+	slli	%r5 %r1 2
+	add	%r4 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r1 8
+	slli	%r7 %r9 2
+	add	%r1 %r9 %r1
+	lw	%r1 %r1 0
+beq %r1 %r2 3
+addi %r0 %r2 0
+j 9900
+	slli	%r5 %r1 2
+	add	%r8 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r1 8
+	slli	%r7 %r9 2
+	add	%r1 %r9 %r1
+	lw	%r1 %r1 0
+beq %r1 %r2 3
+addi %r0 %r2 0
+j 9900
+addi %r5 %r1 -1
+	slli	%r1 %r1 2
+	add	%r6 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r1 8
+	slli	%r7 %r9 2
+	add	%r1 %r9 %r1
+	lw	%r1 %r1 0
+beq %r1 %r2 3
+addi %r0 %r2 0
+j 9900
+addi %r5 %r1 1
+	slli	%r1 %r1 2
+	add	%r6 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r9 8
+	slli	%r7 %r1 2
+	add	%r9 %r1 %r1
+	lw	%r1 %r1 0
+beq %r1 %r2 3
+addi %r0 %r2 0
+j 9900
+addi %r0 %r2 1
+addi %r0 %r1 0
+beq %r2 %r1 143
+	lw	%r3 %r2 12
+	slli	%r7 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r2 0
+addi %r0 %r1 0
+beq %r2 %r1 136
+	slli	%r5 %r1 2
+	add	%r4 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r11 20
+addi %r5 %r1 -1
+	slli	%r1 %r1 2
+	add	%r6 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r9 20
+	slli	%r5 %r1 2
+	add	%r6 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r10 20
+addi %r5 %r1 1
+	slli	%r1 %r1 2
+	add	%r6 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r3 20
+	slli	%r5 %r1 2
+	add	%r8 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r2 20
+	slli	%r7 %r1 2
+	add	%r11 %r1 %r1
+	lw	%r1 %r1 0
+	mov	%r1 %r11
+	lw.s	%r11 %f0 0
+	sw.s	%r0 %f0 592
+addi %r1 %r11 4
+	lw.s	%r11 %f0 0
+	sw.s	%r0 %f0 596
+addi %r1 %r1 8
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 600
+	slli	%r7 %r1 2
+	add	%r9 %r1 %r1
+	lw	%r1 %r9 0
+	lw.s	%r0 %f0 592
+	mov	%r9 %r1
+	lw.s	%r1 %f1 0
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 592
+	lw.s	%r0 %f1 596
+addi %r9 %r1 4
+	lw.s	%r1 %f0 0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 596
+	lw.s	%r0 %f1 600
+addi %r9 %r1 8
+	lw.s	%r1 %f0 0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 600
+	slli	%r7 %r1 2
+	add	%r10 %r1 %r1
+	lw	%r1 %r1 0
+	lw.s	%r0 %f1 592
+	mov	%r1 %r9
+	lw.s	%r9 %f0 0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 592
+	lw.s	%r0 %f0 596
+addi %r1 %r9 4
+	lw.s	%r9 %f1 0
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 596
+	lw.s	%r0 %f0 600
+addi %r1 %r1 8
+	lw.s	%r1 %f1 0
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 600
+	slli	%r7 %r1 2
+	add	%r3 %r1 %r1
+	lw	%r1 %r3 0
+	lw.s	%r0 %f1 592
+	mov	%r3 %r1
+	lw.s	%r1 %f0 0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 592
+	lw.s	%r0 %f0 596
+addi %r3 %r1 4
+	lw.s	%r1 %f1 0
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 596
+	lw.s	%r0 %f0 600
+addi %r3 %r1 8
+	lw.s	%r1 %f1 0
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 600
+	slli	%r7 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r2 0
+	lw.s	%r0 %f1 592
+	mov	%r2 %r1
+	lw.s	%r1 %f0 0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 592
+	lw.s	%r0 %f0 596
+addi %r2 %r1 4
+	lw.s	%r1 %f1 0
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 596
+	lw.s	%r0 %f0 600
+addi %r2 %r1 8
+	lw.s	%r1 %f1 0
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 600
+	slli	%r5 %r1 2
+	add	%r6 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r2 16
+	slli	%r7 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r2 0
+	lw.s	%r0 %f1 604
+	mov	%r2 %r1
+	lw.s	%r1 %f2 0
+	lw.s	%r0 %f0 592
+	mul.s	%f0 %f2 %f0
+	add.s	%f0 %f1 %f0
+	sw.s	%r0 %f0 604
+	lw.s	%r0 %f2 608
+addi %r2 %r1 4
+	lw.s	%r1 %f1 0
+	lw.s	%r0 %f0 596
+	mul.s	%f0 %f1 %f0
+	add.s	%f0 %f2 %f0
+	sw.s	%r0 %f0 608
+	lw.s	%r0 %f0 612
+addi %r2 %r1 8
+	lw.s	%r1 %f2 0
+	lw.s	%r0 %f1 600
+	mul.s	%f1 %f2 %f1
+	add.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 612
+j 10054
+j 10054
+	slli	%r5 %r1 2
+	add	%r6 %r1 %r1
+	lw	%r1 %r1 0
+	mov	%r7 %r2
+	sw	%r26 %r28 0
+addi %r26 %r26 -4
+jal 9484
+addi %r26 %r26 4
+	lw	%r26 %r28 0
+j 10057
+addi %r7 %r1 1
+	mov	%r1 %r7
+j 9837
+	retl
+	mov	%r1 %r6
+addi %r0 %r1 4
+ble %r2 %r1 2
+j 10150
+	lw	%r6 %r3 8
+	slli	%r2 %r1 2
+	add	%r3 %r1 %r1
+	lw	%r1 %r3 0
+addi %r0 %r1 0
+ble %r1 %r3 2
+j 10150
+	lw	%r6 %r1 12
+	slli	%r2 %r3 2
+	add	%r1 %r3 %r1
+	lw	%r1 %r1 0
+addi %r0 %r3 0
+beq %r1 %r3 73
+	lw	%r6 %r1 24
+	lw	%r1 %r1 0
+ilw.s %r0 %f0 51
+	sw.s	%r0 %f0 592
+	sw.s	%r0 %f0 596
+	sw.s	%r0 %f0 600
+	lw	%r6 %r4 28
+	lw	%r6 %r5 4
+	slli	%r1 %r1 2
+addi %r1 %r1 716
+	lw	%r1 %r1 0
+	slli	%r2 %r3 2
+	add	%r4 %r3 %r3
+	lw	%r3 %r3 0
+	slli	%r2 %r4 2
+	add	%r5 %r4 %r4
+	lw	%r4 %r5 0
+	mov	%r5 %r4
+	lw.s	%r4 %f0 0
+	sw.s	%r0 %f0 648
+addi %r5 %r4 4
+	lw.s	%r4 %f0 0
+	sw.s	%r0 %f0 652
+addi %r5 %r4 8
+	lw.s	%r4 %f0 0
+	sw.s	%r0 %f0 656
+	lw	%r0 %r4 0
+addi %r4 %r4 -1
+	sw	%r26 %r5 -16
+	sw	%r26 %r3 -12
+	sw	%r26 %r1 -8
+	sw	%r26 %r2 -4
+	sw	%r26 %r6 0
+	mov	%r4 %r2
+	mov	%r5 %r1
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 3057
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	mov	%r1 %r4
+	lw	%r26 %r5 -16
+	lw	%r26 %r3 -12
+	lw	%r26 %r1 -8
+	lw	%r26 %r2 -4
+	lw	%r26 %r6 0
+addi %r0 %r4 118
+	sw	%r26 %r2 -4
+	sw	%r26 %r6 0
+	mov	%r3 %r2
+	mov	%r5 %r3
+	sw	%r26 %r28 -8
+addi %r26 %r26 -12
+jal 7573
+addi %r26 %r26 12
+	lw	%r26 %r28 -8
+	lw	%r26 %r2 -4
+	lw	%r26 %r6 0
+	lw	%r6 %r3 20
+	slli	%r2 %r1 2
+	add	%r3 %r1 %r1
+	lw	%r1 %r1 0
+	lw.s	%r0 %f0 592
+	mov	%r1 %r3
+	sw.s	%r3 %f0 0
+	lw.s	%r0 %f0 596
+addi %r1 %r3 4
+	sw.s	%r3 %f0 0
+	lw.s	%r0 %f0 600
+addi %r1 %r1 8
+	sw.s	%r1 %f0 0
+j 10147
+addi %r2 %r1 1
+	mov	%r1 %r2
+j 10059
+	retl
+	mov	%r3 %r6
+	mov	%r2 %r4
+	mov	%r1 %r5
+	mov.s	%f2 %f4
+	mov.s	%f1 %f3
+	mov.s	%f0 %f2
+addi %r0 %r2 696
+addi %r0 %r1 0
+ble %r1 %r4 2
+j 10289
+	lw.s	%r0 %f0 632
+	lw	%r0 %r1 624
+	sub	%r4 %r1 %r1
+	mtc1	%r1 %f1
+	mul.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 660
+	mul.s	%f0 %f1 %f0
+	add.s	%f2 %f0 %f0
+	sw.s	%r0 %f0 696
+	lw.s	%r0 %f0 664
+	mul.s	%f0 %f1 %f0
+	add.s	%f3 %f0 %f0
+	sw.s	%r0 %f0 700
+	lw.s	%r0 %f0 668
+	mul.s	%f0 %f1 %f0
+	add.s	%f4 %f0 %f0
+	sw.s	%r0 %f0 704
+	lw.s	%r0 %f0 696
+	mul.s	%f0 %f0 %f1
+	lw.s	%r0 %f0 700
+	mul.s	%f0 %f0 %f0
+	add.s	%f0 %f1 %f1
+	lw.s	%r0 %f0 704
+	mul.s	%f0 %f0 %f0
+	add.s	%f0 %f1 %f0
+	sqrt.s	%f0 %f1
+ilw.s %r0 %f0 51
+fbne %f1 %f0 3
+addi %r0 %r3 1
+j 10192
+addi %r0 %r3 0
+addi %r0 %r1 0
+beq %r3 %r1 3
+ilw.s %r0 %f1 46
+j 10198
+ilw.s %r0 %f0 46
+	div.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 696
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 696
+	lw.s	%r0 %f0 700
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 700
+	lw.s	%r0 %f0 704
+	mul.s	%f1 %f0 %f0
+	sw.s	%r0 %f0 704
+ilw.s %r0 %f0 51
+	sw.s	%r0 %f0 604
+	sw.s	%r0 %f0 608
+	sw.s	%r0 %f0 612
+	lw.s	%r0 %f0 300
+	sw.s	%r0 %f0 636
+	lw.s	%r0 %f0 304
+	sw.s	%r0 %f0 640
+	lw.s	%r0 %f0 308
+	sw.s	%r0 %f0 644
+addi %r0 %r7 0
+ilw.s %r0 %f0 46
+	slli	%r4 %r1 2
+	add	%r5 %r1 %r1
+	lw	%r1 %r3 0
+ilw.s %r0 %f1 51
+	sw	%r26 %r6 -20
+	sw	%r26 %r4 -16
+	sw.s	%r26 %f4 -12
+	sw.s	%r26 %f3 -8
+	sw.s	%r26 %f2 -4
+	sw	%r26 %r5 0
+	mov	%r7 %r1
+	sw	%r26 %r28 -24
+addi %r26 %r26 -28
+jal 6287
+addi %r26 %r26 28
+	lw	%r26 %r28 -24
+	lw	%r26 %r6 -20
+	lw	%r26 %r4 -16
+	lw.s	%r26 %f4 -12
+	lw.s	%r26 %f3 -8
+	lw.s	%r26 %f2 -4
+	lw	%r26 %r5 0
+	slli	%r4 %r1 2
+	add	%r5 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r2 0
+	lw.s	%r0 %f0 604
+	mov	%r2 %r1
+	sw.s	%r1 %f0 0
+	lw.s	%r0 %f0 608
+addi %r2 %r1 4
+	sw.s	%r1 %f0 0
+	lw.s	%r0 %f0 612
+addi %r2 %r1 8
+	sw.s	%r1 %f0 0
+	slli	%r4 %r1 2
+	add	%r5 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r1 24
+	sw	%r1 %r6 0
+	slli	%r4 %r1 2
+	add	%r5 %r1 %r1
+	lw	%r1 %r1 0
+addi %r0 %r2 0
+	sw	%r26 %r6 -20
+	sw	%r26 %r4 -16
+	sw.s	%r26 %f4 -12
+	sw.s	%r26 %f3 -8
+	sw.s	%r26 %f2 -4
+	sw	%r26 %r5 0
+	sw	%r26 %r28 -24
+addi %r26 %r26 -28
+jal 10058
+addi %r26 %r26 28
+	lw	%r26 %r28 -24
+	lw	%r26 %r6 -20
+	lw	%r26 %r4 -16
+	lw.s	%r26 %f4 -12
+	lw.s	%r26 %f3 -8
+	lw.s	%r26 %f2 -4
+	lw	%r26 %r5 0
+addi %r4 %r3 -1
+addi %r6 %r1 1
+addi %r0 %r2 5
+ble %r2 %r1 2
+j 10286
+addi %r1 %r1 -5
+	mov	%r3 %r4
+	mov	%r1 %r6
+j 10157
+	retl
+	mov	%r5 %r6
+	mov	%r1 %r7
+	mov	%r3 %r5
+	lw	%r0 %r1 616
+bl %r7 %r1 2
+j 10505
+	slli	%r7 %r1 2
+	add	%r4 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r3 0
+	mov	%r3 %r1
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 604
+addi %r3 %r1 4
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 608
+addi %r3 %r1 8
+	lw.s	%r1 %f0 0
+	sw.s	%r0 %f0 612
+addi %r2 %r1 1
+	lw	%r0 %r3 620
+bl %r1 %r3 3
+addi %r0 %r3 0
+j 10328
+addi %r0 %r1 0
+bl %r1 %r2 3
+addi %r0 %r3 0
+j 10328
+addi %r7 %r3 1
+	lw	%r0 %r1 616
+bl %r3 %r1 3
+addi %r0 %r3 0
+j 10328
+addi %r0 %r1 0
+bl %r1 %r7 3
+addi %r0 %r3 0
+j 10328
+addi %r0 %r3 1
+addi %r0 %r1 0
+beq %r3 %r1 22
+addi %r0 %r1 0
+	sw	%r26 %r7 -16
+	sw	%r26 %r6 -12
+	sw	%r26 %r4 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r2 0
+	mov	%r5 %r3
+	mov	%r6 %r5
+	mov	%r1 %r6
+	mov	%r7 %r1
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 9832
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw	%r26 %r7 -16
+	lw	%r26 %r6 -12
+	lw	%r26 %r4 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r2 0
+j 10371
+	slli	%r7 %r1 2
+	add	%r4 %r1 %r1
+	lw	%r1 %r1 0
+addi %r0 %r3 0
+	sw	%r26 %r7 -16
+	sw	%r26 %r6 -12
+	sw	%r26 %r4 -8
+	sw	%r26 %r5 -4
+	sw	%r26 %r2 0
+	mov	%r3 %r2
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 9484
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw	%r26 %r7 -16
+	lw	%r26 %r6 -12
+	lw	%r26 %r4 -8
+	lw	%r26 %r5 -4
+	lw	%r26 %r2 0
+	lw.s	%r0 %f0 604
+	mfc1	%r3 %f0
+addi %r0 %r1 255
+bl %r1 %r3 7
+addi %r0 %r1 0
+bl %r3 %r1 3
+	mov	%r3 %r1
+j 10382
+addi %r0 %r1 0
+j 10382
+addi %r0 %r1 255
+addi %r0 %r3 100
+	div	%r1 %r3 %r9
+addi %r0 %r3 100
+	mul	%r9 %r3 %r3
+	sub	%r1 %r3 %r3
+addi %r0 %r8 10
+	div	%r3 %r8 %r8
+addi %r0 %r3 100
+	mul	%r9 %r3 %r3
+	sub	%r1 %r3 %r1
+addi %r0 %r3 10
+	mul	%r8 %r3 %r3
+	sub	%r1 %r3 %r3
+addi %r0 %r1 0
+bl %r1 %r9 11
+addi %r0 %r1 0
+bl %r1 %r8 4
+addi %r3 %r1 48
+	out	%r1
+j 10413
+addi %r8 %r1 48
+	out	%r1
+addi %r3 %r1 48
+	out	%r1
+j 10413
+addi %r9 %r1 48
+	out	%r1
+addi %r8 %r1 48
+	out	%r1
+addi %r3 %r1 48
+	out	%r1
+addi %r0 %r1 32
+	out	%r1
+	lw.s	%r0 %f0 608
+	mfc1	%r1 %f0
+addi %r0 %r3 255
+bl %r3 %r1 7
+addi %r0 %r3 0
+bl %r1 %r3 3
+	mov	%r1 %r3
+j 10426
+addi %r0 %r3 0
+j 10426
+addi %r0 %r3 255
+addi %r0 %r1 100
+	div	%r3 %r1 %r8
+addi %r0 %r1 100
+	mul	%r8 %r1 %r1
+	sub	%r3 %r1 %r1
+addi %r0 %r9 10
+	div	%r1 %r9 %r9
+addi %r0 %r1 100
+	mul	%r8 %r1 %r1
+	sub	%r3 %r1 %r3
+addi %r0 %r1 10
+	mul	%r9 %r1 %r1
+	sub	%r3 %r1 %r3
+addi %r0 %r1 0
+bl %r1 %r8 11
+addi %r0 %r1 0
+bl %r1 %r9 4
+addi %r3 %r1 48
+	out	%r1
+j 10457
+addi %r9 %r1 48
+	out	%r1
+addi %r3 %r1 48
+	out	%r1
+j 10457
+addi %r8 %r1 48
+	out	%r1
+addi %r9 %r1 48
+	out	%r1
+addi %r3 %r1 48
+	out	%r1
+addi %r0 %r1 32
+	out	%r1
+	lw.s	%r0 %f0 612
+	mfc1	%r3 %f0
+addi %r0 %r1 255
+bl %r1 %r3 6
+addi %r0 %r1 0
+bl %r3 %r1 2
+j 10469
+addi %r0 %r3 0
+j 10469
+addi %r0 %r3 255
+addi %r0 %r1 100
+	div	%r3 %r1 %r9
+addi %r0 %r1 100
+	mul	%r9 %r1 %r1
+	sub	%r3 %r1 %r1
+addi %r0 %r8 10
+	div	%r1 %r8 %r8
+addi %r0 %r1 100
+	mul	%r9 %r1 %r1
+	sub	%r3 %r1 %r3
+addi %r0 %r1 10
+	mul	%r8 %r1 %r1
+	sub	%r3 %r1 %r1
+addi %r0 %r3 0
+bl %r3 %r9 11
+addi %r0 %r3 0
+bl %r3 %r8 4
+addi %r1 %r1 48
+	out	%r1
+j 10500
+addi %r8 %r3 48
+	out	%r3
+addi %r1 %r1 48
+	out	%r1
+j 10500
+addi %r9 %r3 48
+	out	%r3
+addi %r8 %r3 48
+	out	%r3
+addi %r1 %r1 48
+	out	%r1
+addi %r0 %r1 10
+	out	%r1
+addi %r7 %r1 1
+	mov	%r1 %r7
+j 10293
+	retl
+	mov	%r5 %r6
+	mov	%r2 %r7
+	mov	%r4 %r5
+	mov	%r1 %r2
+	mov	%r3 %r4
+	lw	%r0 %r1 620
+bl %r2 %r1 2
+j 10587
+	lw	%r0 %r1 620
+addi %r1 %r1 -1
+bl %r2 %r1 2
+j 10559
+addi %r2 %r1 1
+	lw.s	%r0 %f1 632
+	lw	%r0 %r3 628
+	sub	%r1 %r3 %r1
+	mtc1	%r1 %f0
+	mul.s	%f0 %f1 %f3
+	lw.s	%r0 %f0 672
+	mul.s	%f0 %f3 %f1
+	lw.s	%r0 %f0 684
+	add.s	%f0 %f1 %f2
+	lw.s	%r0 %f0 676
+	mul.s	%f0 %f3 %f0
+	lw.s	%r0 %f1 688
+	add.s	%f1 %f0 %f1
+	lw.s	%r0 %f0 680
+	mul.s	%f0 %f3 %f0
+	lw.s	%r0 %f3 692
+	add.s	%f3 %f0 %f0
+	lw	%r0 %r1 616
+addi %r1 %r1 -1
+	sw	%r26 %r6 -16
+	sw	%r26 %r5 -12
+	sw	%r26 %r4 -8
+	sw	%r26 %r7 -4
+	sw	%r26 %r2 0
+	mov	%r6 %r3
+	mov	%r1 %r2
+	mov	%r5 %r1
+	mov.s	%f2 %f30
+	mov.s	%f0 %f2
+	mov.s	%f30 %f0
+	sw	%r26 %r28 -20
+addi %r26 %r26 -24
+jal 10151
+addi %r26 %r26 24
+	lw	%r26 %r28 -20
+	lw	%r26 %r6 -16
+	lw	%r26 %r5 -12
+	lw	%r26 %r4 -8
+	lw	%r26 %r7 -4
+	lw	%r26 %r2 0
+addi %r0 %r1 0
+	sw	%r26 %r6 -12
+	sw	%r26 %r5 -8
+	sw	%r26 %r4 -4
+	sw	%r26 %r2 0
+	mov	%r7 %r3
+	sw	%r26 %r28 -16
+addi %r26 %r26 -20
+jal 10290
+addi %r26 %r26 20
+	lw	%r26 %r28 -16
+	lw	%r26 %r6 -12
+	lw	%r26 %r5 -8
+	lw	%r26 %r4 -4
+	lw	%r26 %r2 0
+addi %r2 %r1 1
+addi %r6 %r2 2
+addi %r0 %r3 5
+ble %r3 %r2 3
+	mov	%r2 %r3
+j 10581
+addi %r2 %r3 -5
+	mov	%r1 %r2
+	mov	%r4 %r7
+	mov	%r5 %r4
+	mov	%r7 %r5
+	mov	%r3 %r6
+j 10511
+	retl
+	mov	%r2 %r5
+	mov	%r1 %r6
+addi %r0 %r1 0
+ble %r1 %r5 3
+	mov	%r6 %r1
+j 10883
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r28 0
+jal 11733
+	lw	%r26 %r28 0
+	mov	%r1 %r7
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r28 0
+jal 11733
+	lw	%r26 %r28 0
+	mov	%r1 %r2
+addi %r0 %r1 5
+	sw	%r26 %r28 0
+jal 11723
+	lw	%r26 %r28 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r2
+	lw	%r26 %r1 0
+addi %r1 %r3 4
+	sw	%r3 %r2 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r3
+	lw	%r26 %r1 0
+addi %r1 %r2 8
+	sw	%r2 %r3 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r3
+	lw	%r26 %r1 0
+addi %r1 %r2 12
+	sw	%r2 %r3 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r2
+	lw	%r26 %r1 0
+addi %r1 %r3 16
+	sw	%r3 %r2 0
+addi %r0 %r3 5
+addi %r0 %r2 0
+	sw	%r26 %r1 0
+	mov	%r3 %r1
+	sw	%r26 %r28 -4
+jal 11723
+	lw	%r26 %r28 -4
+	mov	%r1 %r8
+	lw	%r26 %r1 0
+addi %r0 %r2 5
+addi %r0 %r3 0
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	mov	%r3 %r2
+	sw	%r26 %r28 -4
+jal 11723
+	lw	%r26 %r28 -4
+	mov	%r1 %r9
+	lw	%r26 %r1 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r3
+	lw	%r26 %r1 0
+addi %r0 %r2 5
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	mov	%r3 %r2
+	sw	%r26 %r28 -4
+jal 11723
+	lw	%r26 %r28 -4
+	mov	%r1 %r3
+	lw	%r26 %r1 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r4
+	lw	%r26 %r1 0
+addi %r3 %r2 4
+	sw	%r2 %r4 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r2
+	lw	%r26 %r1 0
+addi %r3 %r4 8
+	sw	%r4 %r2 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r2
+	lw	%r26 %r1 0
+addi %r3 %r4 12
+	sw	%r4 %r2 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r2
+	lw	%r26 %r1 0
+addi %r3 %r4 16
+	sw	%r4 %r2 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r2
+	lw	%r26 %r1 0
+addi %r0 %r4 5
+	sw	%r26 %r1 0
+	mov	%r4 %r1
+	sw	%r26 %r28 -4
+jal 11723
+	lw	%r26 %r28 -4
+	mov	%r1 %r10
+	lw	%r26 %r1 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r4
+	lw	%r26 %r1 0
+addi %r10 %r2 4
+	sw	%r2 %r4 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r4
+	lw	%r26 %r1 0
+addi %r10 %r2 8
+	sw	%r2 %r4 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r4
+	lw	%r26 %r1 0
+addi %r10 %r2 12
+	sw	%r2 %r4 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r4
+	lw	%r26 %r1 0
+addi %r10 %r2 16
+	sw	%r2 %r4 0
+addi %r0 %r2 1
+addi %r0 %r4 0
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	mov	%r4 %r2
+	sw	%r26 %r28 -4
+jal 11723
+	lw	%r26 %r28 -4
+	mov	%r1 %r12
+	lw	%r26 %r1 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r2
+	lw	%r26 %r1 0
+addi %r0 %r4 5
+	sw	%r26 %r1 0
+	mov	%r4 %r1
+	sw	%r26 %r28 -4
+jal 11723
+	lw	%r26 %r28 -4
+	mov	%r1 %r11
+	lw	%r26 %r1 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r2
+	lw	%r26 %r1 0
+addi %r11 %r4 4
+	sw	%r4 %r2 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r2
+	lw	%r26 %r1 0
+addi %r11 %r4 8
+	sw	%r4 %r2 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r4
+	lw	%r26 %r1 0
+addi %r11 %r2 12
+	sw	%r2 %r4 0
+addi %r0 %r2 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r1 0
+	mov	%r2 %r1
+	sw	%r26 %r28 -4
+jal 11733
+	lw	%r26 %r28 -4
+	mov	%r1 %r2
+	lw	%r26 %r1 0
+addi %r11 %r4 16
+	sw	%r4 %r2 0
+	mov	%r27 %r2
+addi %r27 %r27 32
+	sw	%r2 %r11 28
+	sw	%r2 %r12 24
+	sw	%r2 %r10 20
+	sw	%r2 %r3 16
+	sw	%r2 %r9 12
+	sw	%r2 %r8 8
+	sw	%r2 %r1 4
+	sw	%r2 %r7 0
+	slli	%r5 %r1 2
+	add	%r6 %r1 %r1
+	sw	%r1 %r2 0
+addi %r5 %r1 -1
+	mov	%r1 %r5
+j 10590
+	retl
+	mov	%r2 %r4
+	mov	%r1 %r2
+	mov.s	%f2 %f4
+	mov.s	%f1 %f2
+	mov.s	%f0 %f1
+addi %r0 %r1 5
+ble %r1 %r2 218
+	mul.s	%f2 %f2 %f1
+ilw.s %r0 %f0 22
+	add.s	%f0 %f1 %f0
+	sqrt.s	%f0 %f5
+ilw.s %r0 %f0 46
+	div.s	%f5 %f0 %f6
+ilw.s %r0 %f0 51
+fbg %f0 %f6 105
+ilw.s %r0 %f0 20
+fbge %f6 %f0 32
+ilw.s %r0 %f8 46
+ilw.s %r0 %f1 51
+	neg.s	%f6 %f0
+	mul.s	%f6 %f0 %f7
+ilw.s %r0 %f0 18
+	mul.s	%f6 %f0 %f0
+ilw.s %r0 %f2 17
+	mul.s	%f6 %f2 %f2
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f2 %f2
+ilw.s %r0 %f0 16
+	mul.s	%f6 %f0 %f0
+	mul.s	%f7 %f2 %f2
+	add.s	%f2 %f0 %f0
+ilw.s %r0 %f2 15
+	mul.s	%f6 %f2 %f2
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f2 %f2
+ilw.s %r0 %f0 14
+	mul.s	%f6 %f0 %f0
+	mul.s	%f7 %f2 %f2
+	add.s	%f2 %f0 %f0
+ilw.s %r0 %f2 13
+	mul.s	%f6 %f2 %f2
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f2 %f0
+	mul.s	%f7 %f0 %f0
+	add.s	%f0 %f6 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f8 %f0 %f0
+j 11196
+ilw.s %r0 %f0 19
+fbge %f6 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f6 %f1
+ilw.s %r0 %f0 46
+	add.s	%f0 %f6 %f0
+	div.s	%f0 %f1 %f1
+ilw.s %r0 %f6 46
+ilw.s %r0 %f7 43
+	neg.s	%f1 %f0
+	mul.s	%f1 %f0 %f8
+ilw.s %r0 %f0 18
+	mul.s	%f1 %f0 %f2
+ilw.s %r0 %f0 17
+	mul.s	%f1 %f0 %f0
+	mul.s	%f8 %f2 %f2
+	add.s	%f2 %f0 %f2
+ilw.s %r0 %f0 16
+	mul.s	%f1 %f0 %f0
+	mul.s	%f8 %f2 %f2
+	add.s	%f2 %f0 %f2
+ilw.s %r0 %f0 15
+	mul.s	%f1 %f0 %f0
+	mul.s	%f8 %f2 %f2
+	add.s	%f2 %f0 %f2
+ilw.s %r0 %f0 14
+	mul.s	%f1 %f0 %f0
+	mul.s	%f8 %f2 %f2
+	add.s	%f2 %f0 %f0
+ilw.s %r0 %f2 13
+	mul.s	%f1 %f2 %f2
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f2 %f0
+	mul.s	%f8 %f0 %f0
+	add.s	%f0 %f1 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f6 %f0 %f0
+j 11196
+ilw.s %r0 %f0 46
+	div.s	%f6 %f0 %f0
+ilw.s %r0 %f8 44
+ilw.s %r0 %f7 11
+	neg.s	%f0 %f1
+	mul.s	%f0 %f1 %f2
+ilw.s %r0 %f1 18
+	mul.s	%f0 %f1 %f1
+ilw.s %r0 %f6 17
+	mul.s	%f0 %f6 %f6
+	mul.s	%f2 %f1 %f1
+	add.s	%f1 %f6 %f9
+ilw.s %r0 %f1 16
+	mul.s	%f0 %f1 %f6
+	mul.s	%f2 %f9 %f1
+	add.s	%f1 %f6 %f6
+ilw.s %r0 %f1 15
+	mul.s	%f0 %f1 %f1
+	mul.s	%f2 %f6 %f6
+	add.s	%f6 %f1 %f6
+ilw.s %r0 %f1 14
+	mul.s	%f0 %f1 %f1
+	mul.s	%f2 %f6 %f6
+	add.s	%f6 %f1 %f6
+ilw.s %r0 %f1 13
+	mul.s	%f0 %f1 %f1
+	mul.s	%f2 %f6 %f6
+	add.s	%f6 %f1 %f1
+	mul.s	%f2 %f1 %f1
+	add.s	%f1 %f0 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f8 %f0 %f0
+j 11196
+	neg.s	%f6 %f7
+ilw.s %r0 %f0 20
+fbge %f7 %f0 32
+ilw.s %r0 %f2 44
+ilw.s %r0 %f9 51
+	neg.s	%f7 %f0
+	mul.s	%f7 %f0 %f6
+ilw.s %r0 %f0 18
+	mul.s	%f7 %f0 %f1
+ilw.s %r0 %f0 17
+	mul.s	%f7 %f0 %f8
+	mul.s	%f6 %f1 %f0
+	add.s	%f0 %f8 %f8
+ilw.s %r0 %f0 16
+	mul.s	%f7 %f0 %f1
+	mul.s	%f6 %f8 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 15
+	mul.s	%f7 %f0 %f0
+	mul.s	%f6 %f1 %f1
+	add.s	%f1 %f0 %f8
+ilw.s %r0 %f0 14
+	mul.s	%f7 %f0 %f1
+	mul.s	%f6 %f8 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 13
+	mul.s	%f7 %f0 %f8
+	mul.s	%f6 %f1 %f0
+	add.s	%f0 %f8 %f0
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f7 %f0
+	add.s	%f0 %f9 %f0
+	mul.s	%f2 %f0 %f0
+j 11196
+ilw.s %r0 %f0 19
+fbge %f7 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f7 %f1
+ilw.s %r0 %f0 46
+	add.s	%f0 %f7 %f0
+	div.s	%f0 %f1 %f2
+ilw.s %r0 %f8 44
+ilw.s %r0 %f7 43
+	neg.s	%f2 %f0
+	mul.s	%f2 %f0 %f6
+ilw.s %r0 %f0 18
+	mul.s	%f2 %f0 %f1
+ilw.s %r0 %f0 17
+	mul.s	%f2 %f0 %f0
+	mul.s	%f6 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f2 %f0 %f0
+	mul.s	%f6 %f1 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 15
+	mul.s	%f2 %f1 %f1
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 14
+	mul.s	%f2 %f0 %f0
+	mul.s	%f6 %f1 %f1
+	add.s	%f1 %f0 %f0
+ilw.s %r0 %f1 13
+	mul.s	%f2 %f1 %f1
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f6 %f0 %f0
+	add.s	%f0 %f2 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f8 %f0 %f0
+j 11196
+ilw.s %r0 %f0 46
+	div.s	%f7 %f0 %f8
+ilw.s %r0 %f0 46
+ilw.s %r0 %f2 11
+	neg.s	%f8 %f1
+	mul.s	%f8 %f1 %f7
+ilw.s %r0 %f1 18
+	mul.s	%f8 %f1 %f1
+ilw.s %r0 %f6 17
+	mul.s	%f8 %f6 %f6
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f6 %f6
+ilw.s %r0 %f1 16
+	mul.s	%f8 %f1 %f9
+	mul.s	%f7 %f6 %f1
+	add.s	%f1 %f9 %f1
+ilw.s %r0 %f6 15
+	mul.s	%f8 %f6 %f6
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f6 %f1
+ilw.s %r0 %f6 14
+	mul.s	%f8 %f6 %f6
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f6 %f6
+ilw.s %r0 %f1 13
+	mul.s	%f8 %f1 %f1
+	mul.s	%f7 %f6 %f6
+	add.s	%f6 %f1 %f1
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f8 %f1
+	add.s	%f1 %f2 %f1
+	mul.s	%f0 %f1 %f0
+j 11196
+	mul.s	%f1 %f1 %f3
+	mul.s	%f2 %f2 %f0
+	add.s	%f0 %f3 %f3
+ilw.s %r0 %f0 46
+	add.s	%f0 %f3 %f0
+	sqrt.s	%f0 %f4
+	div.s	%f4 %f1 %f0
+	div.s	%f4 %f2 %f3
+ilw.s %r0 %f1 46
+	div.s	%f4 %f1 %f2
+	slli	%r4 %r1 2
+addi %r1 %r1 716
+	lw	%r1 %r2 0
+	slli	%r3 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r1 0
+	mov	%r1 %r4
+	sw.s	%r4 %f0 0
+addi %r1 %r4 4
+	sw.s	%r4 %f3 0
+addi %r1 %r1 8
+	sw.s	%r1 %f2 0
+addi %r3 %r1 40
+	slli	%r1 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r4 0
+	neg.s	%f3 %f1
+	mov	%r4 %r1
+	sw.s	%r1 %f0 0
+addi %r4 %r1 4
+	sw.s	%r1 %f2 0
+addi %r4 %r1 8
+	sw.s	%r1 %f1 0
+addi %r3 %r1 80
+	slli	%r1 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r4 0
+	neg.s	%f0 %f4
+	neg.s	%f3 %f1
+	mov	%r4 %r1
+	sw.s	%r1 %f2 0
+addi %r4 %r1 4
+	sw.s	%r1 %f4 0
+addi %r4 %r1 8
+	sw.s	%r1 %f1 0
+addi %r3 %r1 1
+	slli	%r1 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r1 0
+	neg.s	%f0 %f1
+	neg.s	%f3 %f4
+	neg.s	%f2 %f5
+	mov	%r1 %r4
+	sw.s	%r4 %f1 0
+addi %r1 %r4 4
+	sw.s	%r4 %f4 0
+addi %r1 %r1 8
+	sw.s	%r1 %f5 0
+addi %r3 %r1 41
+	slli	%r1 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r1 0
+	neg.s	%f0 %f4
+	neg.s	%f2 %f1
+	mov	%r1 %r4
+	sw.s	%r4 %f4 0
+addi %r1 %r4 4
+	sw.s	%r4 %f1 0
+addi %r1 %r1 8
+	sw.s	%r1 %f3 0
+addi %r3 %r1 81
+	slli	%r1 %r1 2
+	add	%r2 %r1 %r1
+	lw	%r1 %r1 0
+	lw	%r1 %r1 0
+	neg.s	%f2 %f1
+	mov	%r1 %r2
+	sw.s	%r2 %f1 0
+addi %r1 %r2 4
+	sw.s	%r2 %f0 0
+addi %r1 %r1 8
+	sw.s	%r1 %f3 0
+	retl
+	mul.s	%f4 %f0 %f0
+	sw.s	%r26 %f0 -24
+	sw.s	%r26 %f5 -20
+	sw	%r26 %r2 -16
+	sw.s	%r26 %f3 -12
+	sw.s	%r26 %f4 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r4 0
+	sw	%r26 %r28 -28
+addi %r26 %r26 -32
+jal 1748
+addi %r26 %r26 32
+	lw	%r26 %r28 -28
+	mov.s	%f0 %f1
+	lw.s	%r26 %f0 -24
+	lw.s	%r26 %f5 -20
+	lw	%r26 %r2 -16
+	lw.s	%r26 %f3 -12
+	lw.s	%r26 %f4 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r4 0
+	sw.s	%r26 %f1 -24
+	sw.s	%r26 %f5 -20
+	sw	%r26 %r2 -16
+	sw.s	%r26 %f3 -12
+	sw.s	%r26 %f4 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r4 0
+	sw	%r26 %r28 -28
+addi %r26 %r26 -32
+jal 1916
+addi %r26 %r26 32
+	lw	%r26 %r28 -28
+	lw.s	%r26 %f1 -24
+	lw.s	%r26 %f5 -20
+	lw	%r26 %r2 -16
+	lw.s	%r26 %f3 -12
+	lw.s	%r26 %f4 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r4 0
+	div.s	%f0 %f1 %f0
+	mul.s	%f5 %f0 %f5
+addi %r2 %r1 1
+	mul.s	%f5 %f5 %f1
+ilw.s %r0 %f0 22
+	add.s	%f0 %f1 %f0
+	sqrt.s	%f0 %f6
+ilw.s %r0 %f0 46
+	div.s	%f6 %f0 %f9
+ilw.s %r0 %f0 51
+fbg %f0 %f9 105
+ilw.s %r0 %f0 20
+fbge %f9 %f0 32
+ilw.s %r0 %f10 46
+ilw.s %r0 %f8 51
+	neg.s	%f9 %f0
+	mul.s	%f9 %f0 %f2
+ilw.s %r0 %f0 18
+	mul.s	%f9 %f0 %f0
+ilw.s %r0 %f1 17
+	mul.s	%f9 %f1 %f1
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f7
+ilw.s %r0 %f0 16
+	mul.s	%f9 %f0 %f1
+	mul.s	%f2 %f7 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 15
+	mul.s	%f9 %f0 %f7
+	mul.s	%f2 %f1 %f0
+	add.s	%f0 %f7 %f0
+ilw.s %r0 %f1 14
+	mul.s	%f9 %f1 %f1
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f0
+ilw.s %r0 %f1 13
+	mul.s	%f9 %f1 %f1
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f9 %f0
+	add.s	%f0 %f8 %f0
+	mul.s	%f10 %f0 %f0
+j 11455
+ilw.s %r0 %f0 19
+fbge %f9 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f9 %f0
+ilw.s %r0 %f1 46
+	add.s	%f1 %f9 %f1
+	div.s	%f1 %f0 %f0
+ilw.s %r0 %f8 46
+ilw.s %r0 %f9 43
+	neg.s	%f0 %f1
+	mul.s	%f0 %f1 %f7
+ilw.s %r0 %f1 18
+	mul.s	%f0 %f1 %f1
+ilw.s %r0 %f2 17
+	mul.s	%f0 %f2 %f2
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f2 %f1
+ilw.s %r0 %f2 16
+	mul.s	%f0 %f2 %f2
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f2 %f2
+ilw.s %r0 %f1 15
+	mul.s	%f0 %f1 %f1
+	mul.s	%f7 %f2 %f2
+	add.s	%f2 %f1 %f2
+ilw.s %r0 %f1 14
+	mul.s	%f0 %f1 %f1
+	mul.s	%f7 %f2 %f2
+	add.s	%f2 %f1 %f10
+ilw.s %r0 %f1 13
+	mul.s	%f0 %f1 %f2
+	mul.s	%f7 %f10 %f1
+	add.s	%f1 %f2 %f1
+	mul.s	%f7 %f1 %f1
+	add.s	%f1 %f0 %f0
+	add.s	%f0 %f9 %f0
+	mul.s	%f8 %f0 %f0
+j 11455
+ilw.s %r0 %f0 46
+	div.s	%f9 %f0 %f8
+ilw.s %r0 %f7 44
+ilw.s %r0 %f1 11
+	neg.s	%f8 %f0
+	mul.s	%f8 %f0 %f10
+ilw.s %r0 %f0 18
+	mul.s	%f8 %f0 %f0
+ilw.s %r0 %f2 17
+	mul.s	%f8 %f2 %f2
+	mul.s	%f10 %f0 %f0
+	add.s	%f0 %f2 %f2
+ilw.s %r0 %f0 16
+	mul.s	%f8 %f0 %f0
+	mul.s	%f10 %f2 %f2
+	add.s	%f2 %f0 %f9
+ilw.s %r0 %f0 15
+	mul.s	%f8 %f0 %f2
+	mul.s	%f10 %f9 %f0
+	add.s	%f0 %f2 %f0
+ilw.s %r0 %f2 14
+	mul.s	%f8 %f2 %f2
+	mul.s	%f10 %f0 %f0
+	add.s	%f0 %f2 %f9
+ilw.s %r0 %f0 13
+	mul.s	%f8 %f0 %f2
+	mul.s	%f10 %f9 %f0
+	add.s	%f0 %f2 %f0
+	mul.s	%f10 %f0 %f0
+	add.s	%f0 %f8 %f0
+	add.s	%f0 %f1 %f0
+	mul.s	%f7 %f0 %f0
+j 11455
+	neg.s	%f9 %f8
+ilw.s %r0 %f0 20
+fbge %f8 %f0 32
+ilw.s %r0 %f7 44
+ilw.s %r0 %f2 51
+	neg.s	%f8 %f0
+	mul.s	%f8 %f0 %f10
+ilw.s %r0 %f0 18
+	mul.s	%f8 %f0 %f1
+ilw.s %r0 %f0 17
+	mul.s	%f8 %f0 %f0
+	mul.s	%f10 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 16
+	mul.s	%f8 %f0 %f0
+	mul.s	%f10 %f1 %f1
+	add.s	%f1 %f0 %f9
+ilw.s %r0 %f0 15
+	mul.s	%f8 %f0 %f1
+	mul.s	%f10 %f9 %f0
+	add.s	%f0 %f1 %f1
+ilw.s %r0 %f0 14
+	mul.s	%f8 %f0 %f0
+	mul.s	%f10 %f1 %f1
+	add.s	%f1 %f0 %f1
+ilw.s %r0 %f0 13
+	mul.s	%f8 %f0 %f9
+	mul.s	%f10 %f1 %f0
+	add.s	%f0 %f9 %f0
+	mul.s	%f10 %f0 %f0
+	add.s	%f0 %f8 %f0
+	add.s	%f0 %f2 %f0
+	mul.s	%f7 %f0 %f0
+j 11455
+ilw.s %r0 %f0 19
+fbge %f8 %f0 37
+ilw.s %r0 %f0 46
+	sub.s	%f0 %f8 %f1
+ilw.s %r0 %f0 46
+	add.s	%f0 %f8 %f0
+	div.s	%f0 %f1 %f9
+ilw.s %r0 %f0 44
+ilw.s %r0 %f2 43
+	neg.s	%f9 %f1
+	mul.s	%f9 %f1 %f8
+ilw.s %r0 %f1 18
+	mul.s	%f9 %f1 %f1
+ilw.s %r0 %f7 17
+	mul.s	%f9 %f7 %f7
+	mul.s	%f8 %f1 %f1
+	add.s	%f1 %f7 %f10
+ilw.s %r0 %f1 16
+	mul.s	%f9 %f1 %f7
+	mul.s	%f8 %f10 %f1
+	add.s	%f1 %f7 %f1
+ilw.s %r0 %f7 15
+	mul.s	%f9 %f7 %f7
+	mul.s	%f8 %f1 %f1
+	add.s	%f1 %f7 %f7
+ilw.s %r0 %f1 14
+	mul.s	%f9 %f1 %f1
+	mul.s	%f8 %f7 %f7
+	add.s	%f7 %f1 %f1
+ilw.s %r0 %f7 13
+	mul.s	%f9 %f7 %f7
+	mul.s	%f8 %f1 %f1
+	add.s	%f1 %f7 %f1
+	mul.s	%f8 %f1 %f1
+	add.s	%f1 %f9 %f1
+	add.s	%f1 %f2 %f1
+	mul.s	%f0 %f1 %f0
+j 11455
+ilw.s %r0 %f0 46
+	div.s	%f8 %f0 %f9
+ilw.s %r0 %f1 46
+ilw.s %r0 %f7 11
+	neg.s	%f9 %f0
+	mul.s	%f9 %f0 %f2
+ilw.s %r0 %f0 18
+	mul.s	%f9 %f0 %f8
+ilw.s %r0 %f0 17
+	mul.s	%f9 %f0 %f0
+	mul.s	%f2 %f8 %f8
+	add.s	%f8 %f0 %f10
+ilw.s %r0 %f0 16
+	mul.s	%f9 %f0 %f8
+	mul.s	%f2 %f10 %f0
+	add.s	%f0 %f8 %f8
+ilw.s %r0 %f0 15
+	mul.s	%f9 %f0 %f0
+	mul.s	%f2 %f8 %f8
+	add.s	%f8 %f0 %f0
+ilw.s %r0 %f8 14
+	mul.s	%f9 %f8 %f8
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f8 %f8
+ilw.s %r0 %f0 13
+	mul.s	%f9 %f0 %f10
+	mul.s	%f2 %f8 %f0
+	add.s	%f0 %f10 %f0
+	mul.s	%f2 %f0 %f0
+	add.s	%f0 %f9 %f0
+	add.s	%f0 %f7 %f0
+	mul.s	%f1 %f0 %f0
+	mul.s	%f3 %f0 %f0
+	sw.s	%r26 %f0 -28
+	sw.s	%r26 %f6 -24
+	sw	%r26 %r1 -20
+	sw.s	%r26 %f5 -16
+	sw.s	%r26 %f3 -12
+	sw.s	%r26 %f4 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r4 0
+	sw	%r26 %r28 -32
+addi %r26 %r26 -36
+jal 1748
+addi %r26 %r26 36
+	lw	%r26 %r28 -32
+	mov.s	%f0 %f1
+	lw.s	%r26 %f0 -28
+	lw.s	%r26 %f6 -24
+	lw	%r26 %r1 -20
+	lw.s	%r26 %f5 -16
+	lw.s	%r26 %f3 -12
+	lw.s	%r26 %f4 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r4 0
+	sw.s	%r26 %f1 -28
+	sw.s	%r26 %f6 -24
+	sw	%r26 %r1 -20
+	sw.s	%r26 %f5 -16
+	sw.s	%r26 %f3 -12
+	sw.s	%r26 %f4 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r4 0
+	sw	%r26 %r28 -32
+addi %r26 %r26 -36
+jal 1916
+addi %r26 %r26 36
+	lw	%r26 %r28 -32
+	lw.s	%r26 %f1 -28
+	lw.s	%r26 %f6 -24
+	lw	%r26 %r1 -20
+	lw.s	%r26 %f5 -16
+	lw.s	%r26 %f3 -12
+	lw.s	%r26 %f4 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r4 0
+	div.s	%f0 %f1 %f0
+	mul.s	%f6 %f0 %f0
+	mov	%r1 %r2
+	mov.s	%f5 %f1
+	mov.s	%f0 %f2
+j 10889
+	mov	%r2 %r5
+	mov	%r1 %r4
+	mov.s	%f0 %f3
+addi %r0 %r1 0
+ble %r1 %r4 2
+j 11566
+	mtc1	%r4 %f0
+ilw.s %r0 %f1 14
+	mul.s	%f1 %f0 %f0
+ilw.s %r0 %f1 6
+	sub.s	%f1 %f0 %f2
+addi %r0 %r1 0
+ilw.s %r0 %f0 51
+ilw.s %r0 %f1 51
+	sw	%r26 %r5 -12
+	sw	%r26 %r4 -8
+	sw.s	%r26 %f3 -4
+	sw	%r26 %r3 0
+	mov	%r5 %r2
+	sw	%r26 %r28 -16
+addi %r26 %r26 -20
+jal 10884
+addi %r26 %r26 20
+	lw	%r26 %r28 -16
+	lw	%r26 %r5 -12
+	lw	%r26 %r4 -8
+	lw.s	%r26 %f3 -4
+	lw	%r26 %r3 0
+	mtc1	%r4 %f1
+ilw.s %r0 %f0 14
+	mul.s	%f0 %f1 %f1
+ilw.s %r0 %f0 22
+	add.s	%f0 %f1 %f2
+addi %r0 %r1 0
+ilw.s %r0 %f0 51
+ilw.s %r0 %f1 51
+addi %r3 %r2 2
+	sw	%r26 %r5 -12
+	sw	%r26 %r4 -8
+	sw.s	%r26 %f3 -4
+	sw	%r26 %r3 0
+	mov	%r2 %r3
+	mov	%r5 %r2
+	sw	%r26 %r28 -16
+addi %r26 %r26 -20
+jal 10884
+addi %r26 %r26 20
+	lw	%r26 %r28 -16
+	lw	%r26 %r5 -12
+	lw	%r26 %r4 -8
+	lw.s	%r26 %f3 -4
+	lw	%r26 %r3 0
+addi %r4 %r2 -1
+addi %r5 %r1 1
+addi %r0 %r4 5
+ble %r4 %r1 2
+j 11563
+addi %r1 %r1 -5
+	mov	%r2 %r4
+	mov	%r1 %r5
+j 11508
+	retl
+	mov	%r3 %r4
+	mov	%r2 %r3
+	mov	%r1 %r2
+addi %r0 %r1 0
+ble %r1 %r2 2
+j 11601
+	mtc1	%r2 %f1
+ilw.s %r0 %f0 14
+	mul.s	%f0 %f1 %f0
+ilw.s %r0 %f1 6
+	sub.s	%f1 %f0 %f0
+addi %r0 %r1 4
+	sw	%r26 %r4 -8
+	sw	%r26 %r3 -4
+	sw	%r26 %r2 0
+	mov	%r3 %r2
+	mov	%r4 %r3
+	sw	%r26 %r28 -12
+addi %r26 %r26 -16
+jal 11505
+addi %r26 %r26 16
+	lw	%r26 %r28 -12
+	lw	%r26 %r4 -8
+	lw	%r26 %r3 -4
+	lw	%r26 %r2 0
+addi %r2 %r2 -1
+addi %r3 %r1 2
+addi %r0 %r3 5
+ble %r3 %r1 2
+j 11598
+addi %r1 %r1 -5
+addi %r4 %r4 4
+	mov	%r1 %r3
+j 11570
+	retl
+	mov	%r2 %r4
+	mov	%r1 %r3
+addi %r0 %r1 0
+ble %r1 %r4 2
+j 11628
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r28 0
+jal 11733
+	lw	%r26 %r28 0
+	mov	%r1 %r2
+	lw	%r0 %r1 0
+	sw	%r26 %r28 0
+jal 11723
+	lw	%r26 %r28 0
+	mov	%r27 %r5
+addi %r27 %r27 8
+	sw	%r5 %r1 4
+	sw	%r5 %r2 0
+	mov	%r5 %r2
+	slli	%r4 %r1 2
+	add	%r3 %r1 %r1
+	sw	%r1 %r2 0
+addi %r4 %r1 -1
+	mov	%r1 %r4
+j 11604
+	retl
+	mov	%r1 %r2
+addi %r0 %r1 0
+ble %r1 %r2 2
+j 11679
+addi %r0 %r5 120
+addi %r0 %r1 3
+ilw.s %r0 %f0 51
+	sw	%r26 %r28 0
+jal 11733
+	lw	%r26 %r28 0
+	mov	%r1 %r3
+	lw	%r0 %r1 0
+	sw	%r26 %r2 0
+	mov	%r3 %r2
+	sw	%r26 %r28 -4
+jal 11723
+	lw	%r26 %r28 -4
+	mov	%r2 %r3
+	lw	%r26 %r2 0
+	mov	%r27 %r4
+addi %r27 %r27 8
+	sw	%r4 %r1 4
+	sw	%r4 %r3 0
+	mov	%r4 %r1
+	sw	%r26 %r2 0
+	mov	%r1 %r2
+	mov	%r5 %r1
+	sw	%r26 %r28 -4
+jal 11723
+	lw	%r26 %r28 -4
+	mov	%r1 %r3
+	lw	%r26 %r2 0
+	slli	%r2 %r1 2
+addi %r1 %r1 716
+	sw	%r1 %r3 0
+	slli	%r2 %r1 2
+addi %r1 %r1 716
+	lw	%r1 %r1 0
+addi %r0 %r3 118
+	sw	%r26 %r2 0
+	mov	%r3 %r2
+	sw	%r26 %r28 -4
+addi %r26 %r26 -8
+jal 11602
+addi %r26 %r26 8
+	lw	%r26 %r28 -4
+	lw	%r26 %r2 0
+addi %r2 %r1 -1
+	mov	%r1 %r2
+j 11630
+	retl
+	mov	%r1 %r4
+addi %r0 %r1 0
+ble %r1 %r2 2
+j 11703
+	slli	%r2 %r1 2
+	add	%r4 %r1 %r1
+	lw	%r1 %r3 0
+	lw	%r0 %r1 0
+addi %r1 %r1 -1
+	sw	%r26 %r2 -4
+	sw	%r26 %r4 0
+	mov	%r1 %r2
+	mov	%r3 %r1
+	sw	%r26 %r28 -8
+addi %r26 %r26 -12
+jal 2679
+addi %r26 %r26 12
+	lw	%r26 %r28 -8
+	lw	%r26 %r2 -4
+	lw	%r26 %r4 0
+addi %r2 %r1 -1
+	mov	%r1 %r2
+j 11681
+	retl
+	mov	%r1 %r3
+addi %r0 %r1 0
+ble %r1 %r3 2
+j 11722
+	slli	%r3 %r1 2
+addi %r1 %r1 716
+	lw	%r1 %r1 0
+addi %r0 %r2 119
+	sw	%r26 %r3 0
+	sw	%r26 %r28 -4
+addi %r26 %r26 -8
+jal 11680
+addi %r26 %r26 8
+	lw	%r26 %r28 -4
+	lw	%r26 %r3 0
+addi %r3 %r1 -1
+	mov	%r1 %r3
+j 11705
+	retl
+bl %r1 %r0 -9977
+	mov	%r1 %r30
+	mov	%r1 %r31
+	mov	%r27 %r1
+beq %r31 %r0 5
+	sw	%r27 %r2 0
+addi %r31 %r31 -1
+addi %r27 %r27 4
+j 11727
+	retl
+bl %r1 %r0 -9987
+	mov	%r1 %r30
+	mov	%r1 %r31
+	mov	%r27 %r1
+beq %r31 %r0 5
+	sw.s	%r27 %f0 0
+addi %r31 %r31 -1
+addi %r27 %r27 4
+j 11737
+	retl

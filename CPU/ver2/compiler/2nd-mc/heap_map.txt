@@ -1,0 +1,265 @@
+convert n_objects.0 to a static pointer labeled s_array.0
+convert dummy.0 to a static pointer labeled s_array.1
+convert Tt.39 to a static pointer labeled s_tuple.0
+convert objects.0 to a static pointer labeled s_array.2
+convert screen.0 to a static pointer labeled s_array.3
+convert viewpoint.0 to a static pointer labeled s_array.4
+convert light.0 to a static pointer labeled s_array.5
+convert beam.0 to a static pointer labeled s_array.6
+convert Ta.60 to a static pointer labeled s_array.7
+convert and_net.0 to a static pointer labeled s_array.8
+convert Ta.59 to a static pointer labeled s_array.7
+convert Ta.58 to a static pointer labeled s_array.9
+convert or_net.0 to a static pointer labeled s_array.10
+convert solver_dist.0 to a static pointer labeled s_array.11
+convert intsec_rectside.0 to a static pointer labeled s_array.12
+convert tmin.0 to a static pointer labeled s_array.13
+convert intersection_point.0 to a static pointer labeled s_array.14
+convert intersected_object_id.0 to a static pointer labeled s_array.15
+convert nvector.0 to a static pointer labeled s_array.16
+convert texture_color.0 to a static pointer labeled s_array.17
+convert diffuse_ray.0 to a static pointer labeled s_array.18
+convert rgb.0 to a static pointer labeled s_array.19
+convert image_size.0 to a static pointer labeled s_array.20
+convert image_center.0 to a static pointer labeled s_array.21
+convert scan_pitch.0 to a static pointer labeled s_array.22
+convert startp.0 to a static pointer labeled s_array.23
+convert startp_fast.0 to a static pointer labeled s_array.24
+convert screenx_dir.0 to a static pointer labeled s_array.25
+convert screeny_dir.0 to a static pointer labeled s_array.26
+convert screenz_dir.0 to a static pointer labeled s_array.27
+convert ptrace_dirvec.0 to a static pointer labeled s_array.28
+convert dummyf.0 to a static pointer labeled s_array.29
+convert dummyff.0 to a static pointer labeled s_array.30
+convert Tt.38 to a static pointer labeled s_tuple.1
+convert dummy_vs.0 to a static pointer labeled s_array.31
+convert dirvecs.0 to a static pointer labeled s_array.32
+convert dummyf2.0 to a static pointer labeled s_array.33
+convert v3.1 to a static pointer labeled s_array.34
+convert consts.1 to a static pointer labeled s_array.35
+convert light_dirvec.0 to a static pointer labeled s_tuple.2
+convert dummyf3.0 to a static pointer labeled s_array.36
+convert dummyff3.0 to a static pointer labeled s_array.37
+convert dummydv.0 to a static pointer labeled s_tuple.3
+convert Tt.37 to a static pointer labeled s_tuple.4
+convert reflections.0 to a static pointer labeled s_array.38
+convert n_reflections.0 to a static pointer labeled s_array.39
+convert m_rgb.8 to a static pointer labeled s_array.40
+convert vec.27 to a static pointer labeled s_array.41
+convert array.24 to a static pointer labeled s_array.42
+convert Ta.201 to a static pointer labeled s_array.43
+convert Ta.202 to a static pointer labeled s_array.44
+convert Ta.203 to a static pointer labeled s_array.45
+convert Ta.204 to a static pointer labeled s_array.46
+convert m_sids.9 to a static pointer labeled s_array.47
+convert m_cdif.10 to a static pointer labeled s_array.48
+convert vec.26 to a static pointer labeled s_array.49
+convert array.23 to a static pointer labeled s_array.50
+convert Ta.197 to a static pointer labeled s_array.51
+convert Ta.198 to a static pointer labeled s_array.52
+convert Ta.199 to a static pointer labeled s_array.53
+convert Ta.200 to a static pointer labeled s_array.54
+convert vec.25 to a static pointer labeled s_array.55
+convert array.22 to a static pointer labeled s_array.56
+convert Ta.193 to a static pointer labeled s_array.57
+convert Ta.194 to a static pointer labeled s_array.58
+convert Ta.195 to a static pointer labeled s_array.59
+convert Ta.196 to a static pointer labeled s_array.60
+convert m_gid.10 to a static pointer labeled s_array.61
+convert vec.24 to a static pointer labeled s_array.62
+convert array.21 to a static pointer labeled s_array.63
+convert Ta.189 to a static pointer labeled s_array.64
+convert Ta.190 to a static pointer labeled s_array.65
+convert Ta.191 to a static pointer labeled s_array.66
+convert Ta.192 to a static pointer labeled s_array.67
+convert Tt.60 to a static pointer labeled s_tuple.5
+convert m_rgb.7 to a static pointer labeled s_array.68
+convert vec.23 to a static pointer labeled s_array.69
+convert array.20 to a static pointer labeled s_array.70
+convert Ta.185 to a static pointer labeled s_array.71
+convert Ta.186 to a static pointer labeled s_array.72
+convert Ta.187 to a static pointer labeled s_array.73
+convert Ta.188 to a static pointer labeled s_array.74
+convert m_sids.8 to a static pointer labeled s_array.75
+convert m_cdif.9 to a static pointer labeled s_array.76
+convert vec.22 to a static pointer labeled s_array.77
+convert array.19 to a static pointer labeled s_array.78
+convert Ta.181 to a static pointer labeled s_array.79
+convert Ta.182 to a static pointer labeled s_array.80
+convert Ta.183 to a static pointer labeled s_array.81
+convert Ta.184 to a static pointer labeled s_array.82
+convert vec.21 to a static pointer labeled s_array.83
+convert array.18 to a static pointer labeled s_array.84
+convert Ta.177 to a static pointer labeled s_array.85
+convert Ta.178 to a static pointer labeled s_array.86
+convert Ta.179 to a static pointer labeled s_array.87
+convert Ta.180 to a static pointer labeled s_array.88
+convert m_gid.9 to a static pointer labeled s_array.89
+convert vec.20 to a static pointer labeled s_array.90
+convert array.17 to a static pointer labeled s_array.91
+convert Ta.173 to a static pointer labeled s_array.92
+convert Ta.174 to a static pointer labeled s_array.93
+convert Ta.175 to a static pointer labeled s_array.94
+convert Ta.176 to a static pointer labeled s_array.95
+convert Tt.59 to a static pointer labeled s_tuple.6
+convert m_rgb.6 to a static pointer labeled s_array.96
+convert vec.19 to a static pointer labeled s_array.97
+convert array.16 to a static pointer labeled s_array.98
+convert Ta.169 to a static pointer labeled s_array.99
+convert Ta.170 to a static pointer labeled s_array.100
+convert Ta.171 to a static pointer labeled s_array.101
+convert Ta.172 to a static pointer labeled s_array.102
+convert m_sids.7 to a static pointer labeled s_array.103
+convert m_cdif.8 to a static pointer labeled s_array.104
+convert vec.18 to a static pointer labeled s_array.105
+convert array.15 to a static pointer labeled s_array.106
+convert Ta.165 to a static pointer labeled s_array.107
+convert Ta.166 to a static pointer labeled s_array.108
+convert Ta.167 to a static pointer labeled s_array.109
+convert Ta.168 to a static pointer labeled s_array.110
+convert vec.17 to a static pointer labeled s_array.111
+convert array.14 to a static pointer labeled s_array.112
+convert Ta.161 to a static pointer labeled s_array.113
+convert Ta.162 to a static pointer labeled s_array.114
+convert Ta.163 to a static pointer labeled s_array.115
+convert Ta.164 to a static pointer labeled s_array.116
+convert m_gid.8 to a static pointer labeled s_array.117
+convert vec.16 to a static pointer labeled s_array.118
+convert array.13 to a static pointer labeled s_array.119
+convert Ta.157 to a static pointer labeled s_array.120
+convert Ta.158 to a static pointer labeled s_array.121
+convert Ta.159 to a static pointer labeled s_array.122
+convert Ta.160 to a static pointer labeled s_array.123
+convert Tt.58 to a static pointer labeled s_tuple.7
+s_array.98 : 2580
+s_array.68 : 2148
+s_array.6 : 324
+s_array.76 : 2260
+s_array.16 : 568
+s_array.59 : 2008
+s_array.55 : 1952
+s_array.88 : 2428
+s_array.42 : 1764
+s_array.100 : 2612
+s_array.86 : 2404
+s_array.81 : 2336
+s_array.57 : 1984
+s_array.109 : 2744
+s_array.74 : 2228
+s_array.36 : 996
+s_array.90 : 2444
+s_array.43 : 1784
+s_array.82 : 2348
+s_array.101 : 2624
+s_array.7 : 328
+s_array.39 : 1736
+s_array.69 : 2160
+s_array.24 : 648
+s_array.73 : 2216
+s_array.45 : 1808
+s_array.38 : 1016
+s_array.83 : 2360
+s_tuple.3 : 996
+s_array.113 : 2800
+s_array.85 : 2392
+s_array.58 : 1996
+s_array.34 : 736
+s_array.93 : 2488
+s_array.65 : 2080
+s_array.48 : 1852
+s_tuple.4 : 1004
+s_array.66 : 2092
+s_array.91 : 2456
+s_array.46 : 1820
+s_array.53 : 1928
+s_array.31 : 716
+s_array.60 : 2020
+s_array.17 : 580
+s_array.119 : 2864
+s_array.94 : 2500
+s_array.105 : 2688
+s_tuple.2 : 988
+s_array.1 : 4
+s_array.37 : 996
+s_array.99 : 2600
+s_array.97 : 2568
+s_array.64 : 2068
+s_array.11 : 540
+s_array.70 : 2172
+s_array.29 : 708
+s_array.63 : 2048
+s_array.4 : 300
+s_array.80 : 2324
+s_array.79 : 2312
+s_array.92 : 2476
+s_array.56 : 1964
+s_array.15 : 564
+s_array.111 : 2768
+s_array.27 : 684
+s_array.89 : 2440
+s_array.2 : 48
+s_array.14 : 552
+s_array.47 : 1832
+s_array.102 : 2636
+s_tuple.7 : 2932
+s_array.71 : 2192
+s_array.51 : 1904
+s_array.25 : 660
+s_tuple.0 : 4
+s_tuple.5 : 2116
+s_array.23 : 636
+s_array.96 : 2556
+s_array.52 : 1916
+s_array.21 : 624
+s_array.22 : 632
+s_array.28 : 696
+s_array.40 : 1740
+s_array.9 : 532
+s_array.32 : 716
+s_array.41 : 1752
+s_array.44 : 1796
+s_array.13 : 548
+s_array.116 : 2836
+s_array.75 : 2240
+s_array.115 : 2824
+s_array.30 : 708
+s_array.121 : 2896
+s_tuple.1 : 708
+s_array.62 : 2036
+s_array.77 : 2280
+s_array.50 : 1884
+s_array.108 : 2732
+s_array.67 : 2104
+s_array.5 : 312
+s_array.123 : 2920
+s_array.87 : 2416
+s_array.3 : 288
+s_array.114 : 2812
+s_array.8 : 332
+s_array.117 : 2848
+s_array.104 : 2668
+s_array.106 : 2700
+s_array.0 : 0
+s_array.84 : 2372
+s_array.72 : 2204
+s_array.19 : 604
+s_array.12 : 544
+s_array.18 : 592
+s_array.26 : 672
+s_array.78 : 2292
+s_array.33 : 736
+s_array.49 : 1872
+s_array.95 : 2512
+s_array.112 : 2780
+s_array.122 : 2908
+s_array.10 : 536
+s_array.103 : 2648
+s_array.107 : 2720
+s_array.54 : 1940
+s_tuple.6 : 2524
+s_array.35 : 748
+s_array.120 : 2884
+s_array.20 : 616
+s_array.118 : 2852
+s_array.110 : 2756
+s_array.61 : 2032

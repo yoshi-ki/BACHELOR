@@ -1,0 +1,50 @@
+r26 = 10000からスタートします
+
+how to use simulator
+
+./simulator {assembly code} {option}
+
+option : 
+	-a1 : create machine code file as machine_code.txt in the current directory
+  -a2 : create machine code file as machine_code.txt in the current directory with comment
+
+  -l number : stops at the numberth line.
+              press e : end
+              press c : continue
+              press 1 : execute 10 instructions
+              press 2 : execute 100 instructions
+              press 3 : execute 1000 instructions
+  
+  -label : print label information to the file named "label_info.txt"
+  
+  -suml number : stops at the numberth instruction
+              press e : end
+              press c : continue
+              press 1 : execute 10 instructions
+              press 2 : execute 100 instructions
+              press 3 : execute 1000 instructions
+
+   -l2 number1 number2 : stops at the number1th line after number2 instructions are executed
+              press l : execute until numberth line again
+              press e : end
+              press c : continue
+              press 1 : execute 10 instructions
+              press 2 : execute 100 instructions
+              press 3 : execute 1000 instructions
+
+
+<caution>
+  input file's name must be "input.txt"
+  output file will be created as "result.txt"
+
+
+<memo for developer>
+how to add a new instruction
+ 1. edit assembler.cc and create additional case for the new instruction
+ 2. if it is special instruction, which means byte code starts with 000000, add the operation at the exec_special_code in exec.cc, otherwise add it to exec_normal_code in exec.cc
+
+
+
+execute.txt : label_solved instructions
+machine_code.txt : should be equall to the instruction memory
+

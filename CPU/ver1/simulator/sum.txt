@@ -1,0 +1,5 @@
+BEQ r3 r0 4
+ADD r3 r4 r4
+ADDI r3 r3 -1
+J 0
+ADDI r4 r3 0

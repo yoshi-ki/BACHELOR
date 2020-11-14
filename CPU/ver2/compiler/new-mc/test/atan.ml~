@@ -1,0 +1,38 @@
+let pi = 3.141592653589793
+in
+
+let rec kernel_atan x sgn base =
+  let y = -. x *. x in
+  let a = 0.060035485 *. x in
+  let a = 0.08976446 *. x +. a *. y in
+  let a = 0.111111104 *. x +. a *. y in
+  let a = 0.142857142 *. x +. a *. y in
+  let a = 0.2 *. x +. a *. y in
+  let a = 0.3333333 *. x +. a *. y in
+  let a = x +. a *. y in
+  (base +. a) *. sgn
+in
+
+let rec atan x =
+  (* let pi = 3.141592653589793
+   * in *)
+  if x >= 0. then
+    if x < 0.4375 then
+      kernel_atan x 1. 0.
+    else if x < 2.4375 then
+      kernel_atan ((x -. 1.)/.(x +. 1.)) 1. (pi/.4.)
+    else
+      kernel_atan (1./.x) (-.1.) (-.pi/.2.)
+  else
+    let x = -.x in
+    if x < 0.4375 then
+      kernel_atan x (-.1.) 0.
+    else if x < 2.4375 then
+      kernel_atan ((x -. 1.)/.(x +. 1.)) (-.1.) (pi/.4.)
+    else
+      kernel_atan (1./.x) 1. (-.pi/.2.)
+in
+
+let a0 = read_float () in
+let a1 = read_float () in
+atan a0 +. atan a1

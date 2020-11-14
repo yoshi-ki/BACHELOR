@@ -1,0 +1,21 @@
+fpu1っていうmoduleが組み合わせ回路で作ったFPUです.
+FADD, FSUB, FMUL, FDIV, FABS, FNEG, FLOOR, FtoI, ItoFが実装してあります.
+
+
+入力:
+op1	元の命令の31-26bit
+fmt	元の命令の25-21bit
+x1	fs(元の命令の15-11bitに書かれているレジスタ)の値
+x2	ft(元の命令の20-16bitに書かれているレジスタ)の値
+op2	元の命令の5-0bit
+
+出力:
+y	返り値
+exception	例外用, 0000:ok, 0--1:overflow, 0-1-:nan, 01--:div0, 1000:invalid op
+
+
+非正規化数にも対応.
+
+
+
+fcmp.vには浮動小数点数同士の比較fequalとflessが入ってます.
